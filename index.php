@@ -618,11 +618,11 @@
     <!-- why choose -->
     <div class="container-fluid mt-5 mb-5">
         <div class="row text-center">
-            <div class=" col-sm-12 col-lg-3 col-mg-3"><img src="./img/pilot-car-img.svg"></div>
+            <div class=" col-sm-12 col-lg-3 col-mg-3"><img src="./img/pilot-ca-img.svg"></div>
             <div class=" col-sm-12 col-lg-6 col-mg-6"><h3>Trailor Transport Pilot Car Services</h3>
             <h1>Are you looking for a reliable pilot car
                 for your transport?</h1></div>
-            <div class=" col-sm-12 col-lg-3 col-mg-3"><img src="./img/pilot-car-img.svg"></div>
+            <div class=" col-sm-12 col-lg-3 col-mg-3"><img src="./img/pilot-cr-img.svg"></div>
     </div>
     <!-- Testimonials Section -->
     <div id="carouselExampleIndicators" class="carousel slide bg-dark h-100 mt-5" data-bs-ride="carousel">
