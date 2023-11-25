@@ -588,3 +588,15 @@ margin-bottom: 18%;
             width: 100%;
         }
     }
+
+    .bg-blogs-footer{
+        background-image: url(../img/carousel-2.jpg);
+        background-size: 100% ;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%; 
+        -webkit-box-shadow: inset 68px 10px 45px 18px rgba(0,0,0,0.67);
+-moz-box-shadow: inset 68px 10px 45px 18px rgba(0,0,0,0.67);
+box-shadow: inset 68px 10px 45px 18px rgba(0,0,0,0.67);
+    }

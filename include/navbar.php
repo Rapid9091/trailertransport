@@ -4,7 +4,7 @@
 
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <span>
-                <img width="150px" height="90px" src="./img/trailer-transport.webp">
+                <img width="150px" height="120px" src="./img/trailor.webp">
             </span>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

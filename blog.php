@@ -93,7 +93,14 @@
 
             </div>
         </div>
-
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-blogs-footer " style="padding-top: 2% ; padding-bottom: 2% ;">
+           <div class="col-sm-12 col-mg-12  col-lg-12"><img src="./img/rapid-auto-shipping-trustpilot-faiz (1).webp"></div>
+           <div class="col-sm-12 col-mg-12  col-lg-12"><img src="./img/rapid-auto-shipping-trustpilot-faiz (1).webp"></div>
+           <div class="col-sm-12 col-mg-12  col-lg-12"><img src="./img/rapid-auto-shipping-trustpilot-faiz (1).webp"></div>
+        </div>
+    </div>
 
         <?php include "./include/footer.php" ?>
 
