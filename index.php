@@ -1,926 +1,1472 @@
+
+<?php include "./routes.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Logistica - Shipping Company Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="csss/main.css" rel="stylesheet" defer>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <!-- Icon Font Stylesheet -->
-
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/a.css">
 </head>
 
-<body>
-<?php include "./include/header-navbar.php" ?>
-   
-
-    <!-- Navbar Start -->
-<?php include "./include/navbar.php" ?>
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 h-100">
-        <div class="container py-5 ">
-            <div class="row d-flex">
-
-
-                <div class=" col-lg-6 col-mg-6  col-sm-12 ">
-
-                    <div class="bg-image form-main">
-                        <h2 class=" pt-2 text-center text-bright form-br">Get A Free Quote</h2>
-                        <h3 class=" pt-2 pb-3"> First Step</h3>
-
-                        <form>
-                            <div class="form-row d-flex">
-                                <div class="col">
-                                    <h5>Origin City</h5>
-                                    <input type="text" class="form-control w-75 p-2" placeholder="First name">
-                                </div>
-                                <div class="col">
-                                    <h5>Destination City</h5>
-                                    <input type="text" class="form-control w-75 p-2" placeholder="Last name">
-                                </div>
-
-
-
-                            </div>
-                            <div class="form-row pt-2 d-flex">
-                                <div class="col ">
-                                    <h5>Date Of Pickup</h5>
-                                    <input type="date" class="form-control w-75 p-2" name="pick_up_date" id="ship_date">
-                                </div>
-                                <div class="col ">
-                                    <h5> Vehicle Size</h5>
-                                    <div class="mb-3">
-
-                                        <input type="text" style="position: relative;" readonly
-                                            placeholder="select vehicle size" class="form-control p-2 w-75"
-                                            name="Vehicle_size" id="ship_vehicle">
-                                        <div class="car-option" id="car-option">
-                                            <div class="cars" id="cars"><img src="img/medium-pickup.png" loading="lazy"
-                                                    alt="">
-                                                <p>medium-pickup</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/midsize-suv.png" loading="lazy"
-                                                    alt="">
-                                                <p>midsize-suv</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/midsize-car.png" loading="lazy"
-                                                    alt="">
-                                                <p>midsize-car</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/mini-van.png" loading="lazy"
-                                                    alt="">
-                                                <p>mini-van</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/motorcycle.png" loading="lazy"
-                                                    alt="">
-                                                <p>motorcycle</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/small-car.png" loading="lazy"
-                                                    alt="">
-                                                <p>small-car</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/small-suv.png" loading="lazy"
-                                                    alt="">
-                                                <p>small-suv</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/small-car.png" loading="lazy"
-                                                    alt="">
-                                                <p>small-car</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/sports-car.png" loading="lazy"
-                                                    alt="">
-                                                <p>sports-car</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/hypercar.png" loading="lazy"
-                                                    alt="">
-                                                <p>hypercar</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/large-car.png" loading="lazy"
-                                                    alt="">
-                                                <p>large-car</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/large-pickup.png" loading="lazy"
-                                                    alt="">
-                                                <p>large-pickup</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/large-suv.png" loading="lazy"
-                                                    alt="">
-                                                <p>large-suv</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/boat-trailer.png" loading="lazy"
-                                                    alt="tfj">
-                                                <p>boat-trailer</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/dually-pickup.png" loading="lazy"
-                                                    alt="">
-                                                <p>dually-pickup</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/fullsize-van.png" loading="lazy"
-                                                    alt="">
-                                                <p>fullsize-van</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/golf-cart.png" loading="lazy"
-                                                    alt="">
-                                                <p>golf-cart</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/travel-trailer.png" loading="lazy"
-                                                    alt="">
-                                                <p>travel-trailer</p>
-                                            </div>
-                                            <div class="cars" id="cars"><img src="img/others.png" loading="lazy" alt="">
-                                                <p>others</p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                        </form>
-
-
-                    </div>
-
-                </div>
-
-                <button type="submit" name="submit" class="btn btn-primary mb-4" id="next-step">Submit</button>
-
-
-            </div>
-
-
-
-        </div>
-        <div class="col-sm-12 col-lg-6 col-mg-6 px-5 glass-effect p-5 ">
-            <p class="pb-0 mb-0" style="color:white; font-size: larger;"> The Best Transporter</p>
-            <h1 class="text-white display-4 pt-0">
-                Trailer Transport
-            </h1>
-            <p class="text-white px-2" style="font-size: x-large;">We provide quality heavy haul / oversize load
-                shipping <br>services across the U.S. and internationally.</p>
-
-            <button type="submit" name="submit" class="btn btn-primary">Watch Us In Action</button>
-
-        </div>
-    </div>
-
-    </div>
-    </div>
-    <!-- Page Header End -->
-    <!---strips-->
-
-    <div class="container-fluid steps-bg">
-        <div class="row">
-            <div class="col-sm-12 col-lg-4 col-mg-4 W-100 text-center pt-4">
-                <iconify-icon icon="fluent-mdl2:world" width="60" class="main-color"></iconify-icon>
-                <h5 class="fw-bolder main-color">2 million +</h5>
-                <p class="fw-bolde main-color">successful Deliveries</p>
-            </div>
-            <div class="col-sm-12 col-lg-4 col-mg-12 text-center pt-4">
-                <iconify-icon icon="ph:truck-bold" width="60" class="main-color"></iconify-icon>
-                <h5 class="fw-bolder main-color ">190 +</h5>
-                <p class="fw-bolde main-color ">Countries Served</p>
-            </div>
-            <div class="col-sm-12 col-lg-4 col-mg-12 text-center  pt-4">
-                <iconify-icon icon="mdi:drivers-license" class="main-color" width="60"></iconify-icon>
-                <h5 class="fw-bolder main-color">15000 +</h5>
-                <p class="fw-bolde main-color "> Best Drivers</p>
-            </div>
-        </div>
-
-    </div>
-
-
-    <!---end-->
-
-    <!--cardasss-->
-
-    <!-- <div class="row text-center p-5">
-            <div class="col-sm-12  col-lg-6  col-mg-6  bg-card2 ">
-                <iconify-icon icon="bi:chat-quote-fill" width="60" class="text-primary pt-4 "></iconify-icon>
-                <h3 class="text-black fw-bolder pt-4 pb-4">GET A QUOTE</h3>
-                <h5 class="text-black fw-bolde pb-4">Request a quote for our professional, cost-effective trailer
-                    transport.</h5>
-                <button type="submit" name="submit" class="btn btn-primary " id="next-step">Start A QUOTE</button>
-            </div>
-            <div class="col-sm-12 col-lg-6  col-mg-6  bg-card2 ">
-                <iconify-icon icon="bi:chat-quote-fill" width="60" class="text-primary pt-4 "></iconify-icon>
-                <h3 class="text-black fw-bolder pt-4 pb-4">GET A QUOTE</h3>
-                <h5 class="text-black  fw-bolde pb-4">Request a quote for our professional, cost-effective trailer
-                    transport.</h5>
-                <button type="submit" name="submit" class="btn btn-primary " id="next-step">Start A QUOTE</button>
-            </div>
-            <div class="col-sm-12 col-lg-6  col-mg-6  bg-card2 ">
-                <iconify-icon icon="bi:chat-quote-fill" width="60" class="text-primary pt-4 "></iconify-icon>
-                <h3 class="text-black fw-bolder  pt-4 pb-4">GET A QUOTE</h3>
-                <h5 class="text-black  fw-bolde pb-4">Request a quote for our professional, cost-effective trailer
-                    transport.</h5>
-                <button type="submit" name="submit" class="btn btn-primary " id="next-step">Start A QUOTE</button>
-            </div>
-        </div> -->
-
-    <div class="container-xxl  border-wc bg-blogs ">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s text-center">
-                <h4 class="text-black text-uppercase text-white border-wc  ">Latest Blogs</h4>
-                <h1 class="mb-5 text-white">Most Recent Stories </h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp " data-wow-delay="0.3s">
-                    <div class="service-item p-4 pb-1">
-                        <div class="overflow-hidden mb-4">
-                            <div style="width: 100%; height: 100%;"><img class="img-fluid" height="100%" width="100%"
-                                    src="img/LATEST-NEWS (1).webp" loading="lazy" alt="open"></div>
-                        </div>
-                        <h4 class="mb-3 text-center text-white">LATEST NEWS FROM AUTO TRANSPORTATION </h4>
-                        <p class="text-white">Discover the latest and out breaking news from Auto Transportation Center
-                            and get your
-                            vechile easily shipped from the best transportation company. </p>
-                        <a class=" mt-2" href="">
-                            <button type="submit" name="submit" class="btn bg-white">Read More</button></a>
-
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <div style="width: 100%; height: 100%;"><img class="img-fluid" height="100%" width="100%"
-                                    src="img/blogs2a (1) (1).webp" loading="lazy" alt="open"></div>
-                        </div>
-                        <h4 class="mb-3 text-white">MAJOR ROUTES FOR AUTO TRANSPORT</h4>
-                        <p class="text-white">California To Texas <br>New York To Florida <br>Alabma To New Jersey <br>
-                            Arizona To
-                            Nevada <br>California To Florida </p>
-                        <a class=" mt-2" href="">
-                            <button type="submit" name="submit" class="btn  bg-white">Read More</button></a>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item p-4 pb-0">
-                        <div class="overflow-hidden mb-4">
-                            <div style="width: 100%; height: 100%;"><img class="img-fluid" height="100%" width="100%"
-                                    src="img/auto-transport-open.webp" loading="lazy" alt="open"></div>
-                        </div>
-                        <h4 class="mb-3 text-center text-white">CAR SHIPPING COST CALCULATOR </h4>
-                        <p class="text-white">Use our car shipping cost calculator to understand how much does it cost
-                            to ship a car.
-                            We can easily guide you using the latest factors on which shipping a car from one state
-                            to another cost.</p>
-                        <a class=" mt-2" href="">
-                            <button type="submit" name="submit" class="btn bg-white">Read More</button></a>
-
-                    </div>
-
-                </div>
-                <!-- <a href="blogs" class="mx-auto text-center">
-                        <button type="button" class="btn btn-primary btn-lg  mx-auto" style="color: black;">More
-                            Blogs</button></a> -->
-
-            </div>
-        </div>
-    </div>
-    <!----->
-    <div class="container-fluid p-4 bg-black  ">
-        <div class="row pb-0 ">
-            <div class="col ">
-                <h4 class="text-center text-white">Ready to Ship Your Car with Best Auto Transporter in the Vehicle
-                    Transportation Industry ?</h4>
-            </div>
-        </div>
-        <div class="row p-5">
-            <div class="col text-center pt-0">
-                <button type="submit" name="submit" class="btn bg-white  btn-size">Get Free Instant
-                    Quote</button>
-                <button type="submit" name="submit" class="btn bg-white  btn-size">+1 (833) 233-4447 </button>
-
-            </div>
-
-        </div>
-    </div>
-    <!----->
-
-    <!--cost-->
-
-    <!---->
-    <!----->
-    <div class="container-fluid p-5">
-        <div class="row">
-            <div class="col-sm-12 col-mg-6 col-lg-6  p-0 ">
-                <span><img src="./img/heavy-haulll.webp" class="w-100" alt=""></span>
-
-            </div>
-            <div class="col-sm-12 col-lg-6 col-mg-6 handle-responsive  ">
-                <h2 class="display-5 main-color fw-bolder "> We Can Handle Trailor Transport</h2>
-                <p class="text-black" style="font-size: larger;">
-                    No matter the size, weight, location, length, width, or height of your load, we can haul it! For the
-                    transportation of your large loads, we have heavy haul truck drivers available in all states and
-                    towns. We have been moving large cars and equipment both locally and internationally for more than
-                    14 years.
-                    Leading heavy equipment and oversize cargo transport firm in the business is Heavy Haulers. We
-                    provide the industry's top shipping options.
-
-                    Heavy Haulers is the industry-leading heavy equipment and oversize load transport company. We offer
-                    the best shipping solutions in the business.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!---->
-
-    <div class="container-fluid p-5 pt-0">
-        <h2 class="border-bottom border-5 border-black mx-auto car-shipment text-center fw-bolder mb-5">How Car Shipment
-            Cost is Calculated</h2>
-        <div class="row">
-            <div class="col-sm-12 col-lg-6 col-mg-6  mx-">
-                <h4 style="font-size: xx-large; color: #b32322; "> <iconify-icon
-                        icon="charm:tick-double"></iconify-icon>
-                    Weight and size of vehicles
-                </h4>
-                <p style="font-size: larger;"> The cost to ship an automobile is mostly determined by the size and
-                    weight of the vehicle. Smaller automobiles often weigh less, are more compact, and require less room
-                    in the trailer. Larger vehicles, such as SUVs and commercial trucks, require more space due to their
-                    weight and size. In the end, influencing the price.</p>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-mg-6 ">
-                <h4 style="font-size: xx-large; color: #b32322; "> <iconify-icon
-                        icon="charm:tick-double"></iconify-icon>
-                    Type of car shipping Service
-                </h4>
-                <p style="font-size: larger;"> Choosing an open car shipping service will result in lower costs for you.
-                    However, the cost of the enclosed automobile shipping option will be 60% higher than that of the
-                    open car shipping option. Note: Your car is extra safe and protected with the enclosed.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-lg-6 col-mg-6">
-                <h4 style="font-size: xx-large; color: #b32322; "> <iconify-icon
-                        icon="charm:tick-double"></iconify-icon>
-                    Weight and size of vehicles
-                </h4>
-                <p style="font-size: larger;">The cost to ship an automobile is mostly determined by the size and weight
-                    of the vehicle. Smaller automobiles often weigh less, are more compact, and require less room in the
-                    trailer. Larger vehicles, such as SUVs and commercial trucks, require more space due to their weight
-                    and size. In the end, influencing the price.</p>
-
-            </div>
-            <div class="col-sm-12 col-lg-6 col-mg-6">
-                <h4 style="font-size: xx-large; color: #b32322; "> <iconify-icon
-                        icon="charm:tick-double"></iconify-icon>
-                    Shipping Distance
-                </h4>
-                <p style="font-size: larger;">A well-maintained and operational vehicle facilitates the process and so
-                    lowers costs. However, if your car isn't working, you'll need more assistance, which will complicate
-                    things and raise the expense.
-                </p>
-            </div>
-        </div>
-        <div class="row mx-auto final-shipping">
-            <div class="col">
-                <h4 style="font-size: xx-large; color: #b32322; "> <iconify-icon
-                        icon="charm:tick-double"></iconify-icon>
-                    Final shipping Cost
-                </h4>
-                <p style="font-size: larger;">Your final shipping cost is determined by the aforementioned component and
-                    includes all applicable federal taxes and insurance for transporting cars. Using the cost calculator
-                    listed on our website, you can determine the cost of shipping.
-                </p>
-
-            </div>
-        </div>
-
-    </div>
-
-    <!--Why Choose Us?-->
-    <div class="container-fluid pt-3 border-wc">
-        <h1 class="text-center  fw-bolder  mx-auto width-why border-bottom border-4 border-black ">Why choose</h1>
-
-
-        <!--first part-->
-
-        <div class="row p-4">
-            <div class="col-sm-12 col-md-4 col-lg-4  pt-3 space-mg   ">
-                <div class="why-card-bg">
-                    <div class="row ">
-                        <div class="col-12">
-                            <iconify-icon icon="fluent-mdl2:world" width="60"
-                                class="text-white border-wc  p-3"></iconify-icon>
-
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <h4 class="text-white px-3"> In industry since 2012</h4>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-white px-4 ">
-                            <p> We have been providing auto shipping services since 2012. We are best at doing our work.
-                                We
-                                provide the most affordable and fast service in the whole United States. </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4  pt-3 space-mg   ">
-                <div class="why-card-bg">
-                    <div class="row ">
-                        <div class="col-12">
-                            <iconify-icon icon="ph:quotes-fill" width="60"
-                                class="text-white border-wc  p-3"></iconify-icon>
-
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <h4 class="text-white px-3"> Provides quotes in seconds</h4>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-white px-4 ">
-                            <p> It will just take a few seconds to obtain an estimate when you use our rapid online
-                                quote calculator to receive your instant quote. <br> <br> </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4  pt-3 space-mg   ">
-                <div class="why-card-bg">
-                    <div class="row ">
-                        <div class="col-12">
-                            <iconify-icon icon="material-symbols:price-change-outline" width="60"
-                                class="text-white border-wc  p-3"></iconify-icon>
-
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <h4 class="text-white px-3"> Confirm prices</h4>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-white px-4 ">
-                            <p>We don't impose any additional or hidden fees; we just use the transportation cost that
-                                is shown to you in the estimate.<br><br> </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </div>
-        <!--seconde part-->
-        <div class="row p-4">
-            <div class="col-sm-12 col-md-4 col-lg-4  pt-3 space-mg   ">
-                <div class="why-card-bg">
-                    <div class="row ">
-                        <div class="col-12">
-                            <iconify-icon icon="icon-park-outline:attention" width="60"
-                                class="text-white border-wc  p-3"></iconify-icon>
-
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <h4 class="text-white px-3">Personal attention</h4>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-white px-4 ">
-                            <p> We attended to each and every consumer personally. Our top goal is to satisfy our
-                                clients' needs and offer the best services possible.<br><br> </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4  pt-3 space-mg   ">
-                <div class="why-card-bg">
-                    <div class="row ">
-                        <div class="col-12">
-                            <iconify-icon icon="medical-icon:social-services" width="60"
-                                class="text-white border-wc   p-3"></iconify-icon>
-
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <h4 class="text-white px-3"> Multiple services</h4>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-white px-4 ">
-                            <p>We offer various service options that correspond to your time zone. For customers who
-                                require delivery in 1–5 business days, expedited services are available. </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4  pt-3 space-mg   ">
-                <div class="why-card-bg">
-                    <div class="row ">
-                        <div class="col-12">
-                            <iconify-icon icon="fluent-mdl2:world" width="60"
-                                class="text-white border-wc  p-3"></iconify-icon>
-
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <h4 class="text-white px-3"> Damage-free service or we pay</h4>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-white px-4 ">
-                            <p>We provide damage-free transportation services to our customers who trust us for their
-                                vehicles. If any unwanted damage happens, we provide an insurance policy for the
-                                vehicle.
-
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </div>
-
-
-
-    </div>
-
-
-
-
-    </div>
-    <!-- why choose -->
-    <div class="container-fluid mt-5 mb-5">
-        <div class="row text-center">
-            <div class=" col-sm-12 col-lg-3 col-mg-3"><img src="./img/pilot-ca-img.svg"></div>
-            <div class=" col-sm-12 col-lg-6 col-mg-6"><h3>Trailor Transport Pilot Car Services</h3>
-            <h1>Are you looking for a reliable pilot car
-                for your transport?</h1></div>
-            <div class=" col-sm-12 col-lg-3 col-mg-3"><img src="./img/pilot-cr-img.svg"></div>
-    </div>
-    <!-- Testimonials Section -->
-    <div id="carouselExampleIndicators" class="carousel slide bg-dark h-100 mt-5" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active text-center mb-5 mt-5 ">
-                <img class=" shadow-1-strong mb-4" src=".//img/rapid-auto-shipping-trustpilot-faiz (1).webp"
-                    alt="avatar" style="width: 150px;" />
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-8">
-                        <h5 class="mb-3 text-white">Maria Kate</h5>
-
-                        <p class="text-white pb-5">
-                            <i class="fas fa-quote-left pe-2"></i>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                            nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
-                            fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
-                            doloremque.
+<body style="background-color: white!important;">
+    <?php include "./navbar.php"?>
+
+
+    <div class="container-fluid header-bg">
+        <div class="header-content ">
+            <div class="row align-items-start ">
+                <div class="col">
+                    <p class=" main-color text-center word-c">WORLD CLASS DIGITAL PRODUCTS</p>
+                    <div class="main-content text-center">
+                        <h2 class="text-white ">THINK BIG FOR HUGE RETURNS.</h2>
+                        <h2 class="text-white">LET’S INNOVATE DIGITALLY!</h2>
+                        <div class="talk-expert-div">
+                        <p class="talk-expert ">
+                            <button type="button" class="btn btn-primary">Talk to Our Experts</button>
                         </p>
-                    </div>
-                </div>
+                        </div>
 
-            </div>
-            <div class="carousel-item  text-center mb-5 mt-5 ">
-                <img class=" shadow-1-strong mb-4" src=".//img/rapid-auto-shipping-trustpilot-google.webp" alt="avatar"
-                    style="width: 150px;" />
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-8">
-                        <h5 class="mb-3 text-white">Maria Kate</h5>
-
-                        <p class="text-white pb-5">
-                            <i class="fas fa-quote-left pe-2"></i>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                            nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
-                            fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
-                            doloremque.
-                        </p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item text-center mt-5 mb-5 ">
-                <img class="shadow-1-strong mb-4" src="../img/rapid-auto-shipping-trustpilot-faiz.webp" alt="avatar"
-                    style="width: 150px;" />
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-8">
-                        <h5 class="mb-3 text-white">Maria Kate</h5>
 
-                        <p class="text-white pb-5">
-                            <i class="fas fa-quote-left pe-2"></i>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                            nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
-                            fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
-                            doloremque.
-                        </p>
-                    </div>
-                </div>
-            </div>
+
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
 
-    <!-- end-->
 
-    <!-- FaQ start -->
-    <section id="faq" class="faq mb-5 mt-5">
-        <div class="container" data-aos="fade-up">
+    <!--  -->
 
-            <div class="section-header">
-                <!-- <span>Frequently Asked Questions</span> -->
-                <h2 class="text-center color faq mx-auto">Frequently Asked Questions</h2>
+    <!---ivons blogs-->
+
+
+    <div class="container1">
+        <div class="icons-div ">
+            <div class="product">
+                <div class="product-bg"></div>
+                <div class="hover-react">
+                    <div class="imgbox"> <img src="./images/fahim-muntashir-v-FOvoL3onk-unsplash (1).webp"> </div>
+                    <div class="specifies">
+                        <h2>
+                            Mobile App Development</h2>
+                        <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                            adipiscing
+                            elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-bg"></div>
+                <div class="imgbox"> <img src="./images/lee-campbell-DtDlVpy-vvQ-unsplash (1).webp"> </div>
+                <div class="specifies">
+                    <h2>
+                        Web<br>
+                        Development
+                    </h2>
+
+                    <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                        adipiscing
+                        elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
+
+
+
+
+                </div>
+
+
+            </div>
+            <div class="product">
+                <div class="product-bg"></div>
+                <div class="imgbox"> <img src="./images/pexels-antoni-shkraba-4348401 (2).webp"> </div>
+                <div class="specifies">
+                    <h2>
+                        Digital<br>
+                        Marketing
+                    </h2>
+
+                    <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                        adipiscing
+                        elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
+
+
+
+
+                </div>
+
+
+            </div>
+            <div class="product">
+                <div class="product-bg"></div>
+                <div class="imgbox"> <img src="./images/Layer 6 (4).webp"> </div>
+                <div class="specifies">
+                    <h2>
+                        Cloud<br>
+                        Management
+                    </h2>
+
+                    <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                        adipiscing
+                        elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
+
+
+
+
+                </div>
+
 
             </div>
 
-            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-10">
+            <div class="product">
+                <div class="product-bg"></div>
+                <div class="imgbox "> <img src="./images/Layer 30 (1).webp"> </div>
+                <div class="specifies">
+                    <h2>
+                        Artificial<br>
+                        Intelligence
 
-                    <div class="accordion accordion-flush" id="faqlist">
+                    </h2>
 
-                        <div class="accordion-item">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-1">
-                                    <!-- <i class="bi bi-question-circle question-"></i> -->
-                                    How can I get a quote for shipping my car?
-                                </button>
-                            </h3>
-                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    To obtain a quote you can either use our instant online quote calculator or you
-                                    can
-                                    call us at +1 (833) 233-4447 to get your instant quote from one of our
-                                    professionals.
+                    <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                        adipiscing
+                        elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
 
-                                </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <?php include "./a.php" ?>
+    <!--Get to know us--->
+    <div class="container mt-5 bg-white ">
+        <div class=" get-know-main pt-3">
+            <div class="get-image">
+                <div class="counting">
+                    <p class="num" data-val="6860">6000
+                    </p>
+                    <span>worldwide clients</span>
+                </div> 
+             <img src="./images/Layer 13 (1).webp" width="100%" height="100%">
+
+            </div>
+            <div class="get-know-content">
+                <div>
+                    <span class="get-know">Get to know us</span>
+                    <h2 class="easy">
+                        Easy solutions for your IT problems
+
+                    </h2>
+                    <p class="lorem">
+
+                        Lorem ipsum dolor sit amet, consectetur nod adipisicing elit sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua lonm andhn.
+
+                    </p>
+
+                    <span class="lorem1 d-flex ">
+                        <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
+                    </span><br>
+                    <span class="lorem1 d-flex">
+                        <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
+                    </span>
+
+                    <div>
+                        <div class="stop d-flex ">
+                            <img src="./images/icon-14-svg.webp">
+
+                            <p> <span class="main-color"> Stop worrying</span>,
+                                we take care of your technology problems.</p>
+
+                        </div>
+                        <button type="button" class=" get-know-button">View More</button>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--INDUSTRIES WE SERVE--->
+    <section class="serving">
+        <div class="container-fluid main-serve  ">
+            <div class="mb-4 comtent-serve">
+                <h2 class="text-center">
+                    INDUSTRIES WE SERVE
+                </h2>
+                <div class="Industries-border"></div>
+            </div>
+            <div class="row main-gallery">
+                <div class="gallery-wrap">
+
+                    <div class="item item-1">
+
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>Hospital Management <br> <button type="button"
+                                        class="btn text-center ind-button">Know
+                                        more</button> </h3>
+
+
                             </div>
-                        </div><!-- # Faq item-->
+                        </div>
+                    </div>
 
-                        <div class="accordion-item">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-2">
-                                    <!-- <i class="bi bi-question-circle question-"></i> -->
-                                    How will my car shipping cost be calculated?
-                                </button>
-                            </h3>
-                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    Car shipping costs are determined by various factors like distance, time, method
-                                    of
-                                    shipping, type of vehicle and many more. All these factors will determine the
-                                    total
-                                    cost of transporting a vehicle from one place to another.
-                                </div>
+                    <div class="item item-2">
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>E-Commerce <br> <button type="button" class="btn text-center ind-button">Know
+                                        more</button> </h3>
+
+
                             </div>
-                        </div><!-- # Faq item-->
+                        </div>
+                    </div>
 
-                        <div class="accordion-item">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-3">
-                                    <!-- <i class="bi bi-question-circle question-"></i> -->
-                                    What details do I need to fill in to place my order?
-                                </button>
-                            </h3>
-                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    We need your pickup and delivery location along with your phone numbers and
-                                    name.
-                                    And the vehicle details as well.
-                                </div>
+                    <div class="item item-3">
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>Tour & Travel <br> <button type="button" class="btn text-center ind-button">Know
+                                        more</button> </h3>
+
+
                             </div>
-                        </div><!-- # Faq item-->
+                        </div>
+                    </div>
 
-                        <div class="accordion-item">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-4">
-                                    <!-- <i class="bi bi-question-circle question-"></i> -->
-                                    What payment methods do you accept?
-                                </button>
-                            </h3>
-                            <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    <!-- <i class="bi bi-question-circle question-"></i> -->
-                                    We accept all major credit cards, postal money orders, certified cheques for the
-                                    deposit or the full pre-payment of the vehicle.
-                                </div>
-                            </div>
-                        </div><!-- # Faq item-->
-
-                        <div class="accordion-item">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-5">
-                                    <!-- <i class="bi bi-question-circle question-"></i> -->
-                                    What is the bill of lading and how is it related to my shipment?
-                                </button>
-                            </h3>
-                            <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    The bill of lading is very important to record any pre-existing damage on the
-                                    vehicle during the pickup and delivery. It also serves as an official agreement
-                                    for
-                                    car shipping. To file any insurance claim you will need the bill of lading.
-                                </div>
-                            </div><!-- # Faq item-->
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-6">
-                                        <!-- <i class="bi bi-question-circle question-"></i> -->
-                                        When will my vehicle be delivered?
-                                    </button>
+                    <div class="item item-4">
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>OTT<br> <button type="button" class="btn text-center ind-button">Know more</button>
                                 </h3>
-                                <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Mostly the delivery time is based on the distance that is going to be
-                                        shipped.
-                                        Usually, it takes 2-3 days to cover 1000 miles
-                                    </div>
-                                </div><!-- # Faq item-->
-
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#faq-content-7">
-                                            <!-- <i class="bi bi-question-circle question-"></i> -->
-                                            Should I put my personal stuff in the car?
-                                        </button>
-                                    </h3>
-                                    <div id="faq-content-7" class="accordion-collapse collapse"
-                                        data-bs-parent="#faqlist">
-                                        <div class="accordion-body">
-                                            You can transport personal stuff in your vehicle as long as it doesn't
-                                            exceed the weight of 100 pounds. Please note that personal stuff is not
-                                            covered under insurance if it gets missing or damaged.
-                                        </div>
-                                    </div><!-- # Faq item-->
-
-                                    <div class="accordion-item">
-                                        <h3 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq-content-8">
-                                                <!-- <i class="bi bi-question-circle question-"></i> -->
-                                                How much gas should I have in my vehicle during transportation?
-                                            </button>
-                                        </h3>
-                                        <div id="faq-content-8" class="accordion-collapse collapse"
-                                            data-bs-parent="#faqlist">
-                                            <div class="accordion-body">
-                                                Your gas tank should be 1/8 or 1/4 of its full capacity. This will
-                                                help
-                                                in loading and unloading without adding much additional weight
-                                            </div>
-                                        </div><!-- # Faq item-->
 
 
-                                    </div>
-
-                                </div>
                             </div>
-
                         </div>
+                    </div>
+
+                    <div class="item item-5">
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>E-Learning<br> <button type="button" class="btn text-center ind-button">Know
+                                        more</button> </h3>
 
 
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
     </section>
 
+    <section>
+        <div class="wrapper bg-white rounded shadow next-gen-mobile">
+            <div class="content-next">
+                <h2 class="text-center">
+                    NEXT GENERATION TECHNOLOGIES
+                </h2>
+                <div class="next-border"></div>
+
+            </div>
+
+            <div class="accordion accordion-flush border-top border-start border-end" id="myAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                            style="color: #21D0B3!important; cursor:pointer!important;">Mobile App Development </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <h3 class="text-center pt-2">Mobile App Development</h3>
+                            <p class="text-center px-4">
+                                Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum.
+                            </p>
+
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">iOS App Development</a></li>
+                                <li><a href="#">Android App Development</a></li>
+                                <li><a href="#">Flutter App Development</a></li>
+                                <li><a href="#">React Native App Development</a></li>
+                                <li><a href="#">Cross-Platform App Development</a></li>
+                            </ul>
+
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">iOS App Development</a></li>
+                                <li><a href="#">Android App Development</a></li>
+                                <li><a href="#">Flutter App Development</a></li>
+                                <li><a href="#">React Native App Development</a></li>
+                                <li><a href="#">Cross-Platform App Development</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+                            style="color: #21D0B3!important; "> Know
+                            About Pro </button> </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">How to upgrade to pro</a></li>
+                                <li><a href="#">Benifits of Pro</a></li>
+                                <li><a href="#">Payment methods to get Pro</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree" style="color: #21D0B3!important; ">
+                            BBBootstrap Tools </button> </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">How to use Pro Online Editor</a></li>
+                                <li><a href="#">Know Gradient generator</a></li>
+                                <li><a href="#">Using Beautifier</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour" style="color: #21D0B3!important; ">
+                            Download Snippets </button> </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">How to download snippets</a></li>
+                                <li><a href="#">Donate to Author</a></li>
+                                <li><a href="#">Donation methods</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive" style="color: #21D0B3!important; ">
+                            BBBootstrap Icons </button> </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">Adding icons to snippets</a></li>
+                                <li><a href="#">Fontawesome Icons</a></li>
+                                <li><a href="#">Material Design</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix"
+                            style="color: #21D0B3!important; ">
+                            Policy & copyrights </button> </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">BBBootstrap Guidelines</a></li>
+                                <li><a href="#">BBBootstrap Policies</a></li>
+                                <li><a href="#">Copyright and right management</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="content-next">
+            <h2 class="text-center">
+                NEXT GENERATION TECHNOLOGIES
+            </h2><br>
+            <div class="next-border"></div>
+
+        </div>
 
 
-    <!-- FaQ end -->
 
-    <?php include "./include/footer.php" ?>
+
+        <div class="accordion main-app" id="accordionExample">
+            <div class="transformSec_inner">
+
+
+
+                <div class="p-3 transformSec_lft">
+                    <ul class="testimonial-list ">
+                        <li>
+
+                            <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne" style="outline: none!important;">
+                                <div class="d-flex flex-row">
+                                    <div class="next-gentration">
+                                        <button class="button-next"><span style="cursor: pointer;"> Mobile App
+                                                Development</span></button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+
+                                <div class="d-flex flex-row side-image">
+
+
+                                    <!-- <div class="next-side-border"></div> -->
+                                    <div class="next-gentration">
+
+                                        <!-- <span style="cursor: pointer;"> Apllication Development</span> -->
+                                        <button class="button-next"> <span style="cursor: pointer;"> Apllication
+                                                Development</span></button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+
+                            <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+
+                                <div class="d-flex flex-row side-image">
+
+
+
+
+                                    <div class="next-gentration">
+
+                                        <!-- <span style="cursor: pointer;"> AI & Automation</span> -->
+                                        <button class="button-next"> <span style="cursor: pointer;"> AI &
+                                                Automation</span></button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+
+                            <div data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                aria-controls="collapseFour">
+
+                                <div class="d-flex flex-row side-image">
+
+
+                                    <!-- <div class="next-side-border"></div> -->
+
+                                    <div class="next-gentration">
+
+                                        <!-- <span style="cursor: pointer;"> Data Analytics</span> -->
+                                        <button class="button-next"> <span style="cursor: pointer;"> Data
+                                                Analytics</span></button>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+
+                            <div data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
+                                aria-controls="collapseFive">
+
+                                <div class="d-flex flex-row side-image">
+
+                                    <!-- 
+                                    <div class="next-side-border"></div> -->
+
+                                    <div class="next-gentration">
+
+                                        <!-- <span style="cursor: pointer;"> Cloud App Development</span> -->
+                                        <button class="button-next"> <span style="cursor: pointer;">Cloud App
+                                                Development</span></button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+
+                            <div data-toggle="collapse" data-target="#collapseSix" aria-expanded="true"
+                                aria-controls="collapseSix">
+
+                                <div class="d-flex flex-row side-image">
+
+
+                                    <!-- <div class="next-side-border"></div> -->
+
+                                    <div class="next-gentration">
+
+                                        <!-- <span style="cursor: pointer;"> UI/UX Services</span> -->
+                                        <button class="button-next"> <span style="cursor: pointer;">UI/UX
+                                                Services</span></button>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+
+                            <div data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
+                                aria-controls="collapseSeven">
+
+                                <div class="d-flex flex-row side-image">
+
+
+                                    <!-- <div class="next-side-border"></div> -->
+                                    <div class="next-gentration">
+
+                                        <!-- <span style="cursor: pointer;"> Quality Assurance & Testing</span> -->
+                                        <button class="button-next"> <span style="cursor: pointer;">Quality Assurance &
+                                                testing</span></button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="testimonials-margin right-side-card  ">
+
+                    <div id="collapseOne" class="collapse show pb-1 " aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="shape-place-mob">
+                                <div class="shape-next-1"></div>
+                            </div>
+                            <h4>Mobile App Development</h4>
+
+
+                            <p>We’re your end-to-end Mobile app development service provider excelling in
+                                crafting
+                                Native Android, iOS and Cross Platform Apps. Our team of experts delivers
+                                seamless
+                                functionality with stunning UI designs and top-notch performance- empowering
+                                your
+                                brand to thrive in the digital landscape.</p>
+                            <div class="next-gen-main">
+
+                                <div class="point-img">
+                                    <ul style="list-style-type: none;   ">
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp">iOS App
+                                            Development</li>
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp">
+                                            Android App Development
+
+                                        </li>
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp">
+                                            Flutter App Development
+
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp"> React
+                                            Native App Development
+                                        </li>
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp">
+                                            Cross-Platform App Development</li>
+                                    </ul>
+
+                                </div>
+                                <div class="point-img1">
+                                    <ul style="list-style-type: none;">
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp"> Hybrid
+                                            App Development
+                                        </li>
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp"> MVP
+                                            Development
+
+
+                                        </li>
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp">
+                                            Wearable App Development
+
+
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp">
+                                            Progressive Web App
+
+                                        </li>
+                                        <li style="list-style-type: none; display: flex;"><img
+                                                src="./images/Layer 49.webp">
+                                            Xamarin Development</li>
+                                    </ul>
+
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                        <button type="button" class="btn explore-button"
+                            style="background-color: #21D0B3; color: white;">Explore More
+                        </button>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="shape-place-app">
+                                <div class="shape-next-1"></div>
+                            </div>
+                            <h4>Thanks for this great service</h4>
+                            <div class="ratings">
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.
+                                Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="shape-place-ai">
+                                <div class="shape-next-1"></div>
+                            </div>
+                            <h4>You all are awesome thanks alot</h4>
+                            <div class="ratings">
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.
+                                Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+
+
+
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="shape-place-da">
+                                <div class="shape-next-1"></div>
+                            </div>
+                            <h4>You all are awesome thanks alot</h4>
+                            <div class="ratings">
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.
+                                Ut enim ad minim veniam.</p>
+                        </div>
+
+
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="shape-place-cl">
+                                <div class="shape-next-1"></div>
+                            </div>
+                            <h4>You all are awesome thanks alot</h4>
+                            <div class="ratings">
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.
+                                Ut enim ad minim veniam.</p>
+                        </div>
+
+
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="shape-place-ui">
+                                <div class="shape-next-1"></div>
+                            </div>
+                            <h4>You all are awesome thanks alot</h4>
+                            <div class="ratings">
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.
+                                Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="shape-place-qu">
+                                <div class="shape-next-1"></div>
+                            </div>
+                            <h4>You all are awesome thanks alot</h4>
+                            <div class="ratings">
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.
+                                Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--WHY WORK WITH US-->
+
+    <div class="container-fluid  why-bg">
+        <h3 class=" why-h3">WHY WORK WITH US</h3>
+        <diV class="why-border">
+
+        </diV>
+        <div class="row px-0 pr-0 ">
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                <div class="box1  d-flex pt-1">
+
+                    <img src="./images/creative-thinking.webp">
+                    <div class="seconde-box">
+                        <h3> Skilled Techies</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper dapibus leo.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                <div class="box2  d-flex pt-1">
+
+
+                    <img src="./images/transparency.webp">
+                    <div class="seconde-box">
+                        <h3>Full Transparency</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper dapibus leo.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row ">
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                <div class="box1  d-flex pt-1">
+
+                    <img src="./images/human.webp">
+                    <div class="seconde-box">
+                        <h3> On-demand Resources</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper dapibus leo.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                <div class="box2   d-flex pt-1">
+
+
+                    <img src="./images/globe(1).webp">
+                    <div class="seconde-box">
+                        <h3> Domain Expertise</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper dapibus leo.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row ">
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                <div class="box1  d-flex pt-1">
+
+                    <img src="./images/trophy.webp">
+                    <div class="seconde-box">
+                        <h3> Award-Winning</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper dapibus leo.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                <div class="box2   d-flex pt-1">
+
+
+                    <img src="./images/agile.webp">
+
+                    <div class="seconde-box">
+                        <div class="why-img-border"></div>
+                        <h3>Agile Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper dapibus leo.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--number section-->
+    <section class="num-sec">
+        <div class=" num-div">
+            <div class="container-num">
+                <div class="icon-rotate-ball">
+                    <div class="color-ball"></div>
+                    <span class="icon"><i class="ri-store-2-line"></i></span>
+                </div>
+                <span class="num" data-val="30">00</span>
+                <h3>Years of experience</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, </p>
+
+            </div>
+
+            <div class="border-side"></div>
+
+
+            <div class="container-num margin-div">
+                <div class="icon-rotate-ball">
+                    <div class="color-ball"></div>
+                    <span class="icon"><i class="ri-store-2-line"></i></span>
+                </div>
+                <span class="num" data-val="2800">00</span>
+                <h3>It problem solved</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, </p>
+            </div>
+            <div class="border-side"></div>
+
+            <div class="container-num margin-div2">
+                <div class="icon-rotate-ball">
+                    <div class="color-ball"></div>
+                    <span class="icon"><i class="ri-store-2-line"></i></span>
+                </div>
+                <span class="num" data-val="6960">00</span>
+                <h3>Satisfied clients</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, </p>
+            </div>
+
+            <div class="border-side"></div>
+            <div class="container-num">
+                <div class="icon-rotate-ball">
+                    <div class="color-ball"></div>
+                    <span class="icon"><i class="ri-store-2-line"></i></span>
+                </div>
+                <span class="num" data-val="30">00</span>
+                <h3>Pro team members</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, </p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!---card div-->
+    <div class="card-div">
+
+        <span class="main-color">
+            Meet the team
+        </span>
+        <h3>Team Members</h3>
+        <div class="main-card">
+            <div class="card-main">
+                <img src="./images/Macwiq Webiste (2).webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Kevin Martin</p>
+                    <p class="card-text2">Acountant</p>
+                </div>
+            </div>
+            <div class="card-main">
+                <img src="./images/Macwiq Webiste (1).webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Jessica Brown</p>
+                    <p class="card-text2">CO Founder & CEO</p>
+                </div>
+            </div>
+            <div class="card-main">
+                <img src="./images/Macwiq Webiste.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">David cooper</p>
+                    <p class="card-text2">Senior Assistant</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--testimoniole--->
+
+    <div class="main-testimonial">
+        <h3>Testimonials</h3>
+        <div class="testimonial-container">
+            <div class="testimonial-wrapper">
+                <div class="testimonial-card">
+                    <img src="./images/testimonial-1-quote.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper
+                        dapibus leo.
+                        This is the first testimonial. It's amazing!</p>
+                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
+                    <h4>Kevin Martin</h4>
+                    <span class="fourth-line">Happy Customer</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="./images/testimonial-1-quote.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper
+                        dapibus leo.
+                        This is the first testimonial. It's amazing!</p>
+                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
+                    <h4>Kevin Martin</h4>
+                    <span class="fourth-line">Happy Customer</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="./images/testimonial-1-quote.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper
+                        dapibus leo.
+                        This is the first testimonial. It's amazing!</p>
+                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
+                    <h4>Kevin Martin</h4>
+                    <span class="fourth-line">Happy Customer</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="./images/testimonial-1-quote.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper
+                        dapibus leo.
+                        This is the first testimonial. It's amazing!</p>
+                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
+                    <h4>Kevin Martin</h4>
+                    <span class="fourth-line">Happy Customer</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="./images/testimonial-1-quote.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper
+                        dapibus leo.
+                        This is the first testimonial. It's amazing!</p>
+                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
+                    <h4>Kevin Martin</h4>
+                    <span class="fourth-line">Happy Customer</span>
+                </div>
+                <div class="testimonial-card ">
+                    <img src="./images/testimonial-1-quote.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper
+                        dapibus leo.
+                        This is the first testimonial. It's amazing!</p>
+                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
+                    <h4>Kevin Martin</h4>
+                    <span class="fourth-line">Happy Customer</span>
+                </div>
+            </div>
+            <div class="dots-container">
+                <div class="dot" onclick="goToCard(0)"></div>
+                <div class="dot" onclick="goToCard(1)"></div>
+                <div class="dot" onclick="goToCard(2)"></div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <!---form-->
+    <section class=" pb-0" style="margin-bottom:-8.5%;">
+        <div class="container">
+            <div class="form-div d-lg-flex">
+                <div class="content-form-div">
+                    <h2 class="mb-3 mb-xl-4 mb-xxl-5">Do you have a project in mind ?<br>
+                        Talk to the experts.</h2>
+                    <form class="form-input">
+                        <div class="first-input-box">
+                            <input type="text" class="form-name" id="yourname" placeholder="Your Name">
+                            <input type="email" class="form-Mobile" id="exampleInputEmail1" placeholder="Mobile Number">
+
+                        </div>
+                        <div class="first-input-box">
+                            <input type="text" class="form-Email" id="yourname" placeholder="Email">
+                            <input type="email" class="form-Budget" id="exampleInputEmail1" placeholder="Budget">
+
+                        </div>
+                        <div class="third-input-box">
+                            <input type="text" class="form-About" id="yourname" placeholder="About Project">
+
+                        </div>
+                        <!-- <button class="g-recaptcha" data-sitekey="6LdnIUcpAAAAAORbE04jT3zJKlLRPbVZCq4_bJXS" data-callback='onSubmit' data-action='submit'>Submit</button> -->
+                        <button type="button" class=" form-submit">Submit</button>
+                    </form>
+
+                </div>
+                <div class="side-image-footer">
+                    <div class="side-conetent">
+                        <h4>Get in Touch</h4>
+                        <p>
+                            We’d love to resolve your queries with
+                            personalized assistance.
+                        </p>
+                        <div class="icon-image-div">
+
+                            <div class="icon-image"><i class="ri-mail-line"></i>
+                            </div>
+                            <div>
+                                <div class="icone-side-content">
+                                    <p>Chat with us</p>
+                                    <span>contact@macwiq.com</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="icon-image-div">
+                            <div class="icon-image"><i class="ri-phone-line"></i>
+                            </div>
+                            <div>
+                                <div class="icone-side-content">
+                                    <p>Lets discuss via call</p>
+                                    <span>+1-234-567-8910</span>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="icon-image-div ">
+
+                            <div class="icon-image"><i class="ri-skype-line"></i>
+                            </div>
+                            <div>
+                                <div class="icone-side-content">
+                                    <p>Say Hello! on Skype</p>
+                                    <span>vikassharma</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="icon-down">
+                            <div class="second-icon-div">
+                                <div class="seconde-image">
+                                    <i class="ri-facebook-circle-fill"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-linkedin-fill"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-instagram-line"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-twitter-x-fill"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-youtube-fill"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-whatsapp-line"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="main-form">
+                <img src="./images/3-2 (1).webp">
+
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container-fluid main-footer">
+
+        <div class=" text-center text-white location">
+            <h3>
+                Our Locations
+            </h3>
+        </div>
+        <div class="main-img-sec ">
+            <div class="imagebox">
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
+
+
+                        <div class="country-images ">
+                            <img src="./images/hq-india-svg.webp">
+                        </div>
+                    </div>
+                    <div class="heading-main">
+                        HQ INDIA
+
+                    </div>
+                    <div class="paragraph-main">
+
+                        H-106, Sector-63, Noida-201301
+                    </div>
+
+                </div>
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
+
+
+                        <div class="country-images">
+                            <img src="./images/hq-usa-svg.webp">
+
+
+                        </div>
+                    </div>
+                    <div class="heading-main">
+                        US
+
+                    </div>
+                    <div class="paragraph-main">
+                        123, 345, Lorim Ipsum,
+                        Lorim Ipsum
+                    </div>
+
+                </div>
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
+
+
+                        <div class="country-images">
+                            <img src="./images/hq-canada copy.webp">
+
+
+                        </div>
+                    </div>
+                    <div class="heading-main">
+                        CANADA
+                    </div>
+                    <div class="paragraph-main">
+                        123, 345, Lorim Ipsum,
+                        Lorim Ipsum
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="lower-box ">
+
+                <div class="lower-icon">
+                    <h3>
+                        Helping you overcome your technology challenges</h3>
+                </div>
+                <div class="footer-btn">
+                    <button type="button" class="btn ">Discover More</button>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer-row-div">
+            <div class="first-footer-box">
+                <img src="./images/Vector Smart Object copy 5.webp" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus leo.</p>
+                <ul class="footer-icons">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+            <div class="seconde-footer-box">
+                <h6>Quick Links</h6>
+                <ul class="footer-icons-2">
+                    <li>About Us</li>
+                    <li>Meet our team</li>
+                    <li>Blogs</li>
+                    <li>Our projects</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="third-footer-box">
+                <h6>Contact</h6>
+                <ul class="footer-icons-2">
+                    <li>+1 (800) 220-0275</li>
+                    <li>contact@macwiq.com</li>
+                    <li>30 N Gould ST STE R Sherridan,
+                        WY 82801</li>
+
+                </ul>
+            </div>
+            <div class="fourth-footer-box">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79384.58173465701!2d-0.15654167745757946!3d51.55414974348658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1704214149017!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+    <div class="last-footer ">
+        <p>Copyright &copy; 2021 MacWiQ All rights</p>
+        <p>Desgined by PK Solution.com</p>
+
+    </div>
+
 
 
 
 
     <script>
-        a = document.querySelectorAll('#form-box')
-        for (i = 0; i < a.length; i++) {
-            console.log(a[i])
-            a[i].addEventListener('click', () => {
-                console.log(a[i])
-            })
+        let valueDisplays = document.querySelectorAll(".num");
+        let interval = 5000;
+
+        valueDisplays.forEach((valueDisplay) => {
+            let startValue = 0;
+            let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+            let duration = Math.floor(interval / endValue);
+            let counter = setInterval(function () {
+                startValue += 10;
+                valueDisplay.textContent = startValue;
+                if (startValue == endValue) {
+                    clearInterval(counter);
+                }
+            }, duration);
+        });
+
+        const testimonialWrapper = document.querySelector('.testimonial-wrapper');
+        const dots = document.querySelectorAll('.dot');
+
+        let isDragging = false;
+        let startPosition = 0;
+        let offset = 0;
+
+        // Set initial grab cursor
+        testimonialWrapper.style.cursor = 'grab';
+
+        testimonialWrapper.addEventListener('mousedown', startDragging);
+        testimonialWrapper.addEventListener('touchstart', startDragging);
+
+        function startDragging(e) {
+            isDragging = true;
+            startPosition = e.type === 'touchstart' ? e.touches[0].clientX - offset : e.clientX - offset;
+            testimonialWrapper.style.cursor = 'grabbing';
+
+            // Add event listeners for move and end events
+            window.addEventListener('mousemove', handleDragging);
+            window.addEventListener('touchmove', handleDragging, { passive: false });
+            window.addEventListener('mouseup', stopDragging);
+            window.addEventListener('touchend', stopDragging);
         }
+
+        function handleDragging(e) {
+            if (isDragging) {
+                const currentPosition = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+                offset = currentPosition - startPosition;
+                testimonialWrapper.style.transform = `translateX(${offset}px)`;
+            }
+        }
+
+        function stopDragging() {
+            if (isDragging) {
+                isDragging = false;
+                testimonialWrapper.style.cursor = 'grab';
+
+                // Remove event listeners for move and end events
+                window.removeEventListener('mousemove', handleDragging);
+                window.removeEventListener('touchmove', handleDragging);
+                window.removeEventListener('mouseup', stopDragging);
+                window.removeEventListener('touchend', stopDragging);
+
+                // Reset transform after the sliding is complete
+
+            }
+        }
+
+        // Optional: If you want to slide to a specific card
+
+
+
+
+
+
+
     </script>
 
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script>
-        document.getElementById('ship_vehicle').addEventListener('click', () => {
-            document.getElementById('car-option').style.display = 'grid'
-        })
-        var sel = document.querySelectorAll('#cars')
-        for (i = 0; i < sel.length; i++) {
-            sel[i].addEventListener('click', function (e) {
-                e.preventDefault();
-                document.getElementById('ship_vehicle').value = "" + this.children[1].innerText + ""
-                document.getElementById('car-option').style.display = 'none'
-            })
-        }
-
-
-
-
-        const myCarouselElement = document.querySelector('#myCarousel')
-        const carousel = new bootstrap.Carousel(myCarouselElement, {
-            interval: 2000,
-            wrap: false
-        })
-
-    </script>
 
 </body>
 
