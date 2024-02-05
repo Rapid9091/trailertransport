@@ -5,16 +5,12 @@
     scroll-behavior: smooth;
     font-family: "Inter";
 }
-/* header-csss */
 .banner-div {
     margin-top: -5%;
 
 }
-@media screen and (max-width: 1440px){
-    .main-content{
 
-    }
-}
+
 .main-content {
 
     margin: auto;
