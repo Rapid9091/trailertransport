@@ -354,17 +354,12 @@
         margin-top: 66px;
     }
 
-}
-
-
-
-.card {
+}.card {
 
     border: none;
     cursor: pointer;
     box-shadow: 0 0 40px rgba(51, 51, 51, .1)
 }
-
 .card:hover {
 
     background-color: #eee;
@@ -381,17 +376,6 @@
     list-style: none;
 }
 
-.testimonial-list {
-    /* margin-left: -10%; */
-}
-
-.testimonial-list li {
-
-    /* margin-bottom: 20px;
-    color: black;
-    font-weight: 600; */
-
-}
 
 .testimonials-margin {
 
