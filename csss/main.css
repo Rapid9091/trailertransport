@@ -180,6 +180,11 @@
     .specifies {
         bottom: -90px;
     }
+    .product .imgbox img {
+        height: auto;
+        width: 100%;
+    }
+
 
 }
 
