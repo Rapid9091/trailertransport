@@ -445,7 +445,20 @@
         margin-left: 40%;
        
     }
+
+   
 }
+
+@media (max-width: 600px){
+    .search-icon{
+        margin-left: 0%;
+    
+    }
+    .side-buttonimp {
+        margin-left: 0%;
+    }
+}
+
 </style>
 
 

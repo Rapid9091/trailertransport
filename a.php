@@ -111,7 +111,7 @@
   @media only screen and (max-width: 450px) {
     .our-recent-paragraph {
       
-      font-size: 20px;
+      font-size: 22px;
       padding: 0 2%;
     }
   }

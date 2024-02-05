@@ -306,9 +306,9 @@
 }
 
 @media (max-width: 450px) {
-    .wrapper {
+    /* .wrapper {
         margin: -90px 0px 0px 0px;
-    }
+    } */
 
     .w-75 {
         width: 90% !important
@@ -1836,6 +1836,7 @@ font-weight: bolder;
     height: 55px;
     width: 100%;
     display: flex;
+    padding: 2%;
 }
 
 .last-footer p {
@@ -1869,6 +1870,11 @@ font-weight: bolder;
     width: 100%;
     text-align: center;
     margin-top: 5%;
+}
+.country-images img {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
 }
 }
 
