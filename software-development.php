@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
         integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="googlebot" content="noindex">
+    <meta name="robots" content="noindex">
     <link href="csss/main.css" rel="stylesheet" defer>
   
     <style>
