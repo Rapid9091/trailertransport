@@ -236,7 +236,7 @@
         </div>
     </div>
 
-    <div class="testimonial-cards">
+    <div class="testimonial-cards" >
 
         <div class="testimonial-content">
             <h3>Intelligent Automation</h3>

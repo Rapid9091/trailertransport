@@ -17,6 +17,7 @@
         integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="csss/main.css" rel="stylesheet" defer>
+  
     <style>
         * {
             padding: 0;
@@ -30,7 +31,7 @@
         .mobile-header {
             background: url(./images/net\ copy\ \(1\).webp) center center no-repeat;
             background-size: cover;
-            height: 50vh;
+            height: 60vh;
             width: 100%;
         }
 
@@ -38,12 +39,12 @@
             width: 100%;
             height: 100%;
             margin: auto;
-            padding-top: 4%;
-            padding-left: 10%;
+            padding-top: 7%;
+            padding-left: 5%;
         }
 
         .head-content h2 {
-            font-size: 50px;
+            font-size: 48px;
             letter-spacing: 3px;
             line-height: 50px;
             text-transform: uppercase;
@@ -55,7 +56,7 @@
 
         .head-content h4 {
             filter: drop-shadow(-0.174px 0.985px 2.5px rgba(0, 0, 0, 0.75));
-            font-size: 50px;
+            font-size: 46px;
             color: #21D0B3;
             font-weight: lighter;
             outline: black 1px;
@@ -103,6 +104,22 @@
 
             margin-top: 45px;
 
+        }
+
+        .the-card-2:hover {
+            background: linear-gradient(147deg, rgba(33, 208, 179, 1) 38%, rgba(29, 206, 250, 1) 72%);
+        }
+
+        .the-card-2:hover .mobile-card-icon {
+            color: #8dffff;
+        }
+
+        .the-card-2:hover .mobile-card-h2 {
+            color: white;
+        }
+
+        .the-card-2:hover .mobile-card-p {
+            color: white;
         }
 
         .mobile-card {
@@ -193,14 +210,19 @@
         }
 
         .rect-img-1 img {
-            width: 600px;
+            width: 560px;
             height: 440px;
             margin-bottom: -5%;
         }
 
 
         .third-card-div {
-            background-color: #14141c;
+            background-image: url(./images/BG\ \(1\).webp);
+            width: 100%;
+            height: auto;
+            margin: auto;
+            justify-content: center;
+            padding-bottom: 5%;
         }
 
         .faq-sec-first {
@@ -234,11 +256,8 @@
 
         }
 
-
-
-
         .faq-border {
-            border-width: 1.5px;
+            border-width: 3px;
             border-style: solid;
             border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
             border-radius: 10%;
@@ -264,7 +283,6 @@
         }
 
         .faq-main-div {
-
             background-color: #14141c;
             padding-left: 5%;
             margin-right: -5%;
@@ -272,41 +290,61 @@
             padding-top: 1%;
             padding-bottom: 2%;
             width: 55%;
-
         }
 
         .faq-div {
             width: auto;
             top: 0;
             background-color: #14141c;
+        }
+
+        .faq-section {
+            max-width: 1000px;
+            margin: auto;
+            color: white;
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            margin: auto;
+            font-weight: 700;
+            letter-spacing: 2px;
+            padding-top: 3%;
 
         }
 
+        .faq-section p {
+            font-size: larger;
+            text-align: center;
+            line-height: 30px;
+            width: 800px;
+            margin: auto;
+            padding-top: 2%;
 
-        .faq-section {
-            max-width: 600px;
-            margin: 0 auto;
-            color: white;
         }
 
         .faq-question {
             cursor: pointer;
             background-color: #202028;
-            padding: 20px 10px;
+            padding: 30px 20px;
             margin: 0px 0;
             position: relative;
-            font-size: 20px;
+            font-size: 25px;
+            max-width: 1000px;
+            margin: 0 auto;
+            color: white;
         }
 
         .faq-answer {
             display: none;
             background-color: #202028;
             padding-left: 2%;
-            border-left: 2px solid;
+            border-left: 3px solid;
             padding-bottom: 4%;
             padding-right: 2%;
             border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
-
+            color: #c4c4e7;
+            font-size: 20px;
         }
 
         .arrow-btn {
@@ -328,7 +366,7 @@
 
         .faq-question.opened {
             border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
-            border-left: 2px solid;
+            border-left: 3px solid;
         }
 
 
@@ -377,12 +415,11 @@
             border-radius: 15px;
             background-color: #f8f8f8;
             padding: 15px;
-
         }
 
         .question {
-            font-weight: bold;
-            color: #1d1d1d;
+            font-weight: 600;
+            color: black;
             font-size: 18px;
             display: flex;
             justify-content: space-between;
@@ -402,7 +439,7 @@
             display: none;
             margin-top: 10px;
             font-size: 16px;
-            color: #666;
+            color: #5e5d5d;
             line-height: 1.4;
             transition: 1s;
         }
@@ -417,6 +454,169 @@
         }
 
         /* FAQ ENDS */
+        .third-card-div {
+            background-color: #14141c;
+            width: 100%;
+            height: auto;
+            margin: auto;
+            justify-content: center;
+            padding-bottom: 5%;
+        }
+        .our-custom{
+            padding: 10% 0;
+            background-color: white!important;
+            height: 100%;
+            width: 100%;
+        }
+
+        .faq-sec-first-c {
+            background: url(./images/Layer\ 104.webp) center center no-repeat;
+            background-size: cover;
+
+        }
+
+        .faq-content-div-c {
+            margin: auto;
+            z-index: 1;
+            padding: 3% 0;
+        }
+
+        .faq-content-c {
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .faq-content-c h3 {
+            font-size: 45px;
+            letter-spacing: 3px;
+            line-height: 65px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Inter";
+            text-align: center;
+            margin-left: -20%;
+
+
+        }
+
+        .faq-border-c {
+            border-width: 2px;
+            border-style: solid;
+            border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
+            border-radius: 10%;
+            width: 30%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            text-align: center;
+            margin-left: 23%;
+        }
+
+        .faq-content-c p {
+            width: 500px;
+            height: 123px;
+            font-size: 21px;
+            letter-spacing: 0px;
+            line-height: 35px;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: "Inter";
+            text-align: center;
+            margin-left: 0%;
+
+        }
+
+        .faq-main-div-c {
+            background-image: url(./images/template\ \(1\).webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: -3%;
+            margin-bottom: -3%;
+            margin-right: -5.54%;
+            padding: 2.5% 5%;
+            z-index: 2;
+
+
+
+
+        }
+
+        .faq-div-c {
+            width: auto;
+            top: 0;
+            background-color: #14141c;
+        }
+
+        .faq-section-c {
+            max-width: 1000px;
+            margin: auto;
+            color: white;
+        }
+
+        .faq-section-c h2 {
+            text-align: center;
+            margin: auto;
+            font-weight: 700;
+            letter-spacing: 2px;
+            padding-top: 3%;
+
+        }
+
+        .faq-section-c p {
+
+            text-align: center;
+
+            width: 800px;
+            margin: auto;
+            padding-top: 2%;
+
+        }
+
+        .faq-question-c {
+            cursor: pointer;
+            background-color: #202028;
+            padding: 20px 10px;
+            margin: 0px 0;
+            position: relative;
+            font-size: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            color: white;
+        }
+
+        .faq-answer-c {
+            display: none;
+            background-color: #202028;
+            padding-left: 2%;
+            border-left: 3px solid;
+            padding-bottom: 4%;
+            padding-right: 2%;
+            border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
+            color: #c4c4e7;
+            font-size: 15px;
+        }
+
+        .arrow-btn-c {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease;
+        }
+
+        .arrow-btn-c {
+            transform: translatey(-50%) rotate(90deg);
+            font-size: 40px;
+        }
+
+        .faq-questioc.opened-c .arrow-btn-c {
+            transform: translateY(-50%) rotate(180deg);
+        }
+
+        .faq-question-c.opened-c {
+            border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
+            border-left: 3px solid;
+        }
 
         .main-magic-sec {
             width: auto;
@@ -489,9 +689,103 @@
             font-weight: bolder;
 
         }
-        .mac-icon img{
+
+        .mac-icon img {
             width: 60px;
             height: 60px;
+        }
+
+        .tools {
+            background-color: #001918;
+            height: auto;
+            width: 100%;
+            padding: 60px 0 80px 0;
+
+        }
+
+        .tools .container h2 {
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 2% 0;
+        }
+
+        .first-sec {
+            margin-bottom: 2%;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+
+        }
+
+        .main-div-tool {
+            width: 200px;
+            height: auto;
+            background-color: #2c2c33af;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-right: 2%;
+        }
+
+        .main-div-tool p {
+            margin-top: 8%;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+
+        }
+
+        .tools-sec {
+            max-width: fit-content;
+            height: auto;
+        }
+
+        .container-tools {
+            /* width: 100% !important;
+            padding: 0 5%; */
+            /* background: url(./images/template\ \(2\).webp) center center no-repeat; */
+            background-color: silver;
+            background-image:
+            linear-gradient(335deg, #b00 23px,transparent 23px),
+            linear-gradient(155deg, #b00 23px,transparent 23px),
+            linear-gradient(335deg, #b00 23px,transparent 23px),
+            linear-gradient(155deg, #b00 23px,transparent 23px) ;
+            background-size:58px 58px;
+            background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+
+
+        }
+
+        .tool-parts {
+            width: 150px;
+            height: 40px;
+            gap: 10px;
+            margin: auto;
+            background-color: #202028;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .tool-parts img{
+            width: 30px;
+            height: 30px;
+        }
+
+        .tool-parts p {
+            font-size: 20px;
+            margin-top: 10%;
+            color: white;
+
+        }
+
+        .tools-border {
+            border-bottom: #2c2c33 2.5px solid;
+            margin-top: -1%;
+            margin-bottom: 1%;
         }
     </style>
 </head>
@@ -524,7 +818,7 @@
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
-                        <div class="mobile-card-h2">Legacy System Moderniazation</div>
+                        <div class="mobile-card-h2">Legacy System Modernization</div>
                         <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
                             temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
                             nam
@@ -535,45 +829,60 @@
 
             </div>
             <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-regular fa-id-badge"></i></div>
-                    <div class="mobile-card-h2">Custom Software</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis
-                        tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-regular fa-id-badge"></i></div>
+                        <div class="mobile-card-h2">Custom Software</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis
+                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
-                    <div class="mobile-card-h2">Enterprise Software</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corporis
-                        necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
+                        <div class="mobile-card-h2">Enterprise Software</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+                            corporis
+                            necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 mt-3">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
-                    <div class="mobile-card-h2">Custom CRM Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae,
+                <div class="the-card-2">
+                    <div class="mobile-card">
+
+                        <div class="mobile-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="mobile-card-h2">Custom CRM Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                            temporibus velit incidunt illum expedita harum veniam vitae,
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 mt-3">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
-                    <div class="mobile-card-h2">Software Product Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis
-                        tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="mobile-card-h2">Software Product Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis
+                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
+                    </div>
                 </div>
+
             </div>
             <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 mt-3">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-gear"></i></div>
-                    <div class="mobile-card-h2">Data Analytics & Information</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-                        facilis, praesentium nihil accusantium ratione doloribus incidunt
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-solid fa-gear"></i></div>
+                        <div class="mobile-card-h2">Data Analytics & Information</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                            facilis, praesentium nihil accusantium ratione doloribus incidunt
+                        </div>
                     </div>
                 </div>
             </div>
@@ -651,10 +960,11 @@
 
     </section>
 
-    <div class="container-fluid  third-card-div">
-
-        <div class="faq-section mt-3">
-            <h3>Our Industry Specific Software capabilities</h3>
+    <div class="third-card-div">
+        <div class="faq-section">
+            <h2>Our Industry Specific Software capabilities</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero, dignissimos quos consequatur
+                laboriosam sapiente laudantium dolore beatae, </p>
             <p></p>
             <div class="faq-question">
                 Effective Customer Connect
@@ -694,66 +1004,241 @@
     </div>
 
     <?php include "./swipper-mob.php" ?>
-
-    <div class="faq-sec-first">
-        <div class="row">
-            <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 faq-content-div">
-                <div class="faq-content">
-                    <h3>Our Custom Software
-                        Development Process </h3>
-                    <div class="faq-border"></div>
-                    <p>A website solution is highly efficient and holds a lot
-                        to offer to your businesses, whether you are a small
-                        business or a huge organization. </p>
-                </div>
-
-            </div>
-            <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 faq-main-div">
-
-
-                <div class="faq-div">
-                    <!-- <img src="./images/Untitled design (69).webp" alt=""> -->
-                    <div class="faq-section mt-3">
-                        <div class="faq-question">
-                            Effective Customer Connect
-                            <div class="arrow-btn"><span>&#8250;</span></div>
-                        </div>
-                        <div class="faq-answer">Mobile apps eliminate website loading time which directly influences the
-                            bounce rate and work as the most suitable point of contact with end-users.</div>
-
-                        <div class="faq-question mt-3">
-                            Raise Conversion Rates
-                            <div class="arrow-btn"><span>&#8250;</span></div>
-                        </div>
-                        <div class="faq-answer">Mobile Apps are the most convenient and effective way to grab users’
-                            attention. It can yield up to 2x conversion rate as compared to other marketing platforms.
-                        </div>
-                        <div class="faq-question mt-3">
-                            Brilliant Marketing Channel
-                            <div class="arrow-btn"><span>&#8250;</span></div>
-                        </div>
-                        <div class="faq-answer">Mobile apps are equipped with personalized features, custom engagement
-                            activities, and content, which promote brand recognition.</div>
-                        <div class="faq-question mt-3">
-                            Round-the-Clock Accessibility
-                            <div class="arrow-btn"><span>&#8250;</span></div>
-                        </div>
-                        <div class="faq-answer">Apps are easier to access for the user on their respective device over a
-                            website and provide personalized messages and notifications. Moreover, the PWA apps can even
-                            be used offline.</div>
-                        <div class="faq-question mt-3">
-                            Maximum User Engagement
-                            <div class="arrow-btn"><span>&#8250;</span></div>
-                        </div>
-                        <div class="faq-answer">Mobile apps are highly effective in brand building, user engagement, and
-                            offer multiple benefits because of its easy accessibility for users on varied devices and
-                            browsers.</div>
+    <section class="our-custom">
+        <div class="faq-sec-first-c">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 faq-content-div-c">
+                    <div class="faq-content-c">
+                        <h3>Our Custom Software
+                            Development Process </h3>
+                        <div class="faq-border-c"></div>
+                        <p>A website solution is highly efficient and holds a lot
+                            to offer to your businesses, whether you are a small
+                            business or a huge organization. </p>
                     </div>
-                </div>
 
+                </div>
+                <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 faq-main-div-c">
+                    <div class="faq-div-c">
+                        <div class="faq-section-c mt-3">
+                            <div class="faq-question-c">
+                                Effective Customer Connect
+                                <div class="arrow-btn-c"><span>&#8250;</span></div>
+                            </div>
+                            <div class="faq-answer-c">Mobile apps eliminate website loading time which directly
+                                influences
+                                the
+                                bounce rate and work as the most suitable point of contact with end-users.</div>
+
+                            <div class="faq-question-c mt-3">
+                                Raise Conversion Rates
+                                <div class="arrow-btn-c"><span>&#8250;</span></div>
+                            </div>
+                            <div class="faq-answer-c">Mobile Apps are the most convenient and effective way to grab
+                                users’
+                                attention. It can yield up to 2x conversion rate as compared to other marketing
+                                platforms.
+                            </div>
+                            <div class="faq-question-c mt-3">
+                                Brilliant Marketing Channel
+                                <div class="arrow-btn-c"><span>&#8250;</span></div>
+                            </div>
+                            <div class="faq-answer-c">Mobile apps are equipped with personalized features, custom
+                                engagement
+                                activities, and content, which promote brand recognition.</div>
+                            <div class="faq-question-c mt-3">
+                                Round-tur Customhe-Clock Accessibility
+                                <div class="arrow-btn-c"><span>&#8250;</span></div>
+                            </div>
+                            <div class="faq-answer-c">Apps are easier to access for the user on their respective device
+                                over
+                                a
+                                website and provide personalized messages and notifications. Moreover, the PWA apps can
+                                even
+                                be used offline.</div>
+                            <div class="faq-question-c mt-3">
+                                Maximum User Engagement
+                                <div class="arrow-btn-c"><span>&#8250;</span></div>
+                            </div>
+                            <div class="faq-answer-c">Mobile apps are highly effective in brand building, user
+                                engagement,
+                                and
+                                offer multiple benefits because of its easy accessibility for users on varied devices
+                                and
+                                browsers.</div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="tools">
+        <div class="container container-tools">
+            <h2>Tools & Technologies We Prefer</h2>
+            <div class="tools-sec">
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Back-end</p>
+                    </div>
+                    <div class="tool-parts">
+                      <img src="./images/java (1).png">  <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>Java</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>Python</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>PHP</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>Node JS</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>Golang</p>
+                    </div>
+                    
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>front-end</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Mobile</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Database</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+
+                    <div class="main-div-tool">
+                        <p>Quality Assurance</p>
+                    </div>
+
+
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Devops</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Cloud Services</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>.Net</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
     <section class="section5 faq-2">
         <h3>Frequently Asked Questions</h3>
         <div class="row-faq">
@@ -826,8 +1311,7 @@
                     </div>
                     <div class="answer" id="answer3">
                         <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
-                            can
-                            impact delivery times. Contact us for a more precise estimate.</p>
+                            can impact delivery times. Contact us for a more precise estimate.</p>
                     </div>
 
 
@@ -997,14 +1481,14 @@
         });
 
         document.addEventListener("DOMContentLoaded", function () {
-            const faqQuestions = document.querySelectorAll('.faq-question-2');
+            const faqQuestions = document.querySelectorAll('.faq-question-c');
 
             faqQuestions.forEach(question => {
                 question.addEventListener('click', () => {
                     // Close all other answers before opening the clicked one
                     faqQuestions.forEach(q => {
                         if (q !== question) {
-                            q.classList.remove('opened');
+                            q.classList.remove('opened-c');
                             q.nextElementSibling.style.display = 'none';
                         }
                     });
@@ -1014,7 +1498,7 @@
                     answer.style.display = (answer.style.display === 'none' || answer.style.display === '') ? 'block' : 'none';
 
                     // Toggle the opened class for arrow rotation
-                    question.classList.toggle('opened');
+                    question.classList.toggle('opened-c');
                 });
             });
         });

@@ -169,7 +169,7 @@
       margin: auto;
     }
 
-    .slider {
+    .slider- {
       overflow: hidden;
       width: 100%;
     }
@@ -300,15 +300,8 @@
     </div>
     <button class="prev" onclick="prevSlide()">❮</button>
     <button class="next" onclick="nextSlide()">❯</button>
-
-
-
   </div>
-  <div class="circle">
-    <div class="text">
-     <span> Get a Free a quate</span>
-    </div> </div>
-
+ 
   <script>
     let currentSlide = 0;
 
@@ -338,11 +331,7 @@
 
 
 
-    const text = document.querySelector('.text span');
-text.innerHTML = text.innerText.split('').map (
-(char, i) =>
-`<span style="transform:rotate(${i * -2}deg)">${char}</span>`)
-.join('');
+
 
 
   </script>

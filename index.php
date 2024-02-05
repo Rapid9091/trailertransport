@@ -23,7 +23,7 @@
 
 
     <div class="container-fluid header-bg">
-        <div class="header-content ">
+        <div class="header-content">
             <div class="row align-items-start ">
                 <div class="col">
                     <p class=" main-color text-center word-c">WORLD CLASS DIGITAL PRODUCTS</p>
@@ -100,9 +100,6 @@
                         adipiscing
                         elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
 
-
-
-
                 </div>
 
 
@@ -121,8 +118,6 @@
                         elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
 
 
-
-
                 </div>
 
 
@@ -130,7 +125,7 @@
 
             <div class="product">
                 <div class="product-bg"></div>
-                <div class="imgbox "> <img src="./images/Layer 30 (1).webp"> </div>
+                <div class="imgbox "> <img src="./images/Layer 30 (1).webp"></div>
                 <div class="specifies">
                     <h2>
                         Artificial<br>
@@ -153,7 +148,7 @@
     </div>
     <?php include "./a.php" ?>
     <!--Get to know us--->
-    <div class="container mt-5 bg-white ">
+    <div class="container mt-5">
         <div class=" get-know-main pt-3">
             <div class="get-image">
                 <div class="counting">
@@ -185,7 +180,7 @@
                         <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
                     </span>
 
-                    <div>
+                    <div class="get-button">
                         <div class="stop d-flex ">
                             <img src="./images/icon-14-svg.webp">
 
@@ -215,7 +210,9 @@
 
 
 
-
+   <!--INDUSTRIES WE SERVE Mobile--->
+  
+   
 
 
     <!--INDUSTRIES WE SERVE--->
@@ -431,7 +428,7 @@
             </div>
         </div>
     </section>
-    <div class="container">
+    <div class="container next-desktop">
         <div class="content-next">
             <h2 class="text-center">
                 NEXT GENERATION TECHNOLOGIES
@@ -881,13 +878,11 @@
     <div class="container-fluid  why-bg">
         <h3 class=" why-h3">WHY WORK WITH US</h3>
         <diV class="why-border">
-
         </diV>
         <div class="row px-0 pr-0 ">
             <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
 
                 <div class="box1  d-flex pt-1">
-
                     <img src="./images/creative-thinking.webp">
                     <div class="seconde-box">
                         <h3> Skilled Techies</h3>
@@ -1148,7 +1143,7 @@
     <!---form-->
     <section class=" pb-0" style="margin-bottom:-8.5%;">
         <div class="container">
-            <div class="form-div d-lg-flex">
+            <div class="form-div ">
                 <div class="content-form-div">
                     <h2 class="mb-3 mb-xl-4 mb-xxl-5">Do you have a project in mind ?<br>
                         Talk to the experts.</h2>

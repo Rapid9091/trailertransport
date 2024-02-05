@@ -270,7 +270,6 @@
             color: white;
             font-size: 20px;
             width: 80%;
-
             margin-top: 5%;
         }
 
