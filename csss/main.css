@@ -1,16 +1,10 @@
-/* navbarcsss */
-
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: "Inter";
-
 }
-
-
-
 /* header-csss */
 .banner-div {
     margin-top: -5%;
@@ -20,14 +14,12 @@
     .main-content{
 
     }
-
 }
 .main-content {
 
     margin: auto;
     display: grid;
     place-items: center;
-  
 }
 .main-content h2{
     font-size: 35px;
