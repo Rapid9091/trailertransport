@@ -7,12 +7,7 @@ main-form*/
     background-color: rgb(143, 15, 15) !important;
     width: 100%;
     margin: auto;
-
-
-
-
 }
-
 
 .form-div {
     background-color: white;
@@ -24,6 +19,12 @@ main-form*/
     border-right: #e6e6e6.5px solid !important;
     width: 100%;
 }
+.icon-down {
+    margin-top: 8%;
+    margin-left: 1%;
+
+}
+
 
 .form-div::before {
     position: absolute;
@@ -110,9 +111,9 @@ font-weight: bolder;
 </style>
 
 <!---form-->
- <section class=" pb-0" style="margin-bottom:-8.5%; background-color: white;">
+<section class=" pb-0" style="margin-bottom:-8.5%; background-color:white;">
         <div class="container">
-            <div class="form-div d-lg-flex">
+            <div class="form-div ">
                 <div class="content-form-div">
                     <h2 class="mb-3 mb-xl-4 mb-xxl-5">Do you have a project in mind ?<br>
                         Talk to the experts.</h2>
@@ -144,19 +145,17 @@ font-weight: bolder;
                             personalized assistance.
                         </p>
                         <div class="icon-image-div">
-
-                            <div class="icon-image"><i class="ri-mail-line"></i>
+                            <div class="icon-image"><i class="fa-solid fa-envelope"></i>
                             </div>
                             <div>
                                 <div class="icone-side-content">
                                     <p>Chat with us</p>
                                     <span>contact@macwiq.com</span>
                                 </div>
-
                             </div>
                         </div>
                         <div class="icon-image-div">
-                            <div class="icon-image"><i class="ri-phone-line"></i>
+                            <div class="icon-image"><i class="fa-regular fa-phone"></i>
                             </div>
                             <div>
                                 <div class="icone-side-content">
@@ -170,7 +169,7 @@ font-weight: bolder;
                         </div>
                         <div class="icon-image-div ">
 
-                            <div class="icon-image"><i class="ri-skype-line"></i>
+                            <div class="icon-image"><i class="fa-brands fa-skype"></i>
                             </div>
                             <div>
                                 <div class="icone-side-content">
@@ -183,22 +182,25 @@ font-weight: bolder;
                         <div class="icon-down">
                             <div class="second-icon-div">
                                 <div class="seconde-image">
-                                    <i class="ri-facebook-circle-fill"></i>
+                                <i class="fa-brands fa-facebook"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-linkedin-fill"></i>
+                                <i class="fa-brands fa-linkedin"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-instagram-line"></i>
+                                <i class="fa-brands fa-instagram"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-twitter-x-fill"></i>
+                                <i class="fa-brands fa-twitter"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-youtube-fill"></i>
+                                <i class="fa-brands fa-youtube"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-whatsapp-line"></i>
+                                <i class="fa-brands fa-telegram"></i>
+                                </div>
+                                <div class="seconde-image">
+                                <i class="fa-brands fa-whatsapp"></i>
                                 </div>
                             </div>
                         </div>
@@ -210,10 +212,9 @@ font-weight: bolder;
             </div>
             <div class="main-form">
                 <img src="./images/3-2 (1).webp">
-
             </div>
-
         </div>
     </section>
+
 
     

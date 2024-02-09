@@ -7,7 +7,6 @@
 
   body {
     background: #eee;
-
     margin: 0;
     padding: 0;
   }
@@ -22,10 +21,9 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 600px;
-    height: 300px;
+    width: 490px;
+    height: 330px;
     transform: translate3d(0) !important;
-    ;
   }
 
 
@@ -36,7 +34,6 @@
     position: absolute;
     display: grid;
     place-items: center;
-
     z-index: 1;
     color: white;
     font-size: 2rem;
@@ -51,7 +48,7 @@
   }
 
   .swiper-slide {
-    opacity: .6 !important;
+    /* opacity: .6 !important; */
     margin-bottom: 2% !important;
   }
 
@@ -74,13 +71,13 @@
   }
 
   .our-recent-paragraph {
-    font-size: 28px;
-    letter-spacing: 1px;
-    line-height: 39px;
-    color: #000000;
-    font-weight: 300;
-    font-family: "Inter";
-    text-align: center;
+    font-size: 22px;
+letter-spacing: 1px;
+line-height: 39px;
+color: #000000;
+font-weight: 300;
+font-family: "Inter";
+text-align: center;
     margin-bottom: 75px;
     margin-top: 20px;
   }
@@ -100,12 +97,12 @@
     border: #21D0B3 3px solid;
   }
   .our-button {
-    font-size: 22px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: "Inter";
-    text-align: center;
-    filter: drop-shadow(-0.174px 0.985px 0.5px rgba(0, 0, 0, 0.75));
+ font-size: 20px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Inter";
+text-align: center;
+filter: drop-shadow(-0.174px 0.985px 0.5px rgba(0,0,0,0.75));
   }
 
   @media only screen and (max-width: 450px) {
@@ -136,7 +133,7 @@
       </div>
       <div class="swiper-slide">
         <!-- <div class="swip-content">Hello</div> -->
-        <img src="./images/Layer 37.webp" />
+        <img src="./images/Layer 36.webp" />
       </div>
       <div class="swiper-slide">
         <!-- <div class="swip-content">Hello</div> -->
@@ -160,7 +157,7 @@
       </div>
       <div class="swiper-slide">
         <!-- <div class="swip-content">Hello</div>  -->
-        <img src="./images/Layer 37.webp" />
+        <img src="./images/Layer 35.webp" />
       </div>
     </div>
     <div class="swipper-button1"><button type="button" class="our-button">See Our Portfolio</button></div>

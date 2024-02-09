@@ -18,7 +18,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body style="margin: 0; padding: 0;">
@@ -276,85 +278,88 @@
         <img src="./images/3-2 (1).webp">
 
     </div> -->
+    <div class="container-fluid main-footer">
         <div class=" text-center text-white location">
             <h3>
                 Our Locations
             </h3>
         </div>
-        <div class="imagebox">
-            <div class="first-img-box text-center">
-                <div class="mian-image-div">
+        <div class="main-img-sec ">
+            <div class="imagebox">
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
 
 
-                    <div class="country-images ">
-                        <img src="./images/hq-india-svg.webp">
+                        <div class="country-images ">
+                            <img src="./images/hq-india-svg.webp">
+                        </div>
                     </div>
-                </div>
-                <div class="heading-main">
-                    HQ INDIA
-
-                </div>
-                <div class="paragraph-main">
-
-                    H-106, Sector-63, Noida-201301
-                </div>
-
-            </div>
-            <div class="first-img-box text-center">
-                <div class="mian-image-div">
-
-
-                    <div class="country-images">
-                        <img src="./images/hq-usa-svg.webp">
-
+                    <div class="heading-main">
+                        HQ INDIA
 
                     </div>
-                </div>
-                <div class="heading-main">
-                    US
+                    <div class="paragraph-main">
+
+                        H-106, Sector-63, Noida-201301
+                    </div>
 
                 </div>
-                <div class="paragraph-main">
-                    123, 345, Lorim Ipsum,
-                    Lorim Ipsum
-                </div>
-
-            </div>
-            <div class="first-img-box text-center">
-                <div class="mian-image-div">
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
 
 
-                    <div class="country-images">
-                        <img src="./images/hq-canada copy.webp">
+                        <div class="country-images">
+                            <img src="./images/hq-usa-svg.webp">
 
+
+                        </div>
+                    </div>
+                    <div class="heading-main">
+                        US
 
                     </div>
+                    <div class="paragraph-main">
+                        123, 345, Lorim Ipsum,
+                        Lorim Ipsum
+                    </div>
+
                 </div>
-                <div class="heading-main">
-                    CANADA
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
+
+
+                        <div class="country-images">
+                            <img src="./images/hq-canada copy.webp">
+
+
+                        </div>
+                    </div>
+                    <div class="heading-main">
+                        CANADA
+                    </div>
+                    <div class="paragraph-main">
+                        123, 345, Lorim Ipsum,
+                        Lorim Ipsum
+                    </div>
+
                 </div>
-                <div class="paragraph-main">
-                    123, 345, Lorim Ipsum,
-                    Lorim Ipsum
-                </div>
+
 
             </div>
 
+            <div class="lower-box ">
 
-        </div>
+                <div class="lower-icon">
+                    <h3>
+                        Helping you overcome your technology challenges</h3>
+                </div>
+                <div class="footer-btn">
+                    <button type="button" class="btn ">Discover More</button>
 
-        <div class="lower-box ">
+                </div>
 
-            <div class="lower-icon">
-                <h3>
-                    Helping you overcome your technology challenges</h3>
+
             </div>
-            <div class="footer-btn">
-                <button type="button" class="btn ">Discover More</button>
-
-            </div>
-
-
         </div>
         <div class="footer-row-div">
             <div class="first-footer-box">

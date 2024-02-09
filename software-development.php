@@ -4,22 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile App Development</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lora&display=swaprel=" stylesheet>
+    <title>wordpress</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
-        integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <meta name="googlebot" content="noindex">
     <meta name="robots" content="noindex">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link href="csss/main.css" rel="stylesheet" defer>
-  
+
     <style>
         * {
             padding: 0;
@@ -54,6 +51,8 @@
             font-weight: 700;
             font-family: "Inter";
             filter: drop-shadow(-0.174px 0.985px 2.5px rgba(0, 0, 0, 0.75));
+            margin-bottom: 0;
+           
         }
 
         .head-content h4 {
@@ -124,12 +123,7 @@
             color: white;
         }
 
-        .mobile-card {
-            border: #d8d8d8 .5px solid;
-            padding: 5% 5%;
-            width: 100%;
-            height: 300px;
-        }
+
 
         .mobile-card-2 {
             padding: 5% 5%;
@@ -147,15 +141,24 @@
         }
 
         .mobile-card-h2 {
-            font-size: 28px;
-            font-weight: 700;
+            font-size: 25px;
+            letter-spacing: 0px;
+            line-height: 30px;
             color: black;
+            font-weight: 700;
+            font-family: "Inter";
 
         }
 
         .mobile-card-p {
             margin-top: 2%;
             color: #999999;
+            font-size: 18px;
+            letter-spacing: 0px;
+            line-height: 24px;
+
+            font-weight: 300;
+            font-family: "Inter";
         }
 
         .seconde-section {
@@ -212,7 +215,7 @@
         }
 
         .rect-img-1 img {
-            width: 560px;
+            width: 600px;
             height: 440px;
             margin-bottom: -5%;
         }
@@ -457,16 +460,18 @@
 
         /* FAQ ENDS */
         .third-card-div {
-            background-color: #14141c;
+
+            background-image: url(./images/Untitled\ design\ \(1\).png);
             width: 100%;
             height: auto;
             margin: auto;
             justify-content: center;
             padding-bottom: 5%;
         }
-        .our-custom{
+
+        .our-custom {
             padding: 10% 0;
-            background-color: white!important;
+            background-color: white !important;
             height: 100%;
             width: 100%;
         }
@@ -529,7 +534,7 @@
         }
 
         .faq-main-div-c {
-            background-image: url(./images/template\ \(1\).webp);
+            background-image: url(./images/template.webp);
             background-repeat: no-repeat;
             background-position: center;
             margin-top: -3%;
@@ -537,10 +542,6 @@
             margin-right: -5.54%;
             padding: 2.5% 5%;
             z-index: 2;
-
-
-
-
         }
 
         .faq-div-c {
@@ -646,63 +647,72 @@
         .magic-border {
             background: linear-gradient(147deg, rgba(33, 208, 179, 1) 29%, rgba(30, 207, 245, 1) 73%);
             height: 4px;
-            width: 13%;
+            width: 11%;
             margin: auto;
-            margin-top: 4px;
-            margin-bottom: 130px;
+            margin-top: 0px;
+            margin-bottom: 120px;
         }
 
         .content-main h3 {
-            font-size: 50px;
+            font-size: 40px;
             letter-spacing: 1px;
-            line-height: 65px;
+            line-height: 45px;
             color: #131b34;
             font-weight: 700;
             font-family: "Inter";
             text-align: center;
-
         }
-
         .magic-box-div {
             width: 100%;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 15px;
-            padding-left: 10%;
-            padding-right: 10%;
+            gap: 12px;
+            padding-left: 5%;
+            padding-right: 5%;
         }
-
         .magic-box {
             position: relative;
             background-color: transparent;
-            height: 300px;
-            width: 358px;
+            height: 280px;
+            width: 400px;
             border: 2px solid #e6e6e6;
             padding: 2% 2%;
-
             z-index: 3;
         }
 
         .mac-h {
-            font-size: 25px;
+            font-size: 22px;
             color: black;
             font-weight: bolder;
+            line-height: 30px;
+            font-family: "Inter";
+            margin-top: 8px;
+
+        }
+        .mac-p{
+            font-size: 18px;
+            color: black;
+            font-weight: 300;
+            margin-top: 8px;
+            font-family: "Inter";
 
         }
 
         .mac-icon img {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
         }
-
         .tools {
-            background-color: #001918;
+            background-color: #001819;
             height: auto;
             width: 100%;
-            padding: 60px 0 80px 0;
+            padding: 100px 0 80px 0;
+        }
 
+        .container-tools {
+            background: url(./images/Untitled\ design\ \(1\).png) center center no-repeat;
         }
 
         .tools .container h2 {
@@ -717,14 +727,12 @@
             display: flex;
             align-items: center;
             gap: 8px;
-
-
         }
 
         .main-div-tool {
             width: 200px;
             height: auto;
-            background-color: #2c2c33af;
+            background-color: #2c2c33e7;
             align-items: center;
             display: flex;
             text-align: center;
@@ -745,40 +753,28 @@
             height: auto;
         }
 
-        .container-tools {
-            /* width: 100% !important;
-            padding: 0 5%; */
-            /* background: url(./images/template\ \(2\).webp) center center no-repeat; */
-            background-color: silver;
-            background-image:
-            linear-gradient(335deg, #b00 23px,transparent 23px),
-            linear-gradient(155deg, #b00 23px,transparent 23px),
-            linear-gradient(335deg, #b00 23px,transparent 23px),
-            linear-gradient(155deg, #b00 23px,transparent 23px) ;
-            background-size:58px 58px;
-            background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 
-
-        }
 
         .tool-parts {
-            width: 150px;
-            height: 40px;
+            width: 180px;
+            height: 50px;
             gap: 10px;
             margin: auto;
             background-color: #202028;
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 2px 15px;
             margin: 0;
         }
-        .tool-parts img{
-            width: 30px;
-            height: 30px;
+
+        .tool-parts img {
+            width: 25px;
+            height: 25px;
         }
 
         .tool-parts p {
-            font-size: 20px;
+            font-size: 15px;
             margin-top: 10%;
             color: white;
 
@@ -789,10 +785,26 @@
             margin-top: -1%;
             margin-bottom: 1%;
         }
+
+        .cards-div-mobile {
+            width: 100%;
+            display: flex;
+            height: auto;
+            margin-bottom: 30px;
+        }
+
+        .the-card-2 {
+            width: 420px;
+            height: 250px;
+            margin: auto;
+            border: #e8e8e8 2px solid;
+            padding: 2% 2%;
+
+        }
     </style>
 </head>
 
-<body>
+<body style="background-color: white;">
     <?php include "./navbar.php"?>
     <div class="container-fluid mobile-header">
         <div class="head-content">
@@ -815,81 +827,80 @@
     </div>
     <div class="container-fluid ">
         <h2 class="mobile-service">Services</h2>
-        <div class="row">
-            <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4">
-                <div class="the-card-2">
-                    <div class="mobile-card">
-                        <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
-                        <div class="mobile-card-h2">Legacy System Modernization</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                            temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                            nam
-                        </div>
+        <div class="cards-div-mobile container">
+            <div class="the-card-2">
+                <div class="mobile-card">
+                    <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="mobile-card-h2">Legacy System Modernization</div>
+                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                        temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
+                        nam
+                    </div>
 
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4">
-                <div class="the-card-2">
-                    <div class="mobile-card">
-                        <div class="mobile-card-icon"><i class="fa-regular fa-id-badge"></i></div>
-                        <div class="mobile-card-h2">Custom Software</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-                            debitis
-                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4">
-                <div class="the-card-2">
-                    <div class="mobile-card">
-                        <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
-                        <div class="mobile-card-h2">Enterprise Software</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
-                            corporis
-                            necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 mt-3">
-                <div class="the-card-2">
-                    <div class="mobile-card">
-
-                        <div class="mobile-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
-                        <div class="mobile-card-h2">Custom CRM Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                            temporibus velit incidunt illum expedita harum veniam vitae,
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 mt-3">
-                <div class="the-card-2">
-                    <div class="mobile-card">
-                        <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
-                        <div class="mobile-card-h2">Software Product Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-                            debitis
-                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 mt-3">
-                <div class="the-card-2">
-                    <div class="mobile-card">
-                        <div class="mobile-card-icon"><i class="fa-solid fa-gear"></i></div>
-                        <div class="mobile-card-h2">Data Analytics & Information</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-                            facilis, praesentium nihil accusantium ratione doloribus incidunt
-                        </div>
-                    </div>
                 </div>
             </div>
 
+
+
+            <div class="the-card-2">
+                <div class="mobile-card">
+                    <div class="mobile-card-icon"><i class="fa-regular fa-id-badge"></i></div>
+                    <div class="mobile-card-h2">Custom Software</div>
+                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        debitis
+                        tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
+                </div>
+            </div>
+
+
+            <div class="the-card-2">
+                <div class="mobile-card">
+                    <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
+                    <div class="mobile-card-h2">Enterprise Software</div>
+                    <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+                        corporis
+                        necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="cards-div-mobile container">
+            <div class="the-card-2">
+                <div class="mobile-card">
+
+                    <div class="mobile-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div class="mobile-card-h2">Custom CRM Development</div>
+                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                        temporibus velit incidunt illum expedita harum veniam vitae,
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="the-card-2">
+                <div class="mobile-card">
+                    <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="mobile-card-h2">Software Product Development</div>
+                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        debitis
+                        tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
+                </div>
+            </div>
+
+
+
+            <div class="the-card-2">
+                <div class="mobile-card">
+                    <div class="mobile-card-icon"><i class="fa-solid fa-gear"></i></div>
+                    <div class="mobile-card-h2">Data Analytics & Information</div>
+                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                        facilis, praesentium nihil accusantium ratione doloribus incidunt
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     </div>
     <div class="seconde-section">
         <div class="row">
@@ -924,9 +935,10 @@
             </div>
 
             <div class="magic-box-div">
-
                 <div class="magic-box">
-                    <div class="mac-icon"><img src="./images/Layer 106.webp"></div>
+                    <div class="mac-icon">
+                        <img src="./images/Layer 106.webp">
+                    </div>
                     <div class="mac-h">Enginnering Excellence</div>
                     <div class="mac-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas cupiditate
                         consectetur suscipit ut similique! </div>
@@ -942,14 +954,14 @@
                 <div class="magic-box">
                     <div class="mac-icon"><img src="./images/Layer 106 (2).webp"></div>
                     <div class="mac-h">Timley Marketing</div>
-                    <div class="mac-p"><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas cupiditate
+                    <div class="mac-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas cupiditate
                         consectetur suscipit ut similique! </div>
 
                 </div>
                 <div class="magic-box">
                     <div class="mac-icon"><img src="./images/Layer 106 (3).webp"></div>
                     <div class="mac-h">Smart Solutions</div>
-                    <div class="mac-p"> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas
+                    <div class="mac-p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas
                         cupiditate
                         consectetur suscipit ut similique! </div>
 
@@ -1018,7 +1030,6 @@
                             to offer to your businesses, whether you are a small
                             business or a huge organization. </p>
                     </div>
-
                 </div>
                 <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 faq-main-div-c">
                     <div class="faq-div-c">
@@ -1084,24 +1095,30 @@
                         <p>Back-end</p>
                     </div>
                     <div class="tool-parts">
-                      <img src="./images/java (1).png">  <p>.Net</p>
+                        <img src="./images/logo/java (1).png">
+                        <p>.Net</p>
                     </div>
                     <div class="tool-parts">
+                        <img src="./images/logo/java (1).png">
                         <p>Java</p>
                     </div>
                     <div class="tool-parts">
+                        <img src="./images/logo/python.webp">
                         <p>Python</p>
                     </div>
                     <div class="tool-parts">
+                        <img src="./images/logo/php.webp">
                         <p>PHP</p>
                     </div>
                     <div class="tool-parts">
+                        <img src="./images/logo/nodejs-icon-svg.webp">
                         <p>Node JS</p>
                     </div>
                     <div class="tool-parts">
+                        <img src="./images/logo/golang_official_logo_icon_169092 (1).webp" style="height: 18px;;">
                         <p>Golang</p>
                     </div>
-                    
+
                 </div>
                 <div class="tools-border"></div>
                 <div class="first-sec">
@@ -1109,28 +1126,36 @@
                         <p>front-end</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/html-5.webp">
+                        <p>HTML5</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/javascript_icon_130900.webp">
+                        <p>Javascript</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/css-3.webp">
+                        <p>CSS</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/file_type_angular_icon_130754.webp">
+                        <p>Angular</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/atom.webp">
+                        <p>React JS</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/vuejs_original_logo_icon_146304.webp">
+                        <p>Vuejs</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/e-icon.webp">
+                        <p>Ember js</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/meteor-js-icon.webp">
+                        <p>Meteor</p>
                     </div>
                 </div>
                 <div class="tools-border"></div>
@@ -1139,19 +1164,24 @@
                         <p>Mobile</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/c-.webp">
+                        <p>C++</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/c-sharp (1).webp">
+                        <p>C#</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/python.webp">
+                        <p>Python</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/apple_objectivec-icon-svg.webp">
+                        <p>Objective c</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/swift.webp">
+                        <p>Swift</p>
                     </div>
                 </div>
                 <div class="tools-border"></div>
@@ -1160,22 +1190,28 @@
                         <p>Database</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/mysql.webp">
+                        <p>My Sql</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/5968342.webp">
+                        <p>Postgre Sql</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/oracle-svg.webp">
+                        <p>Oracle</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/Apache_Feather_Logo.svg.webp">
+                        <p>Apache</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/eyes.webp">
+                        <p>Cassandra</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/mongodb-icon-1-svg (1).webp">
+                        <p>Mongo DB</p>
                     </div>
                 </div>
                 <div class="tools-border"></div>
@@ -1187,13 +1223,15 @@
 
 
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/selenium-icon-2048x1986-3fr2ikf8.webp">
+                        <p>Selenium</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <p>JMeter</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/HPE_LoadRunner_logo.webp">
+                        <p>LoadRunner</p>
                     </div>
 
                 </div>
@@ -1203,23 +1241,35 @@
                         <p>Devops</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/docker.webp">
+                        <p>Docker</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/kubernetes-icon.webp">
+                        <p>Kubernetes </p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+
+                        <img src="./images/logo/icon-svg.webp">
+                        <p>Ansible</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/1200px-Chef_logo.svg.webp">
+                        <p>Chef</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/puppet (1).webp" style="width: 50px; height: auto; margin: 0;">
+                        <p>Puppet</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
                     </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
+                    </div>
+
                 </div>
                 <div class="tools-border"></div>
                 <div class="first-sec">
@@ -1227,13 +1277,16 @@
                         <p>Cloud Services</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/azure.webp">
+                        <p> Microsoft Azure</p>
                     </div>
                     <div class="tool-parts">
-                        <p>.Net</p>
+                        <img src="./images/logo/google-cloud-icon-2048x1646-7admxejz.webp">
+                        <p>Google cloud</p>
                     </div>
 
                 </div>
@@ -1325,87 +1378,88 @@
     </section>
     <!---form-->
     <?php include "./form.php"?>
-
     <div class="container-fluid main-footer">
         <div class=" text-center text-white location">
             <h3>
                 Our Locations
             </h3>
         </div>
-        <div class="imagebox">
-            <div class="first-img-box text-center">
-                <div class="mian-image-div">
+        <div class="main-img-sec ">
+            <div class="imagebox">
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
 
 
-                    <div class="country-images ">
-                        <img src="./images/hq-india-svg.webp">
+                        <div class="country-images ">
+                            <img src="./images/hq-india-svg.webp">
+                        </div>
                     </div>
-                </div>
-                <div class="heading-main">
-                    HQ INDIA
-
-                </div>
-                <div class="paragraph-main">
-
-                    H-106, Sector-63, Noida-201301
-                </div>
-
-            </div>
-            <div class="first-img-box text-center">
-                <div class="mian-image-div">
-
-
-                    <div class="country-images">
-                        <img src="./images/hq-usa-svg.webp">
-
+                    <div class="heading-main">
+                        HQ INDIA
 
                     </div>
-                </div>
-                <div class="heading-main">
-                    US
+                    <div class="paragraph-main">
+
+                        H-106, Sector-63, Noida-201301
+                    </div>
 
                 </div>
-                <div class="paragraph-main">
-                    123, 345, Lorim Ipsum,
-                    Lorim Ipsum
-                </div>
-
-            </div>
-            <div class="first-img-box text-center">
-                <div class="mian-image-div">
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
 
 
-                    <div class="country-images">
-                        <img src="./images/hq-canada copy.webp">
+                        <div class="country-images">
+                            <img src="./images/hq-usa-svg.webp">
 
+
+                        </div>
+                    </div>
+                    <div class="heading-main">
+                        US
 
                     </div>
+                    <div class="paragraph-main">
+                        123, 345, Lorim Ipsum,
+                        Lorim Ipsum
+                    </div>
+
                 </div>
-                <div class="heading-main">
-                    CANADA
+                <div class="first-img-box text-center">
+                    <div class="mian-image-div">
+
+
+                        <div class="country-images">
+                            <img src="./images/hq-canada copy.webp">
+
+
+                        </div>
+                    </div>
+                    <div class="heading-main">
+                        CANADA
+                    </div>
+                    <div class="paragraph-main">
+                        123, 345, Lorim Ipsum,
+                        Lorim Ipsum
+                    </div>
+
                 </div>
-                <div class="paragraph-main">
-                    123, 345, Lorim Ipsum,
-                    Lorim Ipsum
-                </div>
+
 
             </div>
 
+            <div class="lower-box ">
 
-        </div>
+                <div class="lower-icon">
+                    <h3>
+                        Helping you overcome your technology challenges</h3>
+                </div>
+                <div class="footer-btn">
+                    <button type="button" class="btn ">Discover More</button>
 
-        <div class="lower-box ">
+                </div>
 
-            <div class="lower-icon">
-                <h3>
-                    Helping you overcome your technology challenges</h3>
+
             </div>
-            <div class="footer-btn">
-                <button type="button" class="btn ">Discover More</button>
-
-            </div>
-
-
         </div>
         <div class="footer-row-div">
             <div class="first-footer-box">

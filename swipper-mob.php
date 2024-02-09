@@ -22,13 +22,15 @@
     }
 
     .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      position: relative;
-      width: 600px;
-      height: 300px;
-      transform: translate3d(0) !important;;
-    }
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 490px;
+    height: 330px;
+    transform: translate3d(0) !important;
+  }
+   
     .swip-content{
         width: 100%;
         height:100%;

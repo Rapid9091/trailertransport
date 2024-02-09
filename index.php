@@ -7,30 +7,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="csss/main.css?v=3" rel="stylesheet" defer>
+    <link href="csss/main.css" rel="stylesheet" defer>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="googlebot" content="noindex">
-    <meta name="robots" content="noindex">
-
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body style="background-color: white!important;">
     <?php include "./navbar.php"?>
-
-
     <div class="container-fluid header-bg">
         <div class="header-content">
             <div class="row align-items-start ">
                 <div class="col">
-                    <p class=" main-color text-center word-c">WORLD CLASS DIGITAL PRODUCTS</p>
-                    <div class="main-content text-center">
-                        <h2 class="text-white ">THINK BIG FOR HUGE RETURNS.</h2>
-                        <h2 class="text-white">LET’S INNOVATE DIGITALLY!</h2>
+                    <p class="word-c">WORLD CLASS DIGITAL PRODUCTS</p>
+                    <div class="main-content">
+                        <h2>THINK BIG FOR HUGE RETURNS. <br>
+                        LET’S INNOVATE DIGITALLY!</h2>
                         <div class="talk-expert-div">
                         <p class="talk-expert ">
                             <button type="button" class="btn btn-primary">Talk to Our Experts</button>
@@ -44,20 +42,13 @@
 
         </div>
     </div>
-
-
-
-    <!--  -->
-
     <!---ivons blogs-->
-
-
     <div class="container1">
         <div class="icons-div ">
             <div class="product">
                 <div class="product-bg"></div>
                 <div class="hover-react">
-                    <div class="imgbox"> <img src="./images/fahim-muntashir-v-FOvoL3onk-unsplash (1).webp"> </div>
+                    <div class="imgbox"><img src="./images/fahim-muntashir-v-FOvoL3onk-unsplash (1).webp"> </div>
                     <div class="specifies">
                         <h2>
                             Mobile App Development</h2>
@@ -80,10 +71,6 @@
                     <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
                         adipiscing
                         elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
-
-
-
-
                 </div>
 
 
@@ -149,31 +136,21 @@
     </div>
     <?php include "./a.php" ?>
     <!--Get to know us--->
-    <div class="container mt-5">
-        <div class=" get-know-main pt-3">
+        <div class="get-know-main">
             <div class="get-image">
                 <div class="counting">
-                    <p class="num" data-val="6860">6000
-                    </p>
+                    <p class="num" data-val="6860">6000</p>
                     <span>worldwide clients</span>
                 </div> 
-             <img src="./images/Layer 13 (1).webp" width="100%" height="100%">
-
+             <img src="./images/Layer 13 (1).webp">
             </div>
             <div class="get-know-content">
-                <div>
                     <span class="get-know">Get to know us</span>
                     <h2 class="easy">
-                        Easy solutions for your IT problems
-
-                    </h2>
+                        Easy solutions for your IT problems</h2>
                     <p class="lorem">
-
                         Lorem ipsum dolor sit amet, consectetur nod adipisicing elit sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua lonm andhn.
-
-                    </p>
-
+                        labore et dolore magna aliqua lonm andhn. </p>
                     <span class="lorem1 d-flex ">
                         <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
                     </span><br>
@@ -183,24 +160,24 @@
 
                     <div class="get-button">
                         <div class="stop d-flex ">
-                            <img src="./images/icon-14-svg.webp">
+                            <img src="./images/icon-14.webp">
 
                             <p> <span class="main-color"> Stop worrying</span>,
                                 we take care of your technology problems.</p>
 
                         </div>
-                        <button type="button" class=" get-know-button">View More</button>
+                        <button type="button" class="get-know-button">View More</button>
 
 
                     </div>
-                </div>
+             
 
             </div>
         </div>
 
 
 
-    </div>
+  
 
 
 
@@ -294,11 +271,11 @@
 
     <section>
         <div class="wrapper bg-white rounded shadow next-gen-mobile">
-            <div class="content-next">
+            <div class="content-next-m">
                 <h2 class="text-center">
                     NEXT GENERATION TECHNOLOGIES
                 </h2>
-                <div class="next-border"></div>
+                <div class="next-border-m"></div>
 
             </div>
 
@@ -880,10 +857,11 @@
         <h3 class=" why-h3">WHY WORK WITH US</h3>
         <diV class="why-border">
         </diV>
+        <div  class="container">
         <div class="row px-0 pr-0 ">
             <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
 
-                <div class="box1  d-flex pt-1">
+                <div class="box1 d-flex pt-1">
                     <img src="./images/creative-thinking.webp">
                     <div class="seconde-box">
                         <h3> Skilled Techies</h3>
@@ -974,15 +952,16 @@
             </div>
 
         </div>
+</div>
 
     </div>
     <!--number section-->
     <section class="num-sec">
-        <div class=" num-div">
+        <div class="num-div">
             <div class="container-num">
                 <div class="icon-rotate-ball">
                     <div class="color-ball"></div>
-                    <span class="icon"><i class="ri-store-2-line"></i></span>
+                    <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
                 </div>
                 <span class="num" data-val="30">00</span>
                 <h3>Years of experience</h3>
@@ -996,7 +975,7 @@
             <div class="container-num margin-div">
                 <div class="icon-rotate-ball">
                     <div class="color-ball"></div>
-                    <span class="icon"><i class="ri-store-2-line"></i></span>
+                    <span class="icon"><i class="fa-solid fa-code"></i></span>
                 </div>
                 <span class="num" data-val="2800">00</span>
                 <h3>It problem solved</h3>
@@ -1007,7 +986,7 @@
             <div class="container-num margin-div2">
                 <div class="icon-rotate-ball">
                     <div class="color-ball"></div>
-                    <span class="icon"><i class="ri-store-2-line"></i></span>
+                    <span class="icon"><i class="fa-solid fa-thumbs-up"></i></span>
                 </div>
                 <span class="num" data-val="6960">00</span>
                 <h3>Satisfied clients</h3>
@@ -1018,7 +997,7 @@
             <div class="container-num">
                 <div class="icon-rotate-ball">
                     <div class="color-ball"></div>
-                    <span class="icon"><i class="ri-store-2-line"></i></span>
+                    <span class="icon"><i class="fa-solid fa-user-plus"></i></span>
                 </div>
                 <span class="num" data-val="30">00</span>
                 <h3>Pro team members</h3>
@@ -1176,19 +1155,17 @@
                             personalized assistance.
                         </p>
                         <div class="icon-image-div">
-
-                            <div class="icon-image"><i class="ri-mail-line"></i>
+                            <div class="icon-image"><i class="fa-solid fa-envelope"></i>
                             </div>
                             <div>
                                 <div class="icone-side-content">
                                     <p>Chat with us</p>
                                     <span>contact@macwiq.com</span>
                                 </div>
-
                             </div>
                         </div>
                         <div class="icon-image-div">
-                            <div class="icon-image"><i class="ri-phone-line"></i>
+                            <div class="icon-image"><i class="fa-regular fa-phone"></i>
                             </div>
                             <div>
                                 <div class="icone-side-content">
@@ -1202,7 +1179,7 @@
                         </div>
                         <div class="icon-image-div ">
 
-                            <div class="icon-image"><i class="ri-skype-line"></i>
+                            <div class="icon-image"><i class="fa-brands fa-skype"></i>
                             </div>
                             <div>
                                 <div class="icone-side-content">
@@ -1215,22 +1192,25 @@
                         <div class="icon-down">
                             <div class="second-icon-div">
                                 <div class="seconde-image">
-                                    <i class="ri-facebook-circle-fill"></i>
+                                <i class="fa-brands fa-facebook"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-linkedin-fill"></i>
+                                <i class="fa-brands fa-linkedin"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-instagram-line"></i>
+                                <i class="fa-brands fa-instagram"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-twitter-x-fill"></i>
+                                <i class="fa-brands fa-twitter"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-youtube-fill"></i>
+                                <i class="fa-brands fa-youtube"></i>
                                 </div>
                                 <div class="seconde-image">
-                                    <i class="ri-whatsapp-line"></i>
+                                <i class="fa-brands fa-telegram"></i>
+                                </div>
+                                <div class="seconde-image">
+                                <i class="fa-brands fa-whatsapp"></i>
                                 </div>
                             </div>
                         </div>
@@ -1242,9 +1222,7 @@
             </div>
             <div class="main-form">
                 <img src="./images/3-2 (1).webp">
-
             </div>
-
         </div>
     </section>
 

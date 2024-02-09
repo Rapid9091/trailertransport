@@ -27,14 +27,11 @@
         padding: 0%;
         margin: 0;
     }
-
     .hover-nav #submenu {
         margin: auto;
         justify-content: center;
         align-items: center;
-        
         cursor: pointer;
-        /* transition: all 0.05s linear; */
         width: 100%;
     }
 
@@ -88,18 +85,13 @@
         color: white;
         transform: rotateY(180deg);
     }
-
     .hover-card-section:hover {
         translate: 20px;
         transition: all 0.5s ease-in-out;
-
     }
-
     #submenu a:hover {
         background: #21D0B3;
-
     }
-
     .hover-card-section {
         display: flex;
         margin: auto;
@@ -119,7 +111,6 @@
         position: relative;
         background-color: white;
     }
-
     .color-ball {
         width: 100%;
         height: 100%;
@@ -147,12 +138,12 @@
 
         50% {
             transform: scale(1.05);
-            /* background-color: dodgerblue; */
+           
         }
 
         100% {
             transform: scale(1);
-            /* background-color: dodgerblue; */
+           
         }
     }
 
@@ -160,15 +151,11 @@
     .hover-card-section h4 {
         color: white;
         font-size: 18px;
-
-
     }
-
     .hover-card-section p {
         color: white;
         font-size: small;
     }
-    
     .hover-nav-card {
         display: flex;
         width: 100%;
@@ -176,18 +163,14 @@
         gap: 8%;
         padding-left: -5%;
         padding-right: 5%;
-
     }
-
     .hover-nav-card li {
         width: 300px;
     }
-
     #submenu a {
         background-color: #333;
     }
     /*portfolio*/
-
    .portfolio-box{
         background-color: #231C30;
         width: 200px;
@@ -277,7 +260,6 @@
         left: 0;
         right: 0;
         transition: all 0.05s linear; 
-   
     }
 
     #submenu-p div {
@@ -290,10 +272,8 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-
         width: 100%;
     }
-
     #submenu-i {
         left: 0;
         opacity: 0;
@@ -305,7 +285,6 @@
         width: 100%;
         background-color: #1b1525;
     }
-
     li:hover ul#submenu-i {
         opacity: 1;
         top: 50px;
@@ -316,10 +295,7 @@
         padding-top: 2%;
         position: fixed;
         transition: all 0.05s linear;
-      
-
     }
-
     #submenu-i div {
         float: none;
     }
@@ -349,8 +325,6 @@
         transform: rotateY(180deg);
         transition: all 0.5s linear;  
     }
-    
-
     .thefront {
         position: absolute;
         width: 100%;
@@ -363,17 +337,14 @@
         align-items: center;
         padding: 0 5% 0 5%;
     }
-
     .thefront h6 {
         color: white;
         font-size: larger;
         margin: 0;
     }
-
     .thefront p {
         color: white;
     }
-
     .theback {
         position: absolute;
         width: 100%;
@@ -383,34 +354,36 @@
         margin: auto;
         display: grid;
         place-items: center;
-
         transform: rotateY(180deg);
     }
-
     .theback i {
         color: white;
         font-size: 50px;
     }
-
     .navbar-brand img {
         width: 170px;
         height: 30px;
         margin-left: 23px;
-
     }
-
     .navbar-nav {
         font-size: 15px;
         gap: 5px;
         margin-left: 16%;
 
     }
-
     .side-nav-contact {
 
         background-color: #21D0B3;
     }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url(./images/menu.png);
+        width: 40px;
+        height: 40px;
+        margin: 0;
 
+
+      
+    }
     .bg-nav {
         background-color: #1b1525;
     }
@@ -432,13 +405,42 @@
 
     .navbar-toggler{
         line-height: 0!important;
+        padding: 0;
+      
     }
    
-    @media (max-width: 375px) {
+ 
+
+@media (max-width: 600px){
+    .search-icon{
+        margin-left: 0%;
+       
+        height:35px;
+        width:35px;    
+    
+    }
+    .side-buttonimp {
+        margin-bottom: -15%;
+        margin-left: 0%;
+        font-size:10px;
+        
+        width: 100%;
+    }
+
+    .navbar-brand img {
+        width: 120px;
+        height: 30px;
+        margin-left: 5px;
+     
+    }
+}
+
+@media (max-width: 375px) {
         .side-buttonimp {
         
         margin-bottom: -20%;
         margin-left: 23%
+        
     
     }
     .search-icon{
@@ -448,17 +450,6 @@
 
    
 }
-
-@media (max-width: 600px){
-    .search-icon{
-        margin-left: 0%;
-    
-    }
-    .side-buttonimp {
-        margin-left: 0%;
-    }
-}
-
 </style>
 
 
@@ -466,10 +457,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-nav">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./images/Vector Smart Object copy 5.webp" alt="logo"></a>
-        <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" ></span>
-        </button>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -927,8 +915,12 @@
                 <span class="service-card-image"><img class="search-icon" src="./images/Untitled.webp"></span>
                 <p><button type="button" class="btn  side-buttonimp"
                         style="background-color: #21D0B3; color: black;">Contact Us</button></p>
-
+                        <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
+        </button>
             </div>
+           
 
         </div>
     </div>
