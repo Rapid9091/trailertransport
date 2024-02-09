@@ -19,7 +19,8 @@
         rel="stylesheet">
     <meta name="googlebot" content="noindex">
     <meta name="robots" content="noindex">
-    <link href="csss/main.css" rel="stylesheet" defer>
+    
+    <link href="csss/main.css?v=1" rel="stylesheet" >>
 
     <style>
         * {
