@@ -10,8 +10,7 @@
 </head>
 
 
-
-<link href="csss/main.css?v=1" rel="stylesheet" >
+<link href="csss/main.css" rel="stylesheet" defer>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lora&display=swaprel=" stylesheet">
@@ -29,7 +28,7 @@
 
 <body style="margin: 0; padding: 0;">
     <?php include "./navbar.php"?>
-    <div class="service-header">
+    <div class="industries-headerr">
         <div class="container">
             <h3 class="header-h1">Industries We Serve </h3>
             <p>

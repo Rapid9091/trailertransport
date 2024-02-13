@@ -21,11 +21,11 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 490px;
-    height: 330px;
+    width: 1000px;
+    height: 500px;
     transform: translate3d(0) !important;
+    box-shadow: #eee 0px 0px 200px 20px;
   }
-
 
   .swip-content {
     width: 100%;
@@ -57,8 +57,6 @@
     opacity: 1 !important;
   }
 
-
-
   .our-recent {
     font-size: 42px;
     letter-spacing: 4px;
@@ -71,46 +69,78 @@
   }
 
   .our-recent-paragraph {
-    font-size: 22px;
-letter-spacing: 1px;
-line-height: 39px;
-color: #000000;
-font-weight: 300;
-font-family: "Inter";
-text-align: center;
-    margin-bottom: 75px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 39px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Inter";
+    text-align: center;
+    margin-bottom: 132px;
     margin-top: 20px;
   }
 
   .swipper-border {
-    border: 2px #21D0B3 solid;
-    width: 26%;
+    border: 3px #21D0B3 solid;
+    width: 21%;
     margin: auto;
   }
-  .swipper-button1 .our-button {
+
+  .swipper-button1 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
     margin: auto;
-    justify-content: center;
-    display: flex;
-    background-color: #21D0B3;
-    margin-top: 50px;
-    padding: 5px 1.5%;
-    border: #21D0B3 3px solid;
+  
+
   }
+
   .our-button {
- font-size: 20px;
-color: #ffffff;
-font-weight: 500;
-font-family: "Inter";
-text-align: center;
-filter: drop-shadow(-0.174px 0.985px 0.5px rgba(0,0,0,0.75));
+    width: 240px;
+    height: 60px;
+    margin-top: 80px;
+    background-color: #21D0B3;
+    border:2px solid #21D0B3;
+    border-left: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Inter";
+    text-align: center;
+ 
+  }
+
+  @media (max-width: 1440px) {
+    .our-recent-paragraph {
+      font-size: 20px;
+      line-height: 29px;
+    }
+
+    .our-recent {
+      font-size: 32px;
+
+    }
+
+    .swipper-border {
+      height: 2px;
+    }
+
+    .swiper-slide {
+      width: 450px;
+      height: 350px;
+    }
   }
 
   @media only screen and (max-width: 450px) {
     .our-recent-paragraph {
-      
+
       font-size: 22px;
       padding: 0 2%;
     }
+
+
+
   }
 </style>
 </head>

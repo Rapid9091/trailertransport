@@ -1,4 +1,3 @@
-
 <?php include "./routes.php" ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,39 +6,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="csss/main.css?v=1" rel="stylesheet" >
+    <link href="csss/main.css" rel="stylesheet" defer>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body style="background-color: white!important;">
     <?php include "./navbar.php"?>
     <div class="container-fluid header-bg">
         <div class="header-content">
-            <div class="row align-items-start ">
-                <div class="col">
-                    <p class="word-c">WORLD CLASS DIGITAL PRODUCTS</p>
-                    <div class="main-content">
-                        <h2>THINK BIG FOR HUGE RETURNS. <br>
-                        LET’S INNOVATE DIGITALLY!</h2>
-                        <div class="talk-expert-div">
-                        <p class="talk-expert ">
-                            <button type="button" class="btn btn-primary">Talk to Our Experts</button>
-                        </p>
-                        </div>
-
-                    </div>
+            <p class="word-c">WORLD CLASS DIGITAL PRODUCTS</p>
+            <div class="main-content">
+                <h2>THINK BIG FOR HUGE RETURNS.<br>
+                    LET’S INNOVATE DIGITALLY!</h2>
+                <div class="talk-expert-div">
+                    <button type="button" class="talk-expert-button">Talk to Our Experts</button>
                 </div>
             </div>
-
-
         </div>
     </div>
     <!---ivons blogs-->
@@ -52,7 +43,8 @@
                     <div class="specifies">
                         <h2>
                             Mobile App Development</h2>
-                        <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                        <p>Premium Banner gives you
+                            a wide range of styles. Lorem ipsum dolor sit amet, cectetur
                             adipiscing
                             elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
                     </div>
@@ -68,7 +60,8 @@
                         Development
                     </h2>
 
-                    <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                    <p>Premium Banner gives you
+                        a wide range of styles. Lorem ipsum dolor sit amet, cectetur
                         adipiscing
                         elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
                 </div>
@@ -84,7 +77,8 @@
                         Marketing
                     </h2>
 
-                    <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                    <p>Premium Banner gives you
+                        a wide range of styles. Lorem ipsum dolor sit amet, cectetur
                         adipiscing
                         elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
 
@@ -101,7 +95,8 @@
                         Management
                     </h2>
 
-                    <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                    <p>Premium Banner gives you
+                        a wide range of styles. Lorem ipsum dolor sit amet, cectetur
                         adipiscing
                         elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
 
@@ -121,7 +116,8 @@
 
                     </h2>
 
-                    <p>Lorem ipsum dolor sit amet, cectetur adipiscing elit. Lorem ipsum dolor sit amet, cectetur
+                    <p>Premium Banner gives you
+                        a wide range of styles. Lorem ipsum dolor sit amet, cectetur
                         adipiscing
                         elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
 
@@ -136,73 +132,57 @@
     </div>
     <?php include "./a.php" ?>
     <!--Get to know us--->
-        <div class="get-know-main">
-            <div class="get-image">
-                <div class="counting">
-                    <p class="num" data-val="6860">6000</p>
-                    <span>worldwide clients</span>
-                </div> 
-             <img src="./images/Layer 13 (1).webp">
+    <div class="get-know-main">
+        <div class="get-image">
+            <div class="counting">
+                <p class="num" data-val="860">800</p>
+                <span>worldwide clients</span>
             </div>
-            <div class="get-know-content">
-                    <span class="get-know">Get to know us</span>
-                    <h2 class="easy">
-                        Easy solutions for your IT problems</h2>
-                    <p class="lorem">
-                        Lorem ipsum dolor sit amet, consectetur nod adipisicing elit sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua lonm andhn. </p>
-                    <span class="lorem1 d-flex ">
-                        <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
-                    </span><br>
-                    <span class="lorem1 d-flex">
-                        <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
-                    </span>
-
-                    <div class="get-button">
-                        <div class="stop d-flex ">
-                            <img src="./images/icon-14.webp">
-
-                            <p> <span class="main-color"> Stop worrying</span>,
-                                we take care of your technology problems.</p>
-
-                        </div>
-                        <button type="button" class="get-know-button">View More</button>
-
-
-                    </div>
-             
-
-            </div>
+            <img src="./images/Layer 13 (1).webp">
         </div>
+        <div class="get-know-content">
+            <span class="get-know">Get to know us</span>
+            <h2 class="easy">
+                Easy solutions for your IT problems</h2>
+            <p class="lorem">
+                Lorem ipsum dolor sit amet, consectetur nod adipisicing elit sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua lonm andhn. </p>
+            <span class="lorem1 d-flex ">
+                <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
+            </span><br>
+            <span class="lorem1 d-flex">
+                <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
+            </span>
+
+            <div class="get-button">
+                <div class="stop d-flex ">
+                    <img src="./images/icon-14.webp">
+
+                    <p> <span class="main-color"> Stop worrying</span>,
+                        we take care <br>of your technology problems.</p>
+
+                </div>
+                <button type="button" class="get-know-button">View More</button>
 
 
-
-  
-
+            </div>
 
 
+        </div>
+    </div>
 
-
-
-
-
-
-
-   <!--INDUSTRIES WE SERVE Mobile--->
-  
-   
 
 
     <!--INDUSTRIES WE SERVE--->
     <section class="serving">
-        <div class="container-fluid main-serve  ">
+        <div class="container-fluid main-serve p-0  ">
             <div class="mb-4 comtent-serve">
                 <h2 class="text-center">
                     INDUSTRIES WE SERVE
                 </h2>
                 <div class="Industries-border"></div>
             </div>
-            <div class="row main-gallery">
+            <div class=" main-gallery" style="padding-left: 0!important; padding-right: 0!important;">
                 <div class="gallery-wrap">
 
                     <div class="item item-1">
@@ -406,27 +386,18 @@
             </div>
         </div>
     </section>
-    <div class="container next-desktop">
+    <div class="container-fluid next-desktop">
         <div class="content-next">
             <h2 class="text-center">
                 NEXT GENERATION TECHNOLOGIES
             </h2><br>
             <div class="next-border"></div>
-
         </div>
-
-
-
-
         <div class="accordion main-app" id="accordionExample">
             <div class="transformSec_inner">
-
-
-
-                <div class="p-3 transformSec_lft">
+                <div class=" pt-3 transformSec_lft">
                     <ul class="testimonial-list ">
                         <li>
-
                             <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
                                 aria-controls="collapseOne" style="outline: none!important;">
                                 <div class="d-flex flex-row">
@@ -551,7 +522,7 @@
                             <div data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
                                 aria-controls="collapseSeven">
 
-                                <div class="d-flex flex-row side-image">
+                                <div class="d-flex flex-row ">
 
 
                                     <!-- <div class="next-side-border"></div> -->
@@ -580,8 +551,6 @@
                                 <div class="shape-next-1"></div>
                             </div>
                             <h4>Mobile App Development</h4>
-
-
                             <p>We’re your end-to-end Mobile app development service provider excelling in
                                 crafting
                                 Native Android, iOS and Cross Platform Apps. Our team of experts delivers
@@ -609,9 +578,8 @@
                                                 src="./images/Layer 49.webp"> React
                                             Native App Development
                                         </li>
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp">
-                                            Cross-Platform App Development</li>
+
+
                                     </ul>
 
                                 </div>
@@ -631,25 +599,16 @@
                                                 src="./images/Layer 49.webp">
                                             Wearable App Development
 
-
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp">
-                                            Progressive Web App
-
                                         </li>
                                         <li style="list-style-type: none; display: flex;"><img
                                                 src="./images/Layer 49.webp">
-                                            Xamarin Development</li>
+                                                Xamarin Development
+                                        </li>
                                     </ul>
-
                                 </div>
-
-
-
                             </div>
-
                         </div>
-                        <button type="button" class="btn explore-button"
+                        <button type="button" class=" explore-button"
                             style="background-color: #21D0B3; color: white;">Explore More
                         </button>
                     </div>
@@ -857,102 +816,107 @@
         <h3 class=" why-h3">WHY WORK WITH US</h3>
         <diV class="why-border">
         </diV>
-        <div  class="container">
-        <div class="row px-0 pr-0 ">
-            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+        <div class="container">
+            <div class="row px-0 pr-0 ">
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
 
-                <div class="box1 d-flex pt-1">
-                    <img src="./images/creative-thinking.webp">
-                    <div class="seconde-box">
-                        <h3> Skilled Techies</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper dapibus leo.</p>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                <div class="box2  d-flex pt-1">
-
-
-                    <img src="./images/transparency.webp">
-                    <div class="seconde-box">
-                        <h3>Full Transparency</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper dapibus leo.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="row ">
-            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                <div class="box1  d-flex pt-1">
-
-                    <img src="./images/human.webp">
-                    <div class="seconde-box">
-                        <h3> On-demand Resources</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper dapibus leo.</p>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                <div class="box2   d-flex pt-1">
-
-
-                    <img src="./images/globe(1).webp">
-                    <div class="seconde-box">
-                        <h3> Domain Expertise</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper dapibus leo.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="row ">
-            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                <div class="box1  d-flex pt-1">
-
-                    <img src="./images/trophy.webp">
-                    <div class="seconde-box">
-                        <h3> Award-Winning</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper dapibus leo.</p>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                <div class="box2   d-flex pt-1">
-
-
-                    <img src="./images/agile.webp">
-
-                    <div class="seconde-box">
+                    <div class="box1 d-flex pt-1">
+                        <img src="./images/creative-thinking.webp">
+                        
                         <div class="why-img-border"></div>
-                        <h3>Agile Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper dapibus leo.</p>
+                        <div class="seconde-box">
+                            <h3> Skilled Techies</h3>
+                            <p>Expect open communication and total visibility in every stage of your product development journey..</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                    <div class="box2  d-flex pt-1">
+
+
+                        <img src="./images/transparency.webp">
+                        
+                        <div class="why-img-border"></div>
+                        <div class="seconde-box">
+                            <h3>Full Transparency</h3>
+                            <p>Expect open communication and total visibility in every stage of your product development journey..</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
+            <div class="row ">
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                    <div class="box1  d-flex pt-1">
+
+                        <img src="./images/human.webp">
+                        
+                        <div class="why-img-border"></div>
+                        <div class="seconde-box">
+                            <h3> On-demand Resources</h3>
+                            <p>Expect open communication and total visibility in every stage of your product development journey.</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                    <div class="box2   d-flex pt-1">
+
+
+                        <img src="./images/globe(1).webp">
+                        
+                        <div class="why-img-border"></div>
+                        <div class="seconde-box">
+                            <h3> Domain Expertise</h3>
+                            <p> Expect open communication and total visibility in every stage of your product development journey.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row ">
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                    <div class="box1  d-flex pt-1">
+
+                        <img src="./images/trophy.webp">
+                        
+                        <div class="why-img-border"></div>
+                        <div class="seconde-box">
+                            <h3> Award-Winning</h3>
+                            <p>Expect open communication and total visibility in every stage of your product development journey.</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
+
+                    <div class="box2   d-flex pt-1">
+
+
+                        <img src="./images/agile.webp">
+
+                        <div class="why-img-border"></div>
+                        <div class="seconde-box">
+                         
+                            <h3>Agile Development</h3>
+                            <p>Expect open communication and total visibility in every stage of your product development journey.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-</div>
 
     </div>
     <!--number section-->
@@ -1018,21 +982,21 @@
         <div class="main-card">
             <div class="card-main">
                 <img src="./images/Macwiq Webiste (2).webp" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-body-team">
                     <p class="card-text">Kevin Martin</p>
                     <p class="card-text2">Acountant</p>
                 </div>
             </div>
             <div class="card-main">
                 <img src="./images/Macwiq Webiste (1).webp" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-body-team">
                     <p class="card-text">Jessica Brown</p>
                     <p class="card-text2">CO Founder & CEO</p>
                 </div>
             </div>
             <div class="card-main">
                 <img src="./images/Macwiq Webiste.webp" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-body-team">
                     <p class="card-text">David cooper</p>
                     <p class="card-text2">Senior Assistant</p>
                 </div>
@@ -1054,7 +1018,7 @@
                         This is the first testimonial. It's amazing!</p>
                     <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
                     <h4>Kevin Martin</h4>
-                    <span class="fourth-line">Happy Customer</span>
+                    <span class="fourth-line"> Customer</span>
                 </div>
                 <div class="testimonial-card">
                     <img src="./images/testimonial-1-quote.png">
@@ -1064,7 +1028,7 @@
                         This is the first testimonial. It's amazing!</p>
                     <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
                     <h4>Kevin Martin</h4>
-                    <span class="fourth-line">Happy Customer</span>
+                    <span class="fourth-line"> Customer</span>
                 </div>
                 <div class="testimonial-card">
                     <img src="./images/testimonial-1-quote.png">
@@ -1074,7 +1038,7 @@
                         This is the first testimonial. It's amazing!</p>
                     <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
                     <h4>Kevin Martin</h4>
-                    <span class="fourth-line">Happy Customer</span>
+                    <span class="fourth-line"> Customer</span>
                 </div>
 
                 <div class="testimonial-card">
@@ -1085,7 +1049,7 @@
                         This is the first testimonial. It's amazing!</p>
                     <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
                     <h4>Kevin Martin</h4>
-                    <span class="fourth-line">Happy Customer</span>
+                    <span class="fourth-line"> Customer</span>
                 </div>
                 <div class="testimonial-card">
                     <img src="./images/testimonial-1-quote.png">
@@ -1095,7 +1059,7 @@
                         This is the first testimonial. It's amazing!</p>
                     <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
                     <h4>Kevin Martin</h4>
-                    <span class="fourth-line">Happy Customer</span>
+                    <span class="fourth-line"> Customer</span>
                 </div>
                 <div class="testimonial-card ">
                     <img src="./images/testimonial-1-quote.png">
@@ -1105,7 +1069,7 @@
                         This is the first testimonial. It's amazing!</p>
                     <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
                     <h4>Kevin Martin</h4>
-                    <span class="fourth-line">Happy Customer</span>
+                    <span class="fourth-line"> Customer</span>
                 </div>
             </div>
             <div class="dots-container">
@@ -1123,7 +1087,7 @@
     <!---form-->
     <section class=" pb-0" style="margin-bottom:-8.5%;">
         <div class="container">
-            <div class="form-div ">
+            <div class="form-div">
                 <div class="content-form-div">
                     <h2 class="mb-3 mb-xl-4 mb-xxl-5">Do you have a project in mind ?<br>
                         Talk to the experts.</h2>
@@ -1192,25 +1156,25 @@
                         <div class="icon-down">
                             <div class="second-icon-div">
                                 <div class="seconde-image">
-                                <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-facebook"></i>
                                 </div>
                                 <div class="seconde-image">
-                                <i class="fa-brands fa-linkedin"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
                                 </div>
                                 <div class="seconde-image">
-                                <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-instagram"></i>
                                 </div>
                                 <div class="seconde-image">
-                                <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-twitter"></i>
                                 </div>
                                 <div class="seconde-image">
-                                <i class="fa-brands fa-youtube"></i>
+                                    <i class="fa-brands fa-youtube"></i>
                                 </div>
                                 <div class="seconde-image">
-                                <i class="fa-brands fa-telegram"></i>
+                                    <i class="fa-brands fa-telegram"></i>
                                 </div>
                                 <div class="seconde-image">
-                                <i class="fa-brands fa-whatsapp"></i>
+                                    <i class="fa-brands fa-whatsapp"></i>
                                 </div>
                             </div>
                         </div>

@@ -22,14 +22,16 @@
     }
 
     .swiper-slide {
-
+    
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 490px;
-    height: 330px;
+    width: 1000px;
+    height: 500px;
     transform: translate3d(0) !important;
+    box-shadow: #eee 0px 0px 200px 20px;
   }
+ 
    
     .swip-content{
         width: 100%;
@@ -95,6 +97,26 @@
         padding: 1% 1.5%;
         border: #21D0B3 3px solid;
     }
+    @media (max-width: 1440px) {
+    .our-recent-paragraph {
+      font-size: 20px;
+      line-height: 29px;
+    }
+
+    .our-recent {
+      font-size: 32px;
+
+    }
+
+    .swipper-border {
+      height: 2px;
+    }
+
+    .swiper-slide {
+      width: 450px;
+      height: 350px;
+    }
+  }
   
     @media only screen and (max-width: 450px) {
       .our-recent-paragraph {

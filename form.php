@@ -1,6 +1,5 @@
 <style>
-    /*
-main-form*/
+  /*main-form*/
 .form-main-div {
     height: 100%;
     justify-content: center;
@@ -14,26 +13,24 @@ main-form*/
     position: relative;
     padding-left: 5%;
     padding-right: 2%;
-    margin-top: 0;
+    margin-top: 5%;
     border-left: #e6e6e6 .5px solid !important;
     border-right: #e6e6e6.5px solid !important;
     width: 100%;
-}
-.icon-down {
-    margin-top: 8%;
-    margin-left: 1%;
+    display: flex;
+    height: 100%;
+    
+
 
 }
-
 
 .form-div::before {
     position: absolute;
     content: "";
     left: 0;
-    height: 5px;
+    height: 7px;
     width: 100%;
     background: linear-gradient(147deg, rgba(33, 208, 179, 1) 29%, rgba(30, 207, 245, 1) 73%);
-
 }
 
 .form-border {
@@ -47,20 +44,20 @@ main-form*/
     padding-bottom: 100px;
     margin-top: 40px;
 }
-.content-form-div h2{
-font-size: 40px;
-font-weight: bolder;
+
+.content-form-div h2 {
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 .side-image-footer {
-    position: relative;
+
     background: url(./images/Consulting.webp) center center no-repeat;
     width: 450px;
     margin-left: 75px;
     background-size: cover;
     margin-top: 40px;
-
-
+    height: auto;
 }
 
 .main-form {
@@ -108,6 +105,34 @@ font-weight: bolder;
 .third-input-box .form-About {
     width: 488px;
 }
+
+@media (max-width: 600px) {
+    .form-div {
+        display: inline;
+    }
+
+    .first-input-box {
+        display: inline;
+    }
+
+    .form-input input {
+        width: 100%;
+    }
+
+    .third-input-box .form-About {
+        width: 100%;
+    }
+
+    .side-image-footer {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 10% 5%;
+        margin-bottom: -20px;
+    }
+}
+
 </style>
 
 <!---form-->
