@@ -1077,7 +1077,7 @@
                             Brilliant Marketing Channel
                             <div class="arrow-btn-c"><span>&#8250;</span></div>
                         </div>
-                        <div class="faq-answer">Mobile apps are equipped with personalized features, custom engagement
+                        <div class="faq-answer-c">Mobile apps are equipped with personalized features, custom engagement
                             activities, and content, which promote brand recognition.</div>
                         <div class="faq-question-c mt-3">
                             Round-the-Clock Accessibility

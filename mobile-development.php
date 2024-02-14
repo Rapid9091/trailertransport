@@ -11,7 +11,8 @@
     <link href="csss/main.css" rel="stylesheet" defer>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <meta name="googlebot" content="noindex">
     <meta name="robots" content="noindex">
     <style>
@@ -27,7 +28,6 @@
         .mobile-header {
             background: url(./images/1.\ Mobile\ App\ Development\ Company\ \(1\).webp) center center no-repeat;
             background-size: cover;
-            height: 55vh;
             width: 100%;
         }
 
@@ -35,34 +35,35 @@
             width: 100%;
             height: 100%;
             margin: auto;
-            padding-top: 4%;
-            padding-left: 10%;
+            padding-top: 150px;
+            padding-left: 150px;
+            padding-bottom: 150px;
         }
 
         .head-content h2 {
             font-size: 50px;
             letter-spacing: 3px;
-            line-height: 45px;
+            line-height: 50px;
             text-transform: uppercase;
             color: #ffffff;
             font-weight: 700;
             font-family: "Inter";
             filter: drop-shadow(-0.174px 0.985px 2.5px rgba(0, 0, 0, 0.75));
             margin-bottom: 0;
-
         }
 
         .head-content h4 {
-            -webkit-text-stroke: .5px rgba(0, 0, 0, 0.838);
+            filter: drop-shadow(-0.174px 0.985px 2.5px rgba(0, 0, 0, 0.75));
             font-size: 50px;
             color: #21D0B3;
-            font-weight: 200;
+            font-weight: lighter;
             outline: black 1px;
             letter-spacing: 1.5px;
             margin-bottom: -.5%;
+            font-family: "Inter";
         }
 
-        .head-content {
+        .head-content p {
             font-size: 18px;
             letter-spacing: 0px;
             line-height: 33px;
@@ -71,12 +72,14 @@
             font-family: "Inter";
         }
 
+
         .title {
             display: flex;
-            margin-left: 7%;
             gap: 5px;
             margin-top: 20px;
+            margin-left: 300px
         }
+
 
         .title p {
             font-size: 20px;
@@ -93,6 +96,7 @@
             display: flex;
             height: auto;
             margin-bottom: 30px;
+            gap: 25px;
         }
 
         .cards-div-mobile-2 {
@@ -100,7 +104,7 @@
             display: flex;
             height: auto;
             margin-bottom: 2%;
-       
+
         }
 
         .mobile-service {
@@ -109,7 +113,7 @@
             color: #000000;
             font-weight: 600;
             font-family: "Inter";
-            margin-left: 6%;
+            margin-left: 290px;
             margin-bottom: 45px;
             margin-top: 45px;
         }
@@ -125,14 +129,14 @@
 
 
         .mobile-card-icon {
-            font-size: 35px;
-            color: #d1d1d1;
+            font-size: 40px;
+            color: #8c8c94;
         }
 
         .mobile-card-h2 {
-            font-size: 28px;
+            font-size: 30px;
             letter-spacing: 0px;
-            line-height: 30px;
+            line-height: 43px;
             color: black;
             font-weight: 700;
             font-family: "Inter";
@@ -140,12 +144,10 @@
         }
 
         .mobile-card-p {
-            margin-top: 2%;
-            color: #999999;
-            font-size: 18px;
+            font-size: 19px;
             letter-spacing: 0px;
-            line-height: 25px;
-
+            line-height: 29px;
+            color: #999999;
             font-weight: 300;
             font-family: "Inter";
         }
@@ -196,7 +198,6 @@
         .seconde-sec-content-1 {
             width: 55%;
             height: auto;
-
         }
 
         .content-div-p {
@@ -398,7 +399,7 @@
         .faq-div {
             width: auto;
             top: 0;
-            background-color: #14141c;
+       
         }
 
         /* Add your own styles here */
@@ -676,8 +677,8 @@
         }
 
         .the-card-2 {
-            width: 420px;
-            height: 250px;
+            width: 490px;
+            height: 350px;
             margin: auto;
             border: #e8e8e8 2px solid;
             padding: 2% 2%;
@@ -819,14 +820,16 @@
         .magic-content span {
             color: white;
         }
+
         .tools {
-          background-color: #001819;
+            background-color: #001819;
             height: auto;
             width: 100%;
             padding: 100px 0 80px 0;
             margin-top: 8%;
         }
-        .container-tools{
+
+        .container-tools {
             background: url(./images/Untitled\ design\ \(1\).png) center center no-repeat;
         }
 
@@ -843,6 +846,7 @@
             align-items: center;
             gap: 8px;
         }
+
         .main-div-tool {
             width: 200px;
             height: auto;
@@ -867,7 +871,7 @@
             height: auto;
         }
 
-     
+
 
         .tool-parts {
             width: 180px;
@@ -881,7 +885,8 @@
             padding: 2px 15px;
             margin: 0;
         }
-        .tool-parts img{
+
+        .tool-parts img {
             width: 25px;
             height: 25px;
         }
@@ -898,10 +903,32 @@
             margin-top: -1%;
             margin-bottom: 1%;
         }
+
+        @media (max-width: 1440px) {
+
+            .head-content {
+                padding-left: 100px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+
+            .title {
+                margin-left: 60px;
+
+            }
+
+            .mobile-service {
+                margin-left: 45px;
+            }
+
+            .seconde-sec-p {
+                width: 90%;
+            }
+        }
     </style>
 </head>
 
-<body  style="background-color: #ffffff;">
+<body style="background-color: #ffffff;">
     <?php include "./navbar.php"?>
     <div class="container-fluid mobile-header ">
         <div class="head-content">
@@ -911,89 +938,91 @@
                 services that meets business objectives with simplified user experience.</p>
         </div>
     </div>
-    <div class="title">
-        <p>
-            Home
-        </p>
-        <p>
-            / Service /
-        </p>
-        <p>
-            Mobile App Development
-        </p>
-    </div>
-    <div class="container-fluid" style="background-color: #ffffff;">
-        <h2 class="mobile-service">Services</h2>
-        <div class="cards-div-mobile container">
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
-                    <div class="mobile-card-h2">iOS App Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                        nam
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-brands fa-android"></i></div>
-                    <div class="mobile-card-h2">Android App Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis
-                        tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
-                </div>
-            </div>
-
-
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
-                    <div class="mobile-card-h2">Flutter App Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
-                        corporis
-                        necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
-                    </div>
-                </div>
-            </div>
+    <div class="main-card-conatiner">
+        <div class="title">
+            <p>
+                Home
+            </p>
+            <p>
+                / Service /
+            </p>
+            <p style="font-size:22px; font-weight: 700; color: #012442;">
+                Mobile App Development
+            </p>
         </div>
-        <div class="cards-div-mobile container">
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-brands fa-react"></i></div>
-                    <div class="mobile-card-h2">React Native App Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae,
+        <div class="container-fluid" style="background-color: #ffffff;">
+            <h2 class="mobile-service">Services</h2>
+            <div class="cards-div-mobile container">
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
+                        <div class="mobile-card-h2">iOS App Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                            temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
+                            nam
+                        </div>
+
                     </div>
                 </div>
 
-            </div>
 
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-brands fa-android"></i></div>
-                    <div class="mobile-card-h2">MVP Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-                        debitis
-                        tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
+
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-brands fa-android"></i></div>
+                        <div class="mobile-card-h2">Android App Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis
+                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
-                    <div class="mobile-card-h2">Progressive Web App (PWA) Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-                        facilis, praesentium nihil accusantium ratione doloribus incidunt
+
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
+                        <div class="mobile-card-h2">Flutter App Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+                            corporis
+                            necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="cards-div-mobile container">
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-brands fa-react"></i></div>
+                        <div class="mobile-card-h2">React Native App Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                            temporibus velit incidunt illum expedita harum veniam vitae,
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-brands fa-android"></i></div>
+                        <div class="mobile-card-h2">MVP Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis
+                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
+                    </div>
+                </div>
+
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
+                        <div class="mobile-card-h2">Progressive Web App (PWA) Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                            facilis, praesentium nihil accusantium ratione doloribus incidunt
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-    </div>
     </div>
 
     <!-- <div class="seconde-section">
@@ -1120,7 +1149,7 @@
                 </div>
             </div>
         </div>
-        <div class="cards-div-mobile-2 container" >
+        <div class="cards-div-mobile-2 container">
             <div class="mobile-dev-border">
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
@@ -1222,23 +1251,25 @@
         <div class="container container-tools">
             <h2>Tools & Technologies We Prefer</h2>
             <div class="tools-sec">
-           
+
                 <div class="first-sec">
                     <div class="main-div-tool">
-                    <p>Mobile</p>
+                        <p>Mobile</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/swift.webp"><p>Swift</p>
+                        <img src="./images/logo/swift.webp">
+                        <p>Swift</p>
                     </div>
                     <div class="tool-parts">
                         <img src="./images/logo/c-sharp (1).webp">
-                         <p>C#</p>
+                        <p>C#</p>
                     </div>
-                   
+
                     <div class="tool-parts">
-                        <img src="./images/logo/apple_objectivec-icon-svg.webp"> <p>Objective c</p>
+                        <img src="./images/logo/apple_objectivec-icon-svg.webp">
+                        <p>Objective c</p>
                     </div>
-                  
+
                 </div>
                 <div class="tools-border"></div>
                 <div class="first-sec">
@@ -1246,43 +1277,53 @@
                         <p>Android</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/java (1).png">  <p>.Net</p>
-                      </div>
-                      <div class="tool-parts">
-                          <img src="./images/logo/java (1).png"> <p>Java</p>
-                      </div>
-                      <div class="tool-parts">
-                          <img src="./images/logo/python.webp"><p>Python</p>
-                      </div>
-                     
-                      <div class="tool-parts">
-                          <img src="./images/logo/nodejs-icon-svg.webp"><p>Node JS</p>
-                      </div>
-                  
+                        <img src="./images/logo/java (1).png">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/java (1).png">
+                        <p>Java</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/python.webp">
+                        <p>Python</p>
+                    </div>
+
+                    <div class="tool-parts">
+                        <img src="./images/logo/nodejs-icon-svg.webp">
+                        <p>Node JS</p>
+                    </div>
+
                 </div>
-               
+
                 <div class="tools-border"></div>
                 <div class="first-sec">
                     <div class="main-div-tool">
                         <p>Database</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/mysql.webp"><p>My Sql</p>
+                        <img src="./images/logo/mysql.webp">
+                        <p>My Sql</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/5968342.webp"><p>Postgre Sql</p>
+                        <img src="./images/logo/5968342.webp">
+                        <p>Postgre Sql</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/oracle-svg.webp"><p>Oracle</p>
+                        <img src="./images/logo/oracle-svg.webp">
+                        <p>Oracle</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/Apache_Feather_Logo.svg.webp"> <p>Apache</p>
+                        <img src="./images/logo/Apache_Feather_Logo.svg.webp">
+                        <p>Apache</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/eyes.webp"><p>Cassandra</p>
+                        <img src="./images/logo/eyes.webp">
+                        <p>Cassandra</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/mongodb-icon-1-svg (1).webp"><p>Mongo DB</p>
+                        <img src="./images/logo/mongodb-icon-1-svg (1).webp">
+                        <p>Mongo DB</p>
                     </div>
                 </div>
                 <div class="tools-border"></div>
@@ -1294,13 +1335,15 @@
 
 
                     <div class="tool-parts">
-                        <img src="./images/logo/selenium-icon-2048x1986-3fr2ikf8.webp"><p>Selenium</p>
+                        <img src="./images/logo/selenium-icon-2048x1986-3fr2ikf8.webp">
+                        <p>Selenium</p>
                     </div>
                     <div class="tool-parts">
                         <p>JMeter</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/HPE_LoadRunner_logo.webp"><p>LoadRunner</p>
+                        <img src="./images/logo/HPE_LoadRunner_logo.webp">
+                        <p>LoadRunner</p>
                     </div>
 
                 </div>
@@ -1310,28 +1353,35 @@
                         <p>Devops</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/docker.webp"><p>Docker</p>
+                        <img src="./images/logo/docker.webp">
+                        <p>Docker</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/kubernetes-icon.webp"><p>Kubernetes </p>
+                        <img src="./images/logo/kubernetes-icon.webp">
+                        <p>Kubernetes </p>
                     </div>
                     <div class="tool-parts">
 
-                         <img src="./images/logo/icon-svg.webp"><p>Ansible</p>
+                        <img src="./images/logo/icon-svg.webp">
+                        <p>Ansible</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/1200px-Chef_logo.svg.webp"><p>Chef</p>
+                        <img src="./images/logo/1200px-Chef_logo.svg.webp">
+                        <p>Chef</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/puppet (1).webp" style="width: 50px; height: auto; margin: 0;"><p>Puppet</p>
+                        <img src="./images/logo/puppet (1).webp" style="width: 50px; height: auto; margin: 0;">
+                        <p>Puppet</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp"><p>AWS</p>
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp"><p>AWS</p>
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
                     </div>
-                    
+
                 </div>
                 <div class="tools-border"></div>
                 <div class="first-sec">
@@ -1339,13 +1389,16 @@
                         <p>Cloud Services</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp"><p>AWS</p>
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/azure.webp"><p> Microsoft Azure</p>
+                        <img src="./images/logo/azure.webp">
+                        <p> Microsoft Azure</p>
                     </div>
                     <div class="tool-parts">
-                        <img src="./images/logo/google-cloud-icon-2048x1646-7admxejz.webp"> <p>Google cloud</p>
+                        <img src="./images/logo/google-cloud-icon-2048x1646-7admxejz.webp">
+                        <p>Google cloud</p>
                     </div>
 
                 </div>
