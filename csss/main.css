@@ -119,7 +119,7 @@
 .specifies {
     position: absolute;
     width: 100%;
-    bottom: -172px;
+    bottom: -165px;
     background: transparent;
     z-index: 1;
     box-sizing: border-box;
@@ -142,19 +142,16 @@
 .specifies h2 {
     font-size: 34px;
     letter-spacing: 3px;
-    line-height: 41px;
+    line-height: 35px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Inter";
     text-align: center;
     filter: drop-shadow(-0.868px 4.924px 2.5px rgba(0, 0, 0, 0.75));
-
-}
-
-.specifies p {
+}.specifies p {
     font-size: 20px;
     letter-spacing: 2px;
-    line-height: 30px;
+    line-height: 28px;
     width: 300px;
     color: #ffffff;
     font-weight: 300;
@@ -168,7 +165,7 @@
 @media (max-width: 1440px) {
     .main-content h2 {
         font-size: 35px;
-        line-height: 40px;
+        line-height: px;
     }
 
 
@@ -192,17 +189,18 @@
     }
 
     .specifies {
-        bottom: -165px;
+        bottom: -145px;
     }
 
     .specifies p {
         font-size: 16px;
         width: 260px;
-        line-height: 30px;
+        line-height: 25px;
     }
 
     .specifies h2 {
         font-size: 28px;
+        line-height:30px ;
     }
 }
 
@@ -629,7 +627,7 @@
 }
 
 .side-conetent {
-    margin-top: 6%;
+    margin-top: 10%;
     margin-left: 8%;
 
 }
@@ -750,14 +748,33 @@ button:focus {
 .point-img {
     margin-right: 8%;
     width: 50%;
-
+}
+.bullets-point{
+    width: auto;
+    height: 100%;
+    display: flex;
+    gap: 4.5px;
+    margin: 8px 19px 0px 0px;
+    align-items: center;
+    padding: 0;
+}
+.circles{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: black 2.5px solid;
+}
+.lines{
+    background-color: black;
+    width: 16px;
+    height: 2px;
 }
 
 .point-img img {
     margin-right: 5%;
     width: 35px;
     height: 15px;
-    margin-top: 2%;
+    margin-top: 3%;
 
 
 }
@@ -888,12 +905,12 @@ button:focus {
 
 .counting span {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .counting p {
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: -5%;
     font-weight: bold;
 
@@ -902,7 +919,7 @@ button:focus {
 .counting {
     position: absolute;
     top: 20%;
-    left: 1.5%;
+    left: 4%;
     text-align: center;
 
 }
@@ -945,7 +962,7 @@ button:focus {
 .stop {
 
     font-size: 25px;
-    line-height: 32px;
+    line-height: 35px;
     color: black;
     font-weight: 700;
     font-family: "Inter";
@@ -955,10 +972,11 @@ button:focus {
 }
 
 .stop img {
-    width: 60px;
-    height: 80px;
-    margin-top: -3%;
-    margin-left: 5%;
+    width: 50px;
+    height: 66px;
+    margin-top: 0%;
+    margin-left: 6%;
+    margin-right:12px ;
 
 }
 
@@ -1084,7 +1102,7 @@ button:focus {
 .specifies1 {
     position: absolute;
     width: 100%;
-    bottom: -45px;
+    bottom: -40px;
 
 
 
@@ -1097,6 +1115,7 @@ button:focus {
 
 .product1:hover .specifies1 h3 {
     margin-bottom: 30%;
+    font-size: 25px;
 }
 
 
@@ -1200,14 +1219,14 @@ button:focus {
 .item-4 {
     border-left: 2px solid white;
     border-right: 3px solid white;
-    background-image: url(../images/Layer\ 18.webp);
+    background-image: url(../images/ott.webp);
 
 
 }
 
 .item-5 {
 
-    background-image: url(../images/learning-education-ideas-insight-intelligence-study-concept.webp);
+    background-image: url(../images/learning.webp);
 
 }
 
@@ -1251,17 +1270,22 @@ img {
     margin: auto;
     text-align: center;
     align-items: center;
-    width: 30%;
-    margin-top: 50px;
+    width: 400px;
+
 
 }
 
 .why-h3 {
-    text-align: center;
     font-size: 42px;
-    color: white;
-    padding-top: 5%;
-    margin-bottom: -2.5%;
+    letter-spacing: 4px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Inter";
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20PX;
 
 }
 
@@ -1336,14 +1360,12 @@ img {
 
 
 .box2 {
-
     background-color: white;
     width: 100%;
     height: 110px;
     margin: auto;
-
-    border-bottom-left-radius: 48px;
-    border-top-right-radius: 48px;
+    border-top-left-radius: 48px;
+    border-bottom-right-radius: 48px;
 }
 
 .box2 img {
@@ -1458,13 +1480,13 @@ img {
 
 .border-side {
     border-right: #eaf3fa 1px solid;
-    height: 200px;
+    height: 210px;
     margin: 0 52px;
 
 }
 
 .container-num p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 26px;
     color: white;
 }
@@ -1479,7 +1501,7 @@ img {
     cursor: pointer;
     position: relative;
     background-color: white;
-    margin-left: 34%;
+    margin-left: 38%;
 
     /* overflow: hidden; */
 }
@@ -1536,7 +1558,25 @@ img {
     }
 } */
 
+@media (max-width: 1440px) {
+    .icon-rotate-ball{
+        margin-left: 34%;
+
+    }
+    .container-num p{
+        font-size: 15px;
+    }
+  
+}
+
+
 @media (max-width: 600px) {
+    .container-num {
+        width: 100%;
+    }
+    .border-side {
+        display: none;
+    }
     .num-sec {
         height: auto;
         background-color: #282231 !important;
@@ -1555,17 +1595,8 @@ img {
 
 }
 
-@media (max-width: 600px) {
-    .container-num {
-        width: 100%;
-    }
-
-    .border-side {
-        display: none;
-    }
 
 
-}
 
 @media (max-width: 450px) {
     .icon-rotate-ball {
@@ -1652,6 +1683,7 @@ img {
 .main-testimonial {
     text-align: center;
     background-color: #f4f4f4;
+    padding-bottom: 30px;
 
 }
 
@@ -1743,7 +1775,7 @@ img {
 .dot {
     width: 10px;
     height: 10px;
-    background-color: #ddd;
+    background-color: #928e8e;
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
@@ -2101,23 +2133,23 @@ service-header
     width: 100%;
     height: auto;
     padding: 7% 0;
+    background-size: cover;
 
 }
 .service-header {
     background: url(../images/banner-1\ \(1\).webp) center center no-repeat;
     height: 100%;
+    background-size: cover;
     width: 100%;
     height: auto;
     padding: 7% 0;
 
 }
-
-
-
 .header-h1 {
     color: #fff;
     font-size: 50px;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .service-card-div {
@@ -2128,6 +2160,7 @@ service-header
 .service-header p {
     font-size: 22px;
     color: #1dbbde;
+    text-align: center;
 }
 
 .main-div-services {

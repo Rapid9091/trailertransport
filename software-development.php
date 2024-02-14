@@ -537,7 +537,7 @@
         }
 
         .faq-content-c p {
-            font-size: 21px;
+            font-size: 18px;
             padding-top: 12px;
             letter-spacing: 0px;
             line-height: 35px;
@@ -577,7 +577,7 @@
         .faq-question-c {
             cursor: pointer;
             background-color: #202028;
-            padding: 20px 10px;
+            padding: 22px 10px;
             margin: 0px 0;
             position: relative;
             font-size: 20px;
@@ -596,9 +596,10 @@
         .arrow-btn-c {
             position: absolute;
             top: 50%;
-            right: 10px;
+            right: 30px;
             transform: translateY(-50%);
             transition: transform 0.3s ease;
+            color:#4d4d52;
         }
 
         .arrow-btn-c {

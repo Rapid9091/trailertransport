@@ -4,20 +4,15 @@
     .main-color {
         color: #21D0B3;
     }
-
     .nav-link {
         color: white;
     }
-
     .navbar-nav li {
         float: left;
         position: relative;
-
     }
-
     .navbar-nav a {
         /* transition: all .5s linear; */
-
     }
 
     .navbar-nav li:hover a {
@@ -34,12 +29,10 @@
         cursor: pointer;
         width: 100%;
     }
-
     #submenu {
         left: 0;
         opacity: 1;
         position: absolute;
-
         visibility: hidden;
         z-index: 1;
         height: auto;
@@ -67,15 +60,10 @@
 
     #submenu div {
         float: none;
-
-
     }
 
     .hover-card-section:hover .content-hover h4 {
         color: #21D0B3;
-
-
-
     }
 
     .hover-card-section:hover .icon-hover .color-ball {
@@ -406,10 +394,10 @@
     .navbar-expand-lg .navbar-nav .nav-link {
 
         padding: 0 30px 0 0;
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 3px;
         color: #ffffff;
-        font-weight: 500;
+        font-weight: 400;
         font-family: "Inter";
         filter: drop-shadow(-0.174px 0.985px 2.5px rgba(0, 0, 0, 0.75));
     }
@@ -481,7 +469,7 @@
     @media (max-width: 1440px) {
         .navbar-expand-lg .navbar-nav .nav-link {
             padding: 0 14px 0 0;
-        font-size: 17px;
+        font-size: 16px;
         
         }
 

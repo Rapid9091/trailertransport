@@ -198,35 +198,39 @@
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      loop: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      breakpoints: {
-        // when window width is >= 320px
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 20
-        },
-        // when window width is >= 480px
-        480: {
-          slidesPerView: 1,
-          spaceBetween: 30
-        },
-        // when window width is >= 640px
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 40
-        }
-      },
-    });
+var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  loop: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  autoplay: {
+    delay: 3000, // Time in milliseconds between slides
+    disableOnInteraction: false, // Set to false so autoplay will not be stopped when the user interacts with the slider
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+  },
+});
   </script>

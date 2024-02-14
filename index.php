@@ -143,10 +143,11 @@
         <div class="get-know-content">
             <span class="get-know">Get to know us</span>
             <h2 class="easy">
-                Easy solutions for your IT problems</h2>
+                Easy solutions for your IT<br> problems</h2>
             <p class="lorem">
-                Lorem ipsum dolor sit amet, consectetur nod adipisicing elit sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua lonm andhn. </p>
+                Lorem ipsum dolor sit amet, consectetur nod adipisicing <br>
+                elit sed do eiusmod tempor incididunt ut
+                labore et dolore<br> magna aliqua lonm andhn. </p>
             <span class="lorem1 d-flex ">
                 <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
             </span><br>
@@ -561,21 +562,34 @@
                             <div class="next-gen-main">
 
                                 <div class="point-img">
-                                    <ul style="list-style-type: none;   ">
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp">iOS App
-                                            Development</li>
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp">
+                                    <ul style="list-style-type: none; padding-left: 20px!important;">
+                                        <li style="list-style-type: none; display: flex;">
+                                            <div class="bullets-point">
+                                                <div class="circles"></div>
+                                                <div class="lines"></div>
+                                            </div>
+                                            <!-- <img
+                                                src="./images/Layer 49.webp"> -->
+                                            iOS App
+                                            Development
+                                        </li>
+                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
+                                            <div class="circles"></div>
+                                            <div class="lines"></div>
+                                        </div>
                                             Android App Development
 
                                         </li>
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp">
+                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
+                                            <div class="circles"></div>
+                                            <div class="lines" style="height: 2.3PX;"></div>
+                                        </div>
                                             Flutter App Development
 
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp"> React
+                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
+                                            <div class="circles"></div>
+                                            <div class="lines" style="height: 2.3PX;"></div>
+                                        </div> React
                                             Native App Development
                                         </li>
 
@@ -585,24 +599,32 @@
                                 </div>
                                 <div class="point-img1">
                                     <ul style="list-style-type: none;">
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp"> Hybrid
+                                        <li style="list-style-type: none; display: flex;"><div class="bullets-point">
+                                            <div class="circles"></div>
+                                            <div class="lines"></div>
+                                        </div> Hybrid
                                             App Development
                                         </li>
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp"> MVP
+                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
+                                            <div class="circles"></div>
+                                            <div class="lines"></div>
+                                        </div> MVP
                                             Development
 
 
                                         </li>
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp">
+                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
+                                            <div class="circles"></div>
+                                            <div class="lines" style="height: 2.3PX;"></div>
+                                        </div>
                                             Wearable App Development
 
                                         </li>
-                                        <li style="list-style-type: none; display: flex;"><img
-                                                src="./images/Layer 49.webp">
-                                                Xamarin Development
+                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
+                                            <div class="circles"></div>
+                                            <div class="lines" style="height: 2.3PX;"></div>
+                                        </div>
+                                            Xamarin Development
                                         </li>
                                     </ul>
                                 </div>
@@ -811,9 +833,8 @@
     </div>
 
     <!--WHY WORK WITH US-->
-
     <div class="container-fluid  why-bg">
-        <h3 class=" why-h3">WHY WORK WITH US</h3>
+        <h3 class="why-h3">WHY WORK WITH US</h3>
         <diV class="why-border">
         </diV>
         <div class="container">
@@ -822,11 +843,12 @@
 
                     <div class="box1 d-flex pt-1">
                         <img src="./images/creative-thinking.webp">
-                        
+
                         <div class="why-img-border"></div>
                         <div class="seconde-box">
                             <h3> Skilled Techies</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development journey..</p>
+                            <p>Expect open communication and total visibility in every stage of your product development
+                                journey..</p>
                         </div>
                     </div>
 
@@ -839,11 +861,12 @@
 
 
                         <img src="./images/transparency.webp">
-                        
+
                         <div class="why-img-border"></div>
                         <div class="seconde-box">
                             <h3>Full Transparency</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development journey..</p>
+                            <p>Expect open communication and total visibility in every stage of your product development
+                                journey..</p>
                         </div>
                     </div>
                 </div>
@@ -855,11 +878,12 @@
                     <div class="box1  d-flex pt-1">
 
                         <img src="./images/human.webp">
-                        
+
                         <div class="why-img-border"></div>
                         <div class="seconde-box">
                             <h3> On-demand Resources</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development journey.</p>
+                            <p>Expect open communication and total visibility in every stage of your product development
+                                journey.</p>
                         </div>
                     </div>
 
@@ -872,11 +896,12 @@
 
 
                         <img src="./images/globe(1).webp">
-                        
+
                         <div class="why-img-border"></div>
                         <div class="seconde-box">
                             <h3> Domain Expertise</h3>
-                            <p> Expect open communication and total visibility in every stage of your product development journey.</p>
+                            <p> Expect open communication and total visibility in every stage of your product
+                                development journey.</p>
                         </div>
                     </div>
                 </div>
@@ -888,11 +913,12 @@
                     <div class="box1  d-flex pt-1">
 
                         <img src="./images/trophy.webp">
-                        
+
                         <div class="why-img-border"></div>
                         <div class="seconde-box">
                             <h3> Award-Winning</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development journey.</p>
+                            <p>Expect open communication and total visibility in every stage of your product development
+                                journey.</p>
                         </div>
                     </div>
 
@@ -908,9 +934,10 @@
 
                         <div class="why-img-border"></div>
                         <div class="seconde-box">
-                         
+
                             <h3>Agile Development</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development journey.</p>
+                            <p>Expect open communication and total visibility in every stage of your product development
+                                journey.</p>
                         </div>
                     </div>
                 </div>
@@ -995,7 +1022,7 @@
                 </div>
             </div>
             <div class="card-main">
-                <img src="./images/Macwiq Webiste.webp" class="card-img-top" alt="...">
+                <img src="./images/Macwiq Webiste (3).webp" class="card-img-top" alt="...">
                 <div class="card-body-team">
                     <p class="card-text">David cooper</p>
                     <p class="card-text2">Senior Assistant</p>
@@ -1129,7 +1156,7 @@
                             </div>
                         </div>
                         <div class="icon-image-div">
-                            <div class="icon-image"><i class="fa-regular fa-phone"></i>
+                            <div class="icon-image"><i class="fa-solid fa-phone"></i>
                             </div>
                             <div>
                                 <div class="icone-side-content">
