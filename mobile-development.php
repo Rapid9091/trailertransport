@@ -103,7 +103,8 @@
             width: 100%;
             display: flex;
             height: auto;
-            margin-bottom: 2%;
+            margin-bottom: 30px;
+            gap: 25px;
 
         }
 
@@ -117,26 +118,15 @@
             margin-bottom: 45px;
             margin-top: 45px;
         }
-
-
-
-
-        .mobile-card-2 {
-            padding: 5% 5%;
-            width: 100%;
-        }
-
-
-
         .mobile-card-icon {
             font-size: 40px;
             color: #8c8c94;
         }
 
         .mobile-card-h2 {
-            font-size: 30px;
+            font-size: 28px;
             letter-spacing: 0px;
-            line-height: 43px;
+            line-height: 36px;
             color: black;
             font-weight: 700;
             font-family: "Inter";
@@ -144,12 +134,13 @@
         }
 
         .mobile-card-p {
-            font-size: 19px;
+            font-size: 18px;
             letter-spacing: 0px;
-            line-height: 29px;
-            color: #999999;
+            line-height: 25px;
+            color: black;
             font-weight: 300;
             font-family: "Inter";
+            padding-top: 8px;
         }
 
         .seconde-section {
@@ -293,22 +284,32 @@
 
         .mobile-dev-border {
             border: #202028 2px solid;
-            padding: 2%;
-            width: 420px;
-            height: 250px;
+            width: 483px;
+            height: auto;
             margin: auto;
         }
-
+        .mobile-card-2{
+            padding: 25px 15px 45px 25px;
+            margin: 5px;
+        }
         .mobile-card-2-h2 {
-            font-size: 25px;
-            font-weight: 600;
-            color: white;
-            line-height: 25px;
+            font-size: 26px;
+            letter-spacing: 0px;
+            line-height: 36px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Inter";
+
         }
 
         .mobile-card-2-p {
-            color: white;
-            margin-top: 2%;
+            font-size: 18px;
+            letter-spacing: 0px;
+            line-height: 25px;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: "Inter";
+            padding-top: 8px;
         }
 
         .mobile-content-service {
@@ -320,13 +321,20 @@
         }
 
         .mobile-content-service h2 {
-            font-size: 40px;
-            font-weight: bold;
+            font-size: 50px;
+            letter-spacing: 1px;
+            line-height: 55px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Inter";
+            text-align: center;
         }
 
         .mobile-content-service span {
-            font-size: 30px;
+            font-size: 35px;
             font-weight: 400;
+            padding: 5px;
+
         }
 
         .faq-sec-first {
@@ -399,7 +407,7 @@
         .faq-div {
             width: auto;
             top: 0;
-       
+
         }
 
         /* Add your own styles here */
@@ -678,14 +686,19 @@
 
         .the-card-2 {
             width: 490px;
-            height: 350px;
+            height:auto;
             margin: auto;
             border: #e8e8e8 2px solid;
-            padding: 2% 2%;
+            
 
         }
+        .mobile-card{
+          
+            padding: 25px 15px 45px 25px;
+            margin: 5px;
+        }
 
-        .the-card-2:hover {
+        .the-card-2 .mobile-card:hover {
             background: linear-gradient(147deg, rgba(33, 208, 179, 1) 38%, rgba(29, 206, 250, 1) 72%);
         }
 
@@ -982,9 +995,7 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
                         <div class="mobile-card-h2">Flutter App Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
-                            corporis
-                            necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a nam
                         </div>
                     </div>
                 </div>
@@ -994,8 +1005,7 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-react"></i></div>
                         <div class="mobile-card-h2">React Native App Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                            temporibus velit incidunt illum expedita harum veniam vitae,
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, temporibus velit incidunt illum expedita harum veniam vitae,
                         </div>
                     </div>
 
@@ -1015,8 +1025,7 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
                         <div class="mobile-card-h2">Progressive Web App (PWA) Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-                            facilis, praesentium nihil accusantium ratione doloribus incidunt
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, temporibus velit incidunt illum expedita harum veniam vitae
                         </div>
                     </div>
                 </div>
@@ -1109,7 +1118,7 @@
 
     <div class="container-fluid  third-card-div">
         <div class="mobile-content-service">
-            <h2>Why Macwiq<span>is Your Best Choice<br>
+            <h2>Why Macwiq<span>Is Your Best Choice<br>
                     For</span> Mobile Development?</h2>
         </div>
         <div class="cards-div-mobile-2 container">
@@ -1118,21 +1127,17 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Qualified App Developers</div>
-                    <div class="mobile-card-2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                        nam
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
 
 
             <div class="mobile-dev-border">
-                <div class="mobile-card-2 dark-cards">
+                <div class="mobile-card-2  dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Client-centric Approach</div>
-                    <div class="mobile-card-2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                        nam
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1142,9 +1147,7 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Best UX/UI Experts</div>
-                    <div class="mobile-card-2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                        nam
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1154,9 +1157,7 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Dedicated Teams</div>
-                    <div class="mobile-card-2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                        nam
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1166,8 +1167,7 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Agile Development Process</div>
-                    <div class="mobile-card-2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1175,9 +1175,7 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Quality & Security</div>
-                    <div class="mobile-card-2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                        nam
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>

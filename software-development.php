@@ -116,7 +116,22 @@
             margin-top: 45px;
         }
 
-        .the-card-2:hover {
+        .the-card-2 {
+            width: 490px;
+            height:300px;
+            margin: auto;
+            border: #e8e8e8 2px solid;
+            
+
+        }
+        .mobile-card{
+          
+            height:285px;
+            padding: 25px 15px 45px 25px;
+            margin: 5px;
+        }
+
+        .the-card-2 .mobile-card:hover {
             background: linear-gradient(147deg, rgba(33, 208, 179, 1) 38%, rgba(29, 206, 250, 1) 72%);
         }
 
@@ -132,11 +147,6 @@
             color: white;
         }
 
-        .mobile-card-2 {
-            padding: 5% 5%;
-            width: 100%;
-        }
-
         .row {
             width: 90%;
             margin: auto;
@@ -147,10 +157,11 @@
             color: #8c8c94;
         }
 
+      
         .mobile-card-h2 {
-            font-size: 30px;
+            font-size: 28px;
             letter-spacing: 0px;
-            line-height: 43px;
+            line-height: 36px;
             color: black;
             font-weight: 700;
             font-family: "Inter";
@@ -158,14 +169,14 @@
         }
 
         .mobile-card-p {
-            font-size: 19px;
+            font-size: 18px;
             letter-spacing: 0px;
-            line-height: 29px;
-            color: #999999;
+            line-height: 25px;
+            color: black;
             font-weight: 300;
             font-family: "Inter";
+            padding-top: 8px;
         }
-
         .seconde-section {
             background-image: url(./images/pxfuel.com\(2\)\ copy\ 2.webp);
             background-size: cover;
@@ -798,14 +809,6 @@
             gap: 25px;
         }
 
-        .the-card-2 {
-            width: 490px;
-            height: 350px;
-            margin: auto;
-            border: #e8e8e8 2px solid;
-            padding: 2% 2%;
-
-        }
 
         @media (max-width: 1440px) {
 
@@ -860,9 +863,7 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
                         <div class="mobile-card-h2">Legacy System Modernization</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                            temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                            nam
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
                         </div>
 
                     </div>
@@ -882,9 +883,7 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
                         <div class="mobile-card-h2">Enterprise Software</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
-                            corporis
-                            necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
                         </div>
                     </div>
                 </div>
@@ -895,8 +894,7 @@
 
                         <div class="mobile-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
                         <div class="mobile-card-h2">Custom CRM Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                            temporibus velit incidunt illum expedita harum veniam vitae,
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
                         </div>
                     </div>
                 </div>

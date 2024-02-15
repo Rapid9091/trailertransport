@@ -203,6 +203,11 @@
         modifier: 1,
         slideShadows: true,
       },
+
+      autoplay: {
+    delay: 3000, // Time in milliseconds between slides
+    disableOnInteraction: false, // Set to false so autoplay will not be stopped when the user interacts with the slider
+  },
       breakpoints: {
                 // when window width is >= 320px
                 320: {
