@@ -118,6 +118,7 @@
             margin-bottom: 45px;
             margin-top: 45px;
         }
+
         .mobile-card-icon {
             font-size: 40px;
             color: #8c8c94;
@@ -288,10 +289,12 @@
             height: auto;
             margin: auto;
         }
-        .mobile-card-2{
+
+        .mobile-card-2 {
             padding: 25px 15px 45px 25px;
             margin: 5px;
         }
+
         .mobile-card-2-h2 {
             font-size: 26px;
             letter-spacing: 0px;
@@ -341,7 +344,10 @@
             background: url(./images/1.\ Mobile\ App\ Development\ Company\ \(3\).webp) center center no-repeat;
             background-size: cover;
             width: 100%;
-
+            height: auto;
+            margin-top: 130px;
+            margin-bottom: 120px;
+            padding: 50PX 0;
         }
 
         .row {
@@ -362,6 +368,7 @@
             font-weight: 700;
             font-family: "Inter";
             text-align: center;
+            padding-bottom: 12px;
 
 
         }
@@ -388,7 +395,7 @@
             font-family: "Inter";
             text-align: center;
             padding-top: 5%;
-            width: 90%;
+            width: 65%;
             margin: auto;
         }
 
@@ -396,11 +403,12 @@
             background-image: url(./images/template.webp);
             background-repeat: no-repeat;
             background-position: center;
-            margin-top: -3%;
-            margin-bottom: -3%;
-            padding: 2.5% 5%;
+            margin-top: -6%;
+            margin-bottom: -6%;
+            padding: 2.5% 60PX;
             margin-left: 0;
             width: 50%;
+            height: auto;
             z-index: 2;
         }
 
@@ -412,24 +420,24 @@
 
         /* Add your own styles here */
         .faq-section {
-            max-width: 600px;
-            margin: 0 auto;
+            width: 100%;
+            margin: 0;
             color: white;
         }
 
         .faq-question {
             cursor: pointer;
             background-color: #202028;
-            padding: 20px 10px;
+            padding: 22px 32px;
             margin: 0px 0;
             position: relative;
-            font-size: 20px;
+            font-size: 23px;
         }
 
         .faq-answer {
             display: none;
             background-color: #202028;
-            padding-left: 2%;
+            padding-left: 32PX;
             border-left: 2px solid;
             padding-bottom: 4%;
             padding-right: 2%;
@@ -439,9 +447,10 @@
         .arrow-btn {
             position: absolute;
             top: 50%;
-            right: 10px;
+            right: 30px;
             transform: translateY(-50%);
             transition: transform 0.3s ease;
+            color: #4d4d52;
         }
 
         .arrow-btn {
@@ -466,6 +475,13 @@
         }
 
         /* FAQ START*/
+        .faq-2 h3 {
+            margin: auto;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
         .section5 {
             padding: 5%;
             background-color: white;
@@ -477,11 +493,19 @@
             text-align: center;
             color: rgb(22, 22, 199);
         }
+        .row-faq-1 {
+            display: flex;
+            width: 100%;
+          
+            gap: 5%;
 
+        }
         .row-faq {
             display: flex;
             width: 100%;
             margin-top: 5%;
+            gap: 5%;
+
         }
 
         .colm-faq {
@@ -502,12 +526,11 @@
             border-radius: 15px;
             background-color: #f8f8f8;
             padding: 15px;
-
         }
 
         .question {
-            font-weight: bold;
-            color: #1d1d1d;
+            font-weight: 500;
+            color: black;
             font-size: 18px;
             display: flex;
             justify-content: space-between;
@@ -517,17 +540,18 @@
         .question span {
             cursor: pointer;
             font-size: 40px;
-            font-size: 30px;
+            font-size: 25px;
             transition: transform 0.3s ease;
             transform: translatey(-50%) rotate(180deg);
             margin-top: 2%;
+            font-weight: 400;
         }
 
         .answer {
             display: none;
             margin-top: 10px;
             font-size: 16px;
-            color: #666;
+            color: #5e5d5d;
             line-height: 1.4;
             transition: 1s;
         }
@@ -543,26 +567,26 @@
 
         /* FAQ ENDS */
 
-        .main-magic-sec {
-            width: auto;
-            height: 100%;
-            padding: 2% 0;
-            background-color: white;
 
+        .main-magic-sec {
+            background: url(./images/map-2.webp) center center no-repeat;
+            background-size: cover;
+           
+            padding-top: 80px;
+            width: 100%;
+            height: 80vh;
         }
 
         .magic-main-content {
-            background: url(./images/map-2.webp) center center no-repeat;
-            background-size: cover;
             width: 100%;
             height: 100%;
         }
 
         .content-main {
             width: 100%;
-            margin-bottom: -13.5%;
             text-align: center;
-            padding-top: 60px;
+            margin-bottom: -13.5%;
+
         }
 
         .magic-border {
@@ -594,10 +618,10 @@
         .magic-box {
             position: relative;
             background-color: #0067b7;
-            height: 170px;
-            width: 260px;
-            border: 3px solid #f1f0ee;
-            border-radius: 20px;
+            height: 215px;
+            width: 300px;
+            border: 2px solid #f1f0ee;
+            border-radius: 31px;
             z-index: 3;
 
         }
@@ -622,24 +646,24 @@
         .magic-box::after {
             content: "";
             background-color: #0067b7;
-            border-top: 4.5px solid #f1f0ee;
-            border-right: 4.5px solid #F1F0EE;
+            border-top: 3.5px solid #f1f0ee;
+            border-right: 3.5px solid #F1F0EE;
             width: 30px;
             height: 30px;
             transform: rotate(45deg);
             z-index: 1;
             position: absolute;
             right: -18px;
-            top: 70px;
+            top: 90px;
         }
 
         .magic-box-2 {
             position: relative;
             background-color: #ff9932;
-            height: 170px;
-            width: 260px;
-            border: 3px solid #f1f0ee;
-            border-radius: 20px;
+            height: 215px;
+            width: 300px;
+            border: 2px solid #f1f0ee;
+            border-radius: 31px;
             z-index: 2;
         }
 
@@ -662,38 +686,39 @@
         .magic-box-2::after {
             content: "";
             background-color: #ff9932;
-            border-top: 4.5px solid #f1f0ee;
-            border-right: 4.5px solid #F1F0EE;
+            border-top: 3.5px solid #f1f0ee;
+            border-right: 3.5px solid #F1F0EE;
             width: 30px;
             height: 30px;
             transform: rotate(45deg);
             z-index: 1;
             position: absolute;
             right: -18px;
-            top: 70px;
+            top: 90px;
         }
 
         .magic-box-3 {
             position: relative;
             background-color: #ff6e3f;
-            height: 170px;
-            width: 260px;
-            border: 3px solid #f1f0ee;
-            border-radius: 20px;
+            height: 215px;
+            width: 300px;
+            border: 2px solid #f1f0ee;
+            border-radius: 31px;
 
 
         }
 
         .the-card-2 {
             width: 490px;
-            height:auto;
+            height: auto;
             margin: auto;
             border: #e8e8e8 2px solid;
-            
+
 
         }
-        .mobile-card{
-          
+
+        .mobile-card {
+
             padding: 25px 15px 45px 25px;
             margin: 5px;
         }
@@ -734,24 +759,24 @@
         .magic-box-3::after {
             content: "";
             background-color: #ff6e3f;
-            border-top: 4.5px solid #f1f0ee;
-            border-right: 4.5px solid #F1F0EE;
+            border-top: 3.5px solid #f1f0ee;
+            border-right: 3.5px solid #F1F0EE;
             width: 30px;
             height: 30px;
             transform: rotate(45deg);
             z-index: 2;
             position: absolute;
             right: -18px;
-            top: 70px;
+            top: 90px;
         }
 
         .magic-box-4 {
             position: relative;
             background-color: #00c0a1;
-            height: 170px;
-            width: 260px;
-            border: 3px solid #f1f0ee;
-            border-radius: 20px;
+            height: 215px;
+            width: 300px;
+            border: 2px solid #f1f0ee;
+            border-radius: 31px;
 
         }
 
@@ -774,25 +799,25 @@
         .magic-box-4::after {
             content: "";
             background-color: #00c0a1;
-            border-top: 4.5px solid #f1f0ee;
-            border-right: 4.5px solid #F1F0EE;
+            border-top: 3.5px solid #f1f0ee;
+            border-right: 3.5px solid #F1F0EE;
             width: 30px;
             height: 30px;
             transform: rotate(45deg);
             z-index: 2;
             position: absolute;
             right: -18px;
-            top: 70px;
+            top: 90px;
 
         }
 
         .magic-box-5 {
             position: relative;
             background-color: #012f47;
-            height: 170px;
-            width: 260px;
-            border: 3px solid #f1f0ee;
-            border-radius: 20px;
+            height: 215px;
+            width: 300px;
+            border: 2px solid #f1f0ee;
+            border-radius: 31px;
         }
 
         .magic-box-5::before {
@@ -823,27 +848,30 @@
             font-size: 28px;
             font-weight: bold;
             color: white;
-            margin-bottom: -2%;
+            margin-bottom: 5%;
         }
-
-        .magic-content h3 p {
-            font-size: 36;
-        }
-
         .magic-content span {
-            color: white;
+            font-size: 17px;
+            letter-spacing: 0px;
+            line-height: 15px;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: "Inter";
+            text-align: center;
+          
+            z-index: 2;
         }
+
 
         .tools {
             background-color: #001819;
             height: auto;
             width: 100%;
-            padding: 100px 0 80px 0;
-            margin-top: 8%;
+            padding: 15px 0 80px 0;
         }
 
         .container-tools {
-            background: url(./images/Untitled\ design\ \(1\).png) center center no-repeat;
+            background: url(./images/web\ Ui.png) center center no-repeat;
         }
 
         .tools .container h2 {
@@ -863,11 +891,10 @@
         .main-div-tool {
             width: 200px;
             height: auto;
-            background-color: #2c2c33e7;
+            background-color: #102C2d;
             align-items: center;
             display: flex;
-            text-align: center;
-            justify-content: center;
+
             margin-right: 2%;
         }
 
@@ -876,6 +903,7 @@
             text-align: center;
             font-size: 20px;
             color: white;
+            margin-left: 18px;
 
         }
 
@@ -884,14 +912,12 @@
             height: auto;
         }
 
-
-
         .tool-parts {
             width: 180px;
             height: 50px;
             gap: 10px;
             margin: auto;
-            background-color: #202028;
+            background-color: #1f2525;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -924,6 +950,10 @@
                 padding-top: 100px;
                 padding-bottom: 100px;
             }
+            .main-magic-sec {
+           
+            height:100vh;
+        }
 
             .title {
                 margin-left: 60px;
@@ -936,6 +966,9 @@
 
             .seconde-sec-p {
                 width: 90%;
+            }
+            .magic-content span {
+                font-size: 16px;
             }
         }
     </style>
@@ -995,7 +1028,9 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
                         <div class="mobile-card-h2">Flutter App Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a nam
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                            temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
+                            nam
                         </div>
                     </div>
                 </div>
@@ -1005,7 +1040,8 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-react"></i></div>
                         <div class="mobile-card-h2">React Native App Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, temporibus velit incidunt illum expedita harum veniam vitae,
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                            temporibus velit incidunt illum expedita harum veniam vitae,
                         </div>
                     </div>
 
@@ -1025,7 +1061,8 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
                         <div class="mobile-card-h2">Progressive Web App (PWA) Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, temporibus velit incidunt illum expedita harum veniam vitae
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                            temporibus velit incidunt illum expedita harum veniam vitae
                         </div>
                     </div>
                 </div>
@@ -1068,15 +1105,16 @@
                 <h3>How to Make The Magic Happen</h3>
                 <br>
                 <div class="magic-border"></div>
-
             </div>
-
             <div class="magic-box-div">
-
                 <div class="magic-box">
                     <div class="magic-content">
-                        <h3>STEP 1</h3><span>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <h3>STEP 1</h3>
+                        <span>
+                            High Level Scoping Proposal
+                            PM & Governance Feature
+                            Mapping Discovery Workshops Kick Off
+                            Meeting.
                         </span>
                     </div>
 
@@ -1084,28 +1122,40 @@
                 <div class="magic-box-2">
                     <div class="magic-content">
                         <h3>STEP 2</h3><span>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            High Level Scoping Proposal
+                            PM & Governance Feature
+                            Mapping Discovery Workshops Kick Off
+                            Meeting.
                         </span>
                     </div>
                 </div>
                 <div class="magic-box-3">
                     <div class="magic-content">
                         <h3>STEP 3</h3><span>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            High Level Scoping Proposal
+                            PM & Governance Feature
+                            Mapping Discovery Workshops Kick Off
+                            Meeting.
                         </span>
                     </div>
                 </div>
                 <div class="magic-box-4">
                     <div class="magic-content">
                         <h3>STEP 4</h3><span>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            High Level Scoping Proposal
+                            PM & Governance Feature
+                            Mapping Discovery Workshops Kick Off
+                            Meeting.
                         </span>
                     </div>
                 </div>
                 <div class="magic-box-5">
                     <div class="magic-content">
                         <h3>STEP 5</h3><span>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            High Level Scoping Proposal
+                            PM & Governance Feature
+                            Mapping Discovery Workshops Kick Off
+                            Meeting.
                         </span>
                     </div>
                 </div>
@@ -1127,7 +1177,8 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Qualified App Developers</div>
-                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are
+                        committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1137,7 +1188,8 @@
                 <div class="mobile-card-2  dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Client-centric Approach</div>
-                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are
+                        committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1147,7 +1199,8 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Best UX/UI Experts</div>
-                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are
+                        committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1157,7 +1210,8 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Dedicated Teams</div>
-                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are
+                        committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1167,7 +1221,8 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Agile Development Process</div>
-                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are
+                        committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1175,7 +1230,8 @@
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
                     <div class="mobile-card-2-h2">Quality & Security</div>
-                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are committed to providing the best quality of work and solution delivery.
+                    <div class="mobile-card-2-p">We have a team of highly qualified and experienced IT experts who are
+                        committed to providing the best quality of work and solution delivery.
                     </div>
                 </div>
             </div>
@@ -1187,7 +1243,7 @@
     <?php include "./swipper-mob.php" ?>
 
     <div class="faq-sec-first">
-        <div class="row-faq">
+        <div class="row-faq-1">
             <div class="faq-content-div">
                 <div class="faq-content">
                     <h3>Mobile Apps Can <br>Be

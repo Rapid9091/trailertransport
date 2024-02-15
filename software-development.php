@@ -494,7 +494,7 @@
         }
 
         .our-custom {
-            padding: 10% 0;
+            
             background-color: white !important;
             height: 100%;
             width: 100%;
@@ -504,12 +504,13 @@
             width: 100%;
         }
         .faq-sec-first-c {
-            background: url(./images/1.\ Mobile\ App\ Development\ Company\ \(3\).webp) center center no-repeat;
+            background: url(./images/Layer\ 104.webp) center center no-repeat;
             background-size: cover;
             width: 100%;
             height: auto;
             margin-top: 130px;
             margin-bottom:120px ;
+            padding: 50PX 0;
 
         }
 
@@ -556,7 +557,7 @@
             font-weight: 300;
             font-family: "Inter";
             text-align: center;
-            width: 70%;
+            width: 525px;
             margin: auto;
         }
 
@@ -564,40 +565,42 @@
             background-image: url(./images/template.webp);
             background-repeat: no-repeat;
             background-position: center;
-            margin-top: -3%;
-            margin-bottom: -3%;
-            padding: 2.5% 5%;
+            margin-top: -6%;
+            margin-bottom: -6%;
+            padding: 2.5% 60PX;
             margin-left: 0;
             width: 50%;
+            height: auto;
             z-index: 2;
         }
 
         .faq-div-c {
             width: auto;
             top: 0;
-            background-color: #14141c;
+            
         }
 
         /* Add your own styles here */
         .faq-section-c {
-            max-width: 600px;
-            margin: 0 auto;
+           width: 100%;
+            margin: 0;
             color: white;
         }
 
         .faq-question-c {
             cursor: pointer;
             background-color: #202028;
-            padding: 22px 10px;
+            padding: 22px 32px;
             margin: 0px 0;
             position: relative;
-            font-size: 20px;
+            font-size: 23px;
+      
         }
 
         .faq-answer-c {
             display: none;
             background-color: #202028;
-            padding-left: 2%;
+            padding-left: 32PX;
             border-left: 2px solid;
             padding-bottom: 4%;
             padding-right: 2%;
@@ -618,7 +621,7 @@
             font-size: 40px;
         }
 
-        .faq-question-c.opened-c .arrow-btn {
+        .faq-question-c.opened-c .arrow-btn-c {
             transform: translateY(-50%) rotate(180deg);
         }
 
@@ -685,6 +688,7 @@
             gap: 12px;
             padding-left: 5%;
             padding-right: 5%;
+            margin-top: 220px;
         }
 
         .magic-box {
@@ -720,18 +724,15 @@
             width: 50px;
             height: 50px;
         }
-
         .tools {
-            background-color: #001819;
+            background: url(./images/web\ Ui.png) center center no-repeat;
+            background-size: cover;
             height: auto;
             width: 100%;
-            padding: 100px 0 80px 0;
+            padding: 15px 0 80px 0;
         }
 
-        .container-tools {
-            background: url(./images/web\ Ui.png) center center no-repeat;
-        }
-
+      
         .tools .container h2 {
             color: white;
             font-weight: bold;
@@ -749,7 +750,7 @@
         .main-div-tool {
             width: 200px;
             height: auto;
-            background-color: #2c2c33e7;
+            background-color: #102C2d;
             align-items: center;
             display: flex;
            
@@ -775,7 +776,7 @@
             height: 50px;
             gap: 10px;
             margin: auto;
-            background-color: #202028;
+            background-color: #1f2525;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1046,7 +1047,7 @@
         <div class="row-faq-c">
             <div class="faq-content-div-c">
                 <div class="faq-content-c">
-                    <h3>Our Custom Software Development Process</h3>
+                    <h3>Our Custom Software <br>Development Process</h3>
                     <div class="faq-border-c"></div>
                     <p>A website solution is highly efficient and holds a lot
                         to offer to your businesses, whether you are a small
