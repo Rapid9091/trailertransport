@@ -4,21 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WordPress Development</title>
+    <title>Software</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
-        integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="robots" content="noindex">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <meta name="googlebot" content="noindex">
-    <meta name="robots" content="noindex">
     <link href="csss/main.css" rel="stylesheet" defer>
 
     <style>
@@ -28,26 +24,33 @@
             box-sizing: border-box;
             scroll-behavior: smooth;
             font-family: "Inter";
-
         }
 
         .mobile-header {
             background: url(./images/wordpress-header.webp) center center no-repeat;
             background-size: cover;
-            height: 60vh;
             width: 100%;
+        }
+
+        .head-border {
+
+            background-color: #12caf3;
+            width: 5px;
+            height: 100px;
+
         }
 
         .head-content {
             width: 100%;
             height: 100%;
             margin: auto;
-            padding-top: 7%;
-            padding-left: 5%;
+            padding-top: 150px;
+            padding-left: 150px;
+            padding-bottom: 150px;
         }
 
         .head-content h2 {
-            font-size: 48px;
+            font-size: 50px;
             letter-spacing: 3px;
             line-height: 50px;
             text-transform: uppercase;
@@ -60,14 +63,13 @@
 
         .head-content h4 {
             filter: drop-shadow(-0.174px 0.985px 2.5px rgba(0, 0, 0, 0.75));
-            font-size: 46px;
+            font-size: 50px;
             color: #21D0B3;
             font-weight: lighter;
             outline: black 1px;
             letter-spacing: 1.5px;
             margin-bottom: -.5%;
             font-family: "Inter";
-
         }
 
         .head-content p {
@@ -77,14 +79,20 @@
             color: #ffffff;
             font-weight: 300;
             font-family: "Inter";
+        }
 
+        .cards-div-mobile {
+            width: 100%;
+            height: auto;
+            margin: auto;
+            padding: auto;
         }
 
         .title {
             display: flex;
-            margin-left: 7%;
             gap: 5px;
             margin-top: 20px;
+            margin-left: 300px
         }
 
         .title p {
@@ -103,14 +111,27 @@
             color: #000000;
             font-weight: 600;
             font-family: "Inter";
-            margin-left: 6%;
+            margin-left: 290px;
             margin-bottom: 45px;
-
             margin-top: 45px;
-
         }
 
-        .the-card-2:hover {
+        .the-card-2 {
+            width: 490px;
+            height:300px;
+            margin: auto;
+            border: #e8e8e8 2px solid;
+            
+
+        }
+        .mobile-card{
+          
+            height:285px;
+            padding: 25px 15px 45px 25px;
+            margin: 5px;
+        }
+
+        .the-card-2 .mobile-card:hover {
             background: linear-gradient(147deg, rgba(33, 208, 179, 1) 38%, rgba(29, 206, 250, 1) 72%);
         }
 
@@ -126,26 +147,21 @@
             color: white;
         }
 
-
-
-
-
-
         .row {
             width: 90%;
             margin: auto;
         }
 
         .mobile-card-icon {
-            font-size: 35px;
+            font-size: 40px;
             color: #8c8c94;
         }
 
-    
+      
         .mobile-card-h2 {
-            font-size: 25px;
+            font-size: 28px;
             letter-spacing: 0px;
-            line-height: 30px;
+            line-height: 36px;
             color: black;
             font-weight: 700;
             font-family: "Inter";
@@ -153,29 +169,21 @@
         }
 
         .mobile-card-p {
-            margin-top: 2%;
-            color: #999999;
             font-size: 18px;
             letter-spacing: 0px;
             line-height: 25px;
-
+            color: black;
             font-weight: 300;
             font-family: "Inter";
+            padding-top: 8px;
         }
-
         .seconde-section {
             background-image: url(./images/pxfuel.com\(2\)\ copy\ 2.webp);
             background-size: cover;
             height: auto;
-            margin-top: 5%;
-            margin-bottom: 10%;
+            margin-top: 12%;
             width: 100%;
             z-index: 1;
-        }
-
-        .seconde-sec-content-2 {
-            width: 600px;
-            height: auto;
         }
 
         .seconde-sec-h2 {
@@ -196,26 +204,13 @@
             color: #ffffff;
             font-weight: 300;
             font-family: "Inter";
-            width: 90%;
-        }
-
-        .row-our-service {
-            display: flex;
-            width: 100%;
-            height: auto;
+            width: 75%;
         }
 
         .seconde-sec-content-1 {
-            width: 55%;
-            height: auto;
-
-        }
-
-        .content-div-p {
-
-            width: 100%;
-            height: auto;
-            margin: 5% 5% 5% 10%;
+            width: 60%;
+            margin-top: 5%;
+            margin-right: -10%;
 
         }
 
@@ -230,57 +225,15 @@
         }
 
         .rect-images-sec-1 {
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-
-        .parallelogram {
-            width: 100%;
-            height: auto;
+            display: flex;
             margin-top: -5%;
+            z-index: 2;
+        }
+
+        .rect-img-1 img {
+            width: 600px;
+            height: 440px;
             margin-bottom: -5%;
-            clip-path: polygon(25% 0%, 100% 0%, 76% 100%, 0% 100%);
-
-
-
-        }
-
-        .rect-images-sec-1::after {
-            content: "";
-            position: absolute;
-            width: 35px;
-            height: 35px;
-            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-            position: absolute;
-            background-color: #002933;
-            bottom: 0;
-            margin-bottom: -21px;
-            z-index: -1;
-            margin-left: -2%;
-            transform: rotate(60deg);
-        }
-
-        .rect-images-sec-2::before {
-            content: "";
-            position: absolute;
-            width: 35px;
-            height: 35px;
-            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-            position: absolute;
-            background-color: #002933;
-            top: 0;
-            right: 0;
-            margin-right: -1.7%;
-            margin-top: -19px;
-            transform: rotate(130deg);
-            z-index: -5;
-        }
-
-        .parallelogram img {
-            height: 100%;
-            width: 100%;
-
         }
 
 
@@ -377,7 +330,8 @@
             margin: auto;
             font-weight: 700;
             letter-spacing: 2px;
-            padding-top: 3%;
+            padding-top: 5%;
+            font-family: "inter";
 
         }
 
@@ -388,19 +342,24 @@
             width: 800px;
             margin: auto;
             padding-top: 2%;
+            padding-bottom: 1%;
 
         }
 
         .faq-question {
             cursor: pointer;
             background-color: #202028;
-            padding: 30px 20px;
+            padding: 0px 20px;
             margin: 0px 0;
             position: relative;
             font-size: 25px;
             max-width: 1000px;
             margin: 0 auto;
             color: white;
+            width: 1270px;
+            height: 80px;
+            display: flex;
+            align-items: center;
         }
 
         .faq-answer {
@@ -418,9 +377,10 @@
         .arrow-btn {
             position: absolute;
             top: 50%;
-            right: 10px;
+            right: 33px;
             transform: translateY(-50%);
             transition: transform 0.3s ease;
+            color: #505055;
         }
 
         .arrow-btn {
@@ -486,7 +446,7 @@
         }
 
         .question {
-            font-weight: 600;
+            font-weight: 500;
             color: black;
             font-size: 18px;
             display: flex;
@@ -497,10 +457,11 @@
         .question span {
             cursor: pointer;
             font-size: 40px;
-            font-size: 30px;
+            font-size: 25px;
             transition: transform 0.3s ease;
             transform: translatey(-50%) rotate(180deg);
             margin-top: 2%;
+            font-weight: 400;
         }
 
         .answer {
@@ -524,7 +485,7 @@
         /* FAQ ENDS */
         .third-card-div {
 
-            background-image: url(./images/Untitled\ design\ \(1\).png);
+            background-image: url(./images/web\ Ui.png);
             width: 100%;
             height: auto;
             margin: auto;
@@ -533,141 +494,126 @@
         }
 
         .our-custom {
-            padding: 10% 0;
+            
             background-color: white !important;
             height: 100%;
             width: 100%;
         }
-
+        .row-faq-c {
+            display: flex;
+            width: 100%;
+        }
         .faq-sec-first-c {
             background: url(./images/Layer\ 104.webp) center center no-repeat;
             background-size: cover;
+            width: 100%;
+            height: auto;
+            margin-top: 130px;
+            margin-bottom:120px ;
+            padding: 50PX 0;
 
+        }
+
+        .row {
+            width: 90%;
         }
 
         .faq-content-div-c {
             margin: auto;
-            z-index: 1;
-            padding: 3% 0;
-        }
-
-        .faq-content-c {
-            margin: auto;
             text-align: center;
-            justify-content: center;
+            width: 50%;
         }
 
-        .faq-content-c h3 {
+        .faq-content-div-c h3 {
             font-size: 45px;
-            letter-spacing: 3px;
+            letter-spacing: 1px;
             line-height: 65px;
             color: #ffffff;
             font-weight: 700;
             font-family: "Inter";
             text-align: center;
-            margin-left: -20%;
+            padding-bottom: 12px;
 
 
         }
 
         .faq-border-c {
-            border-width: 2px;
+            border-width: 1.5px;
             border-style: solid;
             border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
             border-radius: 10%;
-            width: 30%;
-            margin-top: 3%;
-            margin-bottom: 3%;
-            text-align: center;
-            margin-left: 23%;
+            width: 25%;
+            margin: auto;
+            justify-content: center;
+
         }
 
         .faq-content-c p {
-            width: 500px;
-            height: 123px;
-            font-size: 21px;
+            font-size: 18px;
+            padding-top: 12px;
             letter-spacing: 0px;
             line-height: 35px;
             color: #ffffff;
             font-weight: 300;
             font-family: "Inter";
             text-align: center;
-            margin-left: 0%;
-
+            width: 525px;
+            margin: auto;
         }
 
         .faq-main-div-c {
             background-image: url(./images/template.webp);
             background-repeat: no-repeat;
             background-position: center;
-            margin-top: -3%;
-            margin-bottom: -3%;
-            margin-right: -5.54%;
-            padding: 2.5% 5%;
+            margin-top: -6%;
+            margin-bottom: -6%;
+            padding: 2.5% 60PX;
+            margin-left: 0;
+            width: 50%;
+            height: auto;
             z-index: 2;
         }
 
         .faq-div-c {
             width: auto;
             top: 0;
-            background-color: #14141c;
+            
         }
 
+        /* Add your own styles here */
         .faq-section-c {
-            max-width: 1000px;
-            margin: auto;
+           width: 100%;
+            margin: 0;
             color: white;
-        }
-
-        .faq-section-c h2 {
-            text-align: center;
-            margin: auto;
-            font-weight: 700;
-            letter-spacing: 2px;
-            padding-top: 3%;
-
-        }
-
-        .faq-section-c p {
-
-            text-align: center;
-
-            width: 800px;
-            margin: auto;
-            padding-top: 2%;
-
         }
 
         .faq-question-c {
             cursor: pointer;
             background-color: #202028;
-            padding: 20px 10px;
+            padding: 22px 32px;
             margin: 0px 0;
             position: relative;
-            font-size: 20px;
-            max-width: 1000px;
-            margin: 0 auto;
-            color: white;
+            font-size: 23px;
+      
         }
 
         .faq-answer-c {
             display: none;
             background-color: #202028;
-            padding-left: 2%;
-            border-left: 3px solid;
+            padding-left: 32PX;
+            border-left: 2px solid;
             padding-bottom: 4%;
             padding-right: 2%;
             border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
-            color: #c4c4e7;
-            font-size: 15px;
         }
 
         .arrow-btn-c {
             position: absolute;
             top: 50%;
-            right: 10px;
+            right: 30px;
             transform: translateY(-50%);
             transition: transform 0.3s ease;
+            color:#4d4d52;
         }
 
         .arrow-btn-c {
@@ -675,13 +621,20 @@
             font-size: 40px;
         }
 
-        .faq-questioc.opened-c .arrow-btn-c {
+        .faq-question-c.opened-c .arrow-btn-c {
             transform: translateY(-50%) rotate(180deg);
         }
 
         .faq-question-c.opened-c {
             border-image: linear-gradient(to right, #21d0b3, #12caf3) 1;
-            border-left: 3px solid;
+            border-left: 2px solid;
+        }
+
+        .faq-2-c h3 {
+            margin: auto;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
         }
 
         .main-magic-sec {
@@ -710,21 +663,20 @@
         .magic-border {
             background: linear-gradient(147deg, rgba(33, 208, 179, 1) 29%, rgba(30, 207, 245, 1) 73%);
             height: 4px;
-            width: 13%;
+            width: 11%;
             margin: auto;
-            margin-top: 4px;
-            margin-bottom: 130px;
+            margin-top: 0px;
+            margin-bottom: 295px;
         }
 
         .content-main h3 {
-            font-size: 50px;
+            font-size: 40px;
             letter-spacing: 1px;
-            line-height: 65px;
+            line-height: 45px;
             color: #131b34;
             font-weight: 700;
             font-family: "Inter";
             text-align: center;
-
         }
 
         .magic-box-div {
@@ -733,44 +685,54 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 15px;
-            padding-left: 10%;
-            padding-right: 10%;
+            gap: 12px;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-top: 220px;
         }
 
         .magic-box {
             position: relative;
             background-color: transparent;
-            height: 300px;
-            width: 358px;
+            height: 280px;
+            width: 400px;
             border: 2px solid #e6e6e6;
             padding: 2% 2%;
-
             z-index: 3;
         }
 
         .mac-h {
-            font-size: 25px;
+            font-size: 22px;
             color: black;
             font-weight: bolder;
+            line-height: 30px;
+            font-family: "Inter";
+            margin-top: 8px;
+
+        }
+
+        .mac-p {
+            font-size: 18px;
+            color: black;
+            font-weight: 300;
+            margin-top: 8px;
+            font-family: "Inter";
+
         }
 
         .mac-icon img {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
         }
-
         .tools {
-            background-color: #001819;
+            background: url(./images/web\ Ui.png) center center no-repeat;
+            background-size: cover;
             height: auto;
             width: 100%;
-            padding: 100px 0 80px 0;
+            padding: 15px 0 80px 0;
         }
 
-        .container-tools {
-            background: url(./images/Untitled\ design\ \(1\).png) center center no-repeat;
-        }
-
+      
         .tools .container h2 {
             color: white;
             font-weight: bold;
@@ -788,11 +750,10 @@
         .main-div-tool {
             width: 200px;
             height: auto;
-            background-color: #2c2c33e7;
+            background-color: #102C2d;
             align-items: center;
             display: flex;
-            text-align: center;
-            justify-content: center;
+           
             margin-right: 2%;
         }
 
@@ -801,6 +762,7 @@
             text-align: center;
             font-size: 20px;
             color: white;
+            margin-left: 18px;
 
         }
 
@@ -814,7 +776,7 @@
             height: 50px;
             gap: 10px;
             margin: auto;
-            background-color: #202028;
+            background-color: #1f2525;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -845,15 +807,32 @@
             display: flex;
             height: auto;
             margin-bottom: 30px;
+            gap: 25px;
         }
 
-        .the-card-2 {
-            width: 420px;
-            height: 250px;
-            margin: auto;
-            border: #e8e8e8 2px solid;
-            padding: 2% 2%;
 
+        @media (max-width: 1440px) {
+
+            .head-content {
+                padding-left: 100px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+
+            .title {
+                margin-left: 60px;
+
+            }
+
+            .mobile-service {
+                margin-left: 45px;
+            }
+            .seconde-sec-p{
+                width: 90%;
+            }
+            .magic-border {
+                margin-bottom: 120PX;
+            }
         }
     </style>
 </head>
@@ -862,118 +841,124 @@
     <?php include "./navbar.php"?>
     <div class="container-fluid mobile-header">
         <div class="head-content">
-            <h2 style="color:#fff;">Custom Web</h2>
+            <h2 style="color:#fff;">Custom software</h2>
             <h4>DEVELOPMENT COMPANY</h4>
             <p>Drive profitable growth with our innovation-led mobile app development<br>
                 services that meets business objectives with simplified user experience.</p>
         </div>
-    </div>
-    <div class="title">
-        <p>
-            Home
-        </p>
-        <p>
-            / Service /
-        </p>
-        <p>
-            Mobile App Development
-        </p>
-    </div>
-    <div class="container-fluid ">
-        <h2 class="mobile-service">Services</h2>
-        <div class="cards-div-mobile container">
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-gear"></i></div>
-                    <div class="mobile-card-h2">CMS Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae, provident magni eius sequi a
-                        nam
-                    </div>
 
+    </div>
+    <div class=" main-card-conatiner">
+        <div class="title">
+            <p>
+                Home
+            </p>
+            <p>
+                / Service /
+            </p>
+            <p style="font-size:22px; font-weight: 700; color: #012442;">
+                Software Development
+            </p>
+        </div>
+        <div class="container-fluid ">
+            <h2 class="mobile-service">Services</h2>
+            <div class="cards-div-mobile container">
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-solid fa-gear"></i></div>
+                        <div class="mobile-card-h2">CMS Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-regular fa-id-badge"></i></div>
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-regular fa-id-badge"></i></div>
+                        <div class="mobile-card-h2">Custom Software</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis
+                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
+                    </div>
+                </div>
+
+
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-regular fa-id-badge"></i></div>
                     <div class="mobile-card-h2">CMS Website
                         Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-                        debitis
-                        tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
-                </div>
-            </div>
-
-
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
-                    <div class="mobile-card-h2">
-                        WordPress eCommerce Development
-                    </div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
-                        corporis
-                        necessitatibus asperiores repellat quo maiores consequatur dolore, eaque obcaecati un
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="cards-div-mobile container">
+                <div class="the-card-2">
+                    <div class="mobile-card">
 
-        <div class="cards-div-mobile container">
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-plug"></i></div>
-                    <div class="mobile-card-h2">WordPress Plugin Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae,
+                        <div class="mobile-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="mobile-card-h2">
+                            WordPress eCommerce Development
+                        </div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
-                    <div class="mobile-card-h2">Responsive WordPress Theme Development</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-                        debitis
-                        tempore vel maiores fug </div>
+
+
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-solid fa-plug"></i></div>
+                        <div class="mobile-card-h2">WordPress Plugin Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis
+                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
+                    </div>
                 </div>
-            </div>
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-cloud"></i></div>
-                    <div class="mobile-card-h2">WordPress Migration and Maintenance services</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-                        facilis, praesentium nihil accusantium ratione doloribus incidunt
+
+
+
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
+                        <div class="mobile-card-h2">Responsive WordPress Theme Development</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                            facilis, praesentium nihil accusantium ratione doloribus incidunt
+                        </div>
                     </div>
                 </div>
             </div>
 
-        </div>
 
-        <div class="cards-div-mobile container">
-            <div class="the-card-2">
-                <div class="mobile-card">
-                    <div class="mobile-card-icon"><i class="fa-solid fa-plug"></i></div>
-                    <div class="mobile-card-h2">WordPress CMS Installation & Configuration</div>
-                    <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus velit incidunt illum expedita harum veniam vitae,
+            <div class="cards-div-mobile container">
+                <div class="the-card-2">
+                    <div class="mobile-card">
+
+                        <div class="mobile-card-icon"><i class="fa-solid fa-cloud"></i></div>
+                        <div class="mobile-card-h2">WordPress Migration and Maintenance services</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
+                        </div>
                     </div>
                 </div>
+
+
+                <div class="the-card-2">
+                    <div class="mobile-card">
+                        <div class="mobile-card-icon"><i class="fa-solid fa-plug"></i></div>
+                        <div class="mobile-card-h2" style="font-size: 27PX;">WordPress CMS Installation & Configuration</div>
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis
+                            tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
+                    </div>
                 </div>
+
+
+
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
                         <div class="mobile-card-h2">API integration and Module Management</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-                            debitis
-                            tempore vel maiores fuga unde <br>
-                        </div>
-                    </div>
-                </div>
-                <div class="the-card-2">
-                    <div class="mobile-card">
-                        <div class="mobile-card-icon"><i class="fa-solid fa-cloud"></i></div>
-                        <div class="mobile-card-h2">Conversion to WordPress</div>
                         <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
                             facilis, praesentium nihil accusantium ratione doloribus incidunt
                         </div>
@@ -983,23 +968,22 @@
 
         </div>
     </div>
+
     <div class="seconde-section">
-        <div class="row-our-service">
-            <div class=" seconde-sec-content-1">
-                <div class="content-div-p">
-                    <div class="seconde-sec-h2">Our Services Other<br>Than WordPress Development</div>
-                    <div class="seconde-sec-border"></div>
-                    <div class="seconde-sec-p">Building intuitive user interface for custom solutions by combining
-                        your ideas and our end-to-end front-end development expertise.</div>
-                </div>
-
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 seconde-sec-content-1 ">
+                <div class="seconde-sec-h2">Our<br>
+                    Custom Software<br>
+                    Development Process</div>
+                <div class="seconde-sec-border"></div>
+                <div class="seconde-sec-p">Building intuitive user interface for custom solutions by combining
+                    your ideas and our end-to-end front-end development expertise.</div>
             </div>
-
-            <div class="seconde-sec-content-2 ">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 seconde-sec-content-2 ">
                 <div class="row">
-                    <div class="rect-images-sec-1 rect-images-sec-2 ">
-                        <div class=" parallelogram">
-                            <img src="./images/parllalo.webp">
+                    <div class="rect-images-sec-1">
+                        <div class="rect-img-1">
+                            <img src="./images/Layer 98 copy.webp">
                         </div>
                     </div>
 
@@ -1007,7 +991,55 @@
             </div>
         </div>
     </div>
+    <section class="main-magic-sec">
+        <div class="magic-main-content">
+            <div class="content-main">
+                <h3>Macwiq: Your Custom<br>
+                    Software Development Partner </h3>
+                <br>
+                <div class="magic-border"></div>
 
+            </div>
+
+            <div class="magic-box-div">
+                <div class="magic-box">
+                    <div class="mac-icon">
+                        <img src="./images/Layer 106.webp">
+                    </div>
+                    <div class="mac-h">Enginnering Excellence</div>
+                    <div class="mac-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas cupiditate
+                        consectetur suscipit ut similique! </div>
+
+                </div>
+                <div class="magic-box">
+                    <div class="mac-icon"><img src="./images/Layer 106 (1).webp"></div>
+                    <div class="mac-h">Future-Ready Solution</div>
+                    <div class="mac-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas cupiditate
+                        consectetur suscipit ut similique! </div>
+
+                </div>
+                <div class="magic-box">
+                    <div class="mac-icon"><img src="./images/Layer 106 (2).webp"></div>
+                    <div class="mac-h">Timley Marketing</div>
+                    <div class="mac-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas cupiditate
+                        consectetur suscipit ut similique! </div>
+
+                </div>
+                <div class="magic-box">
+                    <div class="mac-icon"><img src="./images/Layer 106 (3).webp"></div>
+                    <div class="mac-h">Smart Solutions</div>
+                    <div class="mac-p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas
+                        cupiditate
+                        consectetur suscipit ut similique! </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
 
     <div class="third-card-div">
         <div class="faq-section">
@@ -1052,129 +1084,63 @@
         </div>
     </div>
 
-    <section class="main-magic-sec">
-        <div class="magic-main-content">
-            <div class="content-main">
-                <h3>Macwiq: Your Custom<br>
-                    Software Development Partner </h3>
-                <br>
-                <div class="magic-border"></div>
-
-            </div>
-
-            <div class="magic-box-div">
-
-                <div class="magic-box">
-                    <div class="mac-icon"><img src="./images/Layer 106.webp"></div>
-                    <div class="mac-h">Enginnering Excellence</div>
-                    <div class="mac-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas cupiditate
-                        consectetur suscipit ut similique! </div>
-
-                </div>
-                <div class="magic-box">
-                    <div class="mac-icon"><img src="./images/Layer 106 (1).webp"></div>
-                    <div class="mac-h">Future-Ready Solution</div>
-                    <div class="mac-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas cupiditate
-                        consectetur suscipit ut similique! </div>
-
-                </div>
-                <div class="magic-box">
-                    <div class="mac-icon"><img src="./images/Layer 106 (2).webp"></div>
-                    <div class="mac-h">Timley Marketing</div>
-                    <div class="mac-p"><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas
-                        cupiditate
-                        consectetur suscipit ut similique! </div>
-
-                </div>
-                <div class="magic-box">
-                    <div class="mac-icon"><img src="./images/Layer 106 (3).webp"></div>
-                    <div class="mac-h">Smart Solutions</div>
-                    <div class="mac-p"> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quas
-                        cupiditate
-                        consectetur suscipit ut similique! </div>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </section>
-
     <?php include "./swipper-mob.php" ?>
-    <section class="our-custom">
-        <div class="faq-sec-first-c">
-            <div class="row">
-                <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 faq-content-div-c">
-                    <div class="faq-content-c">
-                        <h3>Why Should You Go for
-                            Website Development </h3>
-                        <div class="faq-border-c"></div>
-                        <p>A website solution is highly efficient and holds a lot
-                            to offer to your businesses, whether you are a small
-                            business or a huge organization. </p>
-                    </div>
-
+    <div class="faq-sec-first-c">
+        <div class="row-faq-c">
+            <div class="faq-content-div-c">
+                <div class="faq-content-c">
+                    <h3>Our Custom Software <br>Development Process</h3>
+                    <div class="faq-border-c"></div>
+                    <p>A website solution is highly efficient and holds a lot
+                        to offer to your businesses, whether you are a small
+                        business or a huge organization. .</p>
                 </div>
-                <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 faq-main-div-c">
-                    <div class="faq-div-c">
-                        <div class="faq-section-c mt-3">
-                            <div class="faq-question-c">
-                                Effective Customer Connect
-                                <div class="arrow-btn-c"><span>&#8250;</span></div>
-                            </div>
-                            <div class="faq-answer-c">Mobile apps eliminate website loading time which directly
-                                influences
-                                the
-                                bounce rate and work as the most suitable point of contact with end-users.</div>
 
-                            <div class="faq-question-c mt-3">
-                                Raise Conversion Rates
-                                <div class="arrow-btn-c"><span>&#8250;</span></div>
-                            </div>
-                            <div class="faq-answer-c">Mobile Apps are the most convenient and effective way to grab
-                                users’
-                                attention. It can yield up to 2x conversion rate as compared to other marketing
-                                platforms.
-                            </div>
-                            <div class="faq-question-c mt-3">
-                                Brilliant Marketing Channel
-                                <div class="arrow-btn-c"><span>&#8250;</span></div>
-                            </div>
-                            <div class="faq-answer-c">Mobile apps are equipped with personalized features, custom
-                                engagement
-                                activities, and content, which promote brand recognition.</div>
-                            <div class="faq-question-c mt-3">
-                                Round-tur Customhe-Clock Accessibility
-                                <div class="arrow-btn-c"><span>&#8250;</span></div>
-                            </div>
-                            <div class="faq-answer-c">Apps are easier to access for the user on their respective
-                                device
-                                over
-                                a
-                                website and provide personalized messages and notifications. Moreover, the PWA apps
-                                can
-                                even
-                                be used offline.</div>
-                            <div class="faq-question-c mt-3">
-                                Maximum User Engagement
-                                <div class="arrow-btn-c"><span>&#8250;</span></div>
-                            </div>
-                            <div class="faq-answer-c">Mobile apps are highly effective in brand building, user
-                                engagement,
-                                and
-                                offer multiple benefits because of its easy accessibility for users on varied
-                                devices
-                                and
-                                browsers.</div>
+            </div>
+            <div class=" faq-main-div-c">
+                <div class="faq-div-c">
+                    <div class="faq-section-c mt-3">
+                        <div class="faq-question-c">
+                            Effective Customer Connect
+                            <div class="arrow-btn-c"><span>&#8250;</span></div>
                         </div>
-                    </div>
+                        <div class="faq-answer-c">Mobile apps eliminate website loading time which directly influences the
+                            bounce rate and work as the most suitable point of contact with end-users.</div>
 
+                        <div class="faq-question-c mt-3">
+                            Raise Conversion Rates
+                            <div class="arrow-btn-c"><span>&#8250;</span></div>
+                        </div>
+                        <div class="faq-answer-c">Mobile Apps are the most convenient and effective way to grab users’
+                            attention. It can yield up to 2x conversion rate as compared to other marketing platforms.
+                        </div>
+                        <div class="faq-question-c mt-3">
+                            Brilliant Marketing Channel
+                            <div class="arrow-btn-c"><span>&#8250;</span></div>
+                        </div>
+                        <div class="faq-answer-c">Mobile apps are equipped with personalized features, custom engagement
+                            activities, and content, which promote brand recognition.</div>
+                        <div class="faq-question-c mt-3">
+                            Round-the-Clock Accessibility
+                            <div class="arrow-btn-c"><span>&#8250;</span></div>
+                        </div>
+                        <div class="faq-answer-c">Apps are easier to access for the user on their respective device over a
+                            website and provide personalized messages and notifications. Moreover, the PWA apps can even
+                            be used offline.</div>
+                        <div class="faq-question-c mt-3">
+                            Maximum User Engagement
+                            <div class="arrow-btn-c"><span>&#8250;</span></div>
+                        </div>
+                        <div class="faq-answer-c">Mobile apps are highly effective in brand building, user engagement, and
+                            offer multiple benefits because of its easy accessibility for users on varied devices and
+                            browsers.</div>
+                    </div>
                 </div>
+
             </div>
         </div>
-    </section>
+
+    </div>
     <section class="tools">
         <div class="container container-tools">
             <h2>Tools & Technologies We Prefer</h2>
@@ -1304,7 +1270,81 @@
                     </div>
                 </div>
                 <div class="tools-border"></div>
+                <div class="first-sec">
 
+                    <div class="main-div-tool">
+                        <p>Quality Assurance</p>
+                    </div>
+
+
+                    <div class="tool-parts">
+                        <img src="./images/logo/selenium-icon-2048x1986-3fr2ikf8.webp">
+                        <p>Selenium</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>JMeter</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/HPE_LoadRunner_logo.webp">
+                        <p>LoadRunner</p>
+                    </div>
+
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Devops</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/docker.webp">
+                        <p>Docker</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/kubernetes-icon.webp">
+                        <p>Kubernetes </p>
+                    </div>
+                    <div class="tool-parts">
+
+                        <img src="./images/logo/icon-svg.webp">
+                        <p>Ansible</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/1200px-Chef_logo.svg.webp">
+                        <p>Chef</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/puppet (1).webp" style="width: 50px; height: auto; margin: 0;">
+                        <p>Puppet</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
+                    </div>
+
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Cloud Services</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/azure.webp">
+                        <p> Microsoft Azure</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/google-cloud-icon-2048x1646-7admxejz.webp">
+                        <p>Google cloud</p>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -1313,16 +1353,13 @@
         <h3>Frequently Asked Questions</h3>
         <div class="row-faq">
             <div class="colm-faq">
-
-
                 <div class="faq">
                     <div class="question" id="plus_">What's the average delivery time for car shipments across state
                         lines?
                         <span><b><span>&#8593;</span></b></span>
                     </div>
                     <div class="answer" id="answer3">
-                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and
-                            route
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
                             can
                             impact delivery times. Contact us for a more precise estimate.</p>
                     </div>
@@ -1333,8 +1370,7 @@
                         <span><b><span>&#8593;</span></b></span>
                     </div>
                     <div class="answer" id="answer3">
-                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and
-                            route
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
                             can
                             impact delivery times. Contact us for a more precise estimate.</p>
                     </div>
@@ -1345,8 +1381,7 @@
                         <span><b><span>&#8593;</span></b></span>
                     </div>
                     <div class="answer" id="answer3">
-                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and
-                            route
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
                             can
                             impact delivery times. Contact us for a more precise estimate.</p>
                     </div>
@@ -1359,8 +1394,7 @@
                         <span><b><span>&#8593;</span></b></span>
                     </div>
                     <div class="answer" id="answer3">
-                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and
-                            route
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
                             can
                             impact delivery times. Contact us for a more precise estimate.</p>
                     </div>
@@ -1371,8 +1405,7 @@
                         <span><b><span>&#8593;</span></b></span>
                     </div>
                     <div class="answer" id="answer3">
-                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and
-                            route
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
                             can
                             impact delivery times. Contact us for a more precise estimate.</p>
                     </div>
@@ -1385,8 +1418,7 @@
                         <span><b><span>&#8593;</span></b></span>
                     </div>
                     <div class="answer" id="answer3">
-                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and
-                            route
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
                             can impact delivery times. Contact us for a more precise estimate.</p>
                     </div>
 
@@ -1523,14 +1555,6 @@
             </div>
 
         </div>
-    </div>
-
-
-    </div>
-    <div class="last-footer ">
-        <p>Copyright &copy; 2021 MacWiQ All rights</p>
-        <p>Desgined by PK Solution.com</p>
-
     </div>
 
 

@@ -666,7 +666,7 @@
             width: 11%;
             margin: auto;
             margin-top: 0px;
-            margin-bottom: 120px;
+            margin-bottom: 295px;
         }
 
         .content-main h3 {
@@ -829,6 +829,9 @@
             }
             .seconde-sec-p{
                 width: 90%;
+            }
+            .magic-border{
+                margin-bottom:120px;
             }
         }
     </style>

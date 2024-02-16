@@ -153,16 +153,13 @@
             width: 100%;
             z-index: 1;
         }
-
-
         .seconde-sec-content-2 {
             height: auto;
-            width: 45%;
+            width: 50%;
         }
-
         .seconde-sec-h2 {
-            font-size: 45px;
-            letter-spacing: 3px;
+            font-size: 50px;
+            letter-spacing: 1px;
             line-height: 56px;
             text-transform: uppercase;
             color: #ffffff;
@@ -188,7 +185,7 @@
         }
 
         .seconde-sec-content-1 {
-            width: 55%;
+            width: 50%;
             height: auto;
         }
 
@@ -209,6 +206,15 @@
             margin-top: 1%;
             margin-bottom: 1%;
         }
+        .parallelogram-1{
+            width: 500px;
+            height: 250px;
+            background-color: #002933;
+            z-index: 2;
+            margin-top: -9%;
+            clip-path: polygon(8% 0, 76% 0, 68% 100%, 0% 100%);
+            
+        }
 
         .rect-images-sec-1 {
             position: relative;
@@ -218,45 +224,43 @@
 
         .parallelogram {
             width: 100%;
-            height: 400px;
-            margin-top: -5%;
+            height: 580px;
+            width: 700px;
+            margin-top: -23%;
             margin-bottom: -5%;
-            clip-path: polygon(16% 0%, 90% 0%, 75% 100%, 0% 100%);
+            margin-left: 15%;
+            clip-path: polygon(8% 0, 76% 0, 68% 100%, 0% 100%);
             z-index: 1;
-
-
-
         }
 
         .rect-images-sec-1::after {
             content: "";
             position: absolute;
-            width: 35px;
-            height: 35px;
+            width: 50px;
+            height: 50px;
             clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
             position: absolute;
             background-color: #002933;
-            bottom: 0;
-            margin-bottom: -20px;
+            bottom: -78px;
             z-index: -1;
-            margin-left: -2%;
+            margin-left: -17px;
             transform: rotate(60deg);
         }
 
         .rect-images-sec-2::before {
             content: "";
             position: absolute;
-            width: 35px;
-            height: 35px;
+            width: 50px;
+            height: 50px;
             clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
             position: absolute;
             background-color: #002933;
             top: 0;
-            right: 0;
-            margin-right: 8%;
-            margin-top: -19px;
-            transform: rotate(130deg);
+            right: 314px;
+
             z-index: -5;
+
+
         }
 
         .parallelogram img {
@@ -493,13 +497,15 @@
             text-align: center;
             color: rgb(22, 22, 199);
         }
+
         .row-faq-1 {
             display: flex;
             width: 100%;
-          
+
             gap: 5%;
 
         }
+
         .row-faq {
             display: flex;
             width: 100%;
@@ -571,7 +577,7 @@
         .main-magic-sec {
             background: url(./images/map-2.webp) center center no-repeat;
             background-size: cover;
-           
+
             padding-top: 80px;
             width: 100%;
             height: 80vh;
@@ -850,6 +856,7 @@
             color: white;
             margin-bottom: 5%;
         }
+
         .magic-content span {
             font-size: 17px;
             letter-spacing: 0px;
@@ -858,7 +865,7 @@
             font-weight: 300;
             font-family: "Inter";
             text-align: center;
-          
+
             z-index: 2;
         }
 
@@ -950,10 +957,11 @@
                 padding-top: 100px;
                 padding-bottom: 100px;
             }
+
             .main-magic-sec {
-           
-            height:100vh;
-        }
+
+                height: 100vh;
+            }
 
             .title {
                 margin-left: 60px;
@@ -967,8 +975,22 @@
             .seconde-sec-p {
                 width: 90%;
             }
+
             .magic-content span {
                 font-size: 16px;
+            }
+
+            .rect-images-sec-2::before {
+                right: 94px;
+                width: 40px;
+                height: 40px;
+            }
+
+            .rect-images-sec-1::after {
+                width: 40px;
+                height: 40px;
+                bottom: -55px;
+                margin-left: -13px;
             }
         }
     </style>
@@ -1010,9 +1032,6 @@
 
                     </div>
                 </div>
-
-
-
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-android"></i></div>
@@ -1022,8 +1041,6 @@
                             tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, </div>
                     </div>
                 </div>
-
-
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
@@ -1071,7 +1088,7 @@
         </div>
     </div>
 
-    <!-- <div class="seconde-section">
+    <div class="seconde-section">
         <div class="row-our-service">
             <div class=" seconde-sec-content-1">
                 <div class="content-div-p">
@@ -1086,10 +1103,9 @@
             </div>
 
             <div class="seconde-sec-content-2 ">
-
-
+          
                 <div class="rect-images-sec-1 rect-images-sec-2">
-
+                    <div class="parallelogram-1"></div>
                     <div class="parallelogram">
                         <img src="./images/vr.webp">
                     </div>
@@ -1098,7 +1114,7 @@
 
             </div>
         </div>
-    </div> -->
+    </div>
     <section class="main-magic-sec">
         <div class="magic-main-content">
             <div class="content-main">
