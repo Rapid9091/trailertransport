@@ -81,18 +81,11 @@
             font-family: "Inter";
         }
 
-        .cards-div-mobile {
-            width: 100%;
-            height: auto;
-            margin: auto;
-            padding: auto;
-        }
-
         .title {
             display: flex;
             gap: 5px;
             margin-top: 20px;
-            margin-left: 300px
+            margin-left: 170px
         }
 
         .title p {
@@ -111,22 +104,23 @@
             color: #000000;
             font-weight: 600;
             font-family: "Inter";
-            margin-left: 290px;
+            margin-left: 152px;
             margin-bottom: 45px;
             margin-top: 45px;
         }
 
         .the-card-2 {
-            width: 490px;
-            height:300px;
+            width: 100%;
+            height: 100%;
             margin: auto;
             border: #e8e8e8 2px solid;
-            
+
 
         }
-        .mobile-card{
-          
-            height:285px;
+
+        .mobile-card {
+
+
             padding: 25px 15px 45px 25px;
             margin: 5px;
         }
@@ -157,9 +151,9 @@
             color: #8c8c94;
         }
 
-      
+
         .mobile-card-h2 {
-            font-size: 28px;
+            font-size: 30px;
             letter-spacing: 0px;
             line-height: 36px;
             color: black;
@@ -167,16 +161,16 @@
             font-family: "Inter";
 
         }
-
         .mobile-card-p {
-            font-size: 18px;
+            font-size: 20px;
             letter-spacing: 0px;
-            line-height: 25px;
+            line-height: 29px;
             color: black;
             font-weight: 300;
             font-family: "Inter";
-            padding-top: 8px;
+            padding-top: 18px;
         }
+
         .seconde-section {
             background-image: url(./images/pxfuel.com\(2\)\ copy\ 2.webp);
             background-size: cover;
@@ -211,6 +205,7 @@
             width: 60%;
             margin-top: 5%;
             margin-right: -10%;
+            margin-bottom: 5%;
 
         }
 
@@ -231,8 +226,8 @@
         }
 
         .rect-img-1 img {
-            width: 600px;
-            height: 440px;
+            width: 625px;
+            height: 500px;
             margin-bottom: -5%;
         }
 
@@ -494,22 +489,24 @@
         }
 
         .our-custom {
-            
+
             background-color: white !important;
             height: 100%;
             width: 100%;
         }
+
         .row-faq-c {
             display: flex;
             width: 100%;
         }
+
         .faq-sec-first-c {
             background: url(./images/Layer\ 104.webp) center center no-repeat;
             background-size: cover;
             width: 100%;
             height: auto;
             margin-top: 130px;
-            margin-bottom:120px ;
+            margin-bottom: 120px;
             padding: 50PX 0;
 
         }
@@ -577,12 +574,12 @@
         .faq-div-c {
             width: auto;
             top: 0;
-            
+
         }
 
         /* Add your own styles here */
         .faq-section-c {
-           width: 100%;
+            width: 100%;
             margin: 0;
             color: white;
         }
@@ -594,7 +591,7 @@
             margin: 0px 0;
             position: relative;
             font-size: 23px;
-      
+
         }
 
         .faq-answer-c {
@@ -613,7 +610,7 @@
             right: 30px;
             transform: translateY(-50%);
             transition: transform 0.3s ease;
-            color:#4d4d52;
+            color: #4d4d52;
         }
 
         .arrow-btn-c {
@@ -694,15 +691,15 @@
         .magic-box {
             position: relative;
             background-color: transparent;
-            height: 280px;
-            width: 400px;
+            height: 100%;
+            width: 100%;
             border: 2px solid #e6e6e6;
             padding: 2% 2%;
             z-index: 3;
         }
 
         .mac-h {
-            font-size: 22px;
+            font-size: 30px;
             color: black;
             font-weight: bolder;
             line-height: 30px;
@@ -712,7 +709,7 @@
         }
 
         .mac-p {
-            font-size: 18px;
+            font-size: 20px;
             color: black;
             font-weight: 300;
             margin-top: 8px;
@@ -721,9 +718,10 @@
         }
 
         .mac-icon img {
-            width: 50px;
-            height: 50px;
+            width: 70px;
+            height: 70px;
         }
+
         .tools {
             background: url(./images/web\ Ui.png) center center no-repeat;
             background-size: cover;
@@ -732,7 +730,7 @@
             padding: 15px 0 80px 0;
         }
 
-      
+
         .tools .container h2 {
             color: white;
             font-weight: bold;
@@ -753,7 +751,7 @@
             background-color: #102C2d;
             align-items: center;
             display: flex;
-           
+
             margin-right: 2%;
         }
 
@@ -807,7 +805,9 @@
             display: flex;
             height: auto;
             margin-bottom: 30px;
+            padding: 0 150px;
             gap: 25px;
+
         }
 
 
@@ -827,11 +827,13 @@
             .mobile-service {
                 margin-left: 45px;
             }
-            .seconde-sec-p{
+
+            .seconde-sec-p {
                 width: 90%;
             }
-            .magic-border{
-                margin-bottom:120px;
+
+            .magic-border {
+                margin-bottom: 120px;
             }
         }
     </style>
@@ -862,12 +864,13 @@
         </div>
         <div class="container-fluid ">
             <h2 class="mobile-service">Services</h2>
-            <div class="cards-div-mobile container">
+            <div class="cards-div-mobile ">
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
                         <div class="mobile-card-h2">Legacy System Modernization</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
                         </div>
 
                     </div>
@@ -887,41 +890,37 @@
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-solid fa-computer"></i></div>
                         <div class="mobile-card-h2">Enterprise Software</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="cards-div-mobile container">
+            <div class="cards-div-mobile">
                 <div class="the-card-2">
                     <div class="mobile-card">
 
                         <div class="mobile-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
                         <div class="mobile-card-h2">Custom CRM Development</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
                         </div>
                     </div>
                 </div>
-
-
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-solid fa-code"></i></div>
-                        <div class="mobile-card-h2">Software Product Development</div>
+                        <div class="mobile-card-h2" style="font-size: 29px;">Software Product Development</div>
                         <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
                             debitis
                             tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam, <br> </div>
                     </div>
                 </div>
-
-
-
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-solid fa-gear"></i></div>
                         <div class="mobile-card-h2">Data Analytics & Information</div>
-                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-                            facilis, praesentium nihil accusantium ratione doloribus incidunt
+                        <div class="mobile-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis tempore vel maiores fuga unde ducimus eveniet consequuntur aperiam vitae magnam,
                         </div>
                     </div>
                 </div>
@@ -1065,7 +1064,8 @@
                             Effective Customer Connect
                             <div class="arrow-btn-c"><span>&#8250;</span></div>
                         </div>
-                        <div class="faq-answer-c">Mobile apps eliminate website loading time which directly influences the
+                        <div class="faq-answer-c">Mobile apps eliminate website loading time which directly influences
+                            the
                             bounce rate and work as the most suitable point of contact with end-users.</div>
 
                         <div class="faq-question-c mt-3">
@@ -1085,14 +1085,16 @@
                             Round-the-Clock Accessibility
                             <div class="arrow-btn-c"><span>&#8250;</span></div>
                         </div>
-                        <div class="faq-answer-c">Apps are easier to access for the user on their respective device over a
+                        <div class="faq-answer-c">Apps are easier to access for the user on their respective device over
+                            a
                             website and provide personalized messages and notifications. Moreover, the PWA apps can even
                             be used offline.</div>
                         <div class="faq-question-c mt-3">
                             Maximum User Engagement
                             <div class="arrow-btn-c"><span>&#8250;</span></div>
                         </div>
-                        <div class="faq-answer-c">Mobile apps are highly effective in brand building, user engagement, and
+                        <div class="faq-answer-c">Mobile apps are highly effective in brand building, user engagement,
+                            and
                             offer multiple benefits because of its easy accessibility for users on varied devices and
                             browsers.</div>
                     </div>

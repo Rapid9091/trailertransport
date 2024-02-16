@@ -77,9 +77,8 @@
             display: flex;
             gap: 5px;
             margin-top: 20px;
-            margin-left: 300px
+            margin-left: 170px
         }
-
 
         .title p {
             font-size: 20px;
@@ -91,6 +90,17 @@
             color: #011527;
         }
 
+        .mobile-service {
+            font-size: 50px;
+            line-height: 25px;
+            color: #000000;
+            font-weight: 600;
+            font-family: "Inter";
+            margin-left: 152px;
+            margin-bottom: 45px;
+            margin-top: 45px;
+        }
+
         .cards-div-mobile {
             width: 100%;
             display: flex;
@@ -99,33 +109,23 @@
             gap: 25px;
         }
 
-        .cards-div-mobile-2 {
+        .cards-div-mobile {
             width: 100%;
             display: flex;
             height: auto;
             margin-bottom: 30px;
+            padding: 0 150px;
             gap: 25px;
 
         }
-
-        .mobile-service {
-            font-size: 50px;
-            line-height: 25px;
-            color: #000000;
-            font-weight: 600;
-            font-family: "Inter";
-            margin-left: 290px;
-            margin-bottom: 45px;
-            margin-top: 45px;
-        }
-
+   
         .mobile-card-icon {
             font-size: 40px;
             color: #8c8c94;
         }
 
         .mobile-card-h2 {
-            font-size: 28px;
+            font-size: 30px;
             letter-spacing: 0px;
             line-height: 36px;
             color: black;
@@ -133,15 +133,14 @@
             font-family: "Inter";
 
         }
-
         .mobile-card-p {
-            font-size: 18px;
+            font-size: 20px;
             letter-spacing: 0px;
-            line-height: 25px;
+            line-height: 29px;
             color: black;
             font-weight: 300;
             font-family: "Inter";
-            padding-top: 8px;
+            padding-top: 18px;
         }
 
         .seconde-section {
@@ -289,8 +288,8 @@
 
         .mobile-dev-border {
             border: #202028 2px solid;
-            width: 483px;
-            height: auto;
+            width: 100%;
+            height:100%;
             margin: auto;
         }
 
@@ -300,23 +299,22 @@
         }
 
         .mobile-card-2-h2 {
-            font-size: 26px;
+            font-size: 30px;
             letter-spacing: 0px;
             line-height: 36px;
-            color: #ffffff;
+            color: white;
             font-weight: 700;
             font-family: "Inter";
 
         }
-
         .mobile-card-2-p {
-            font-size: 18px;
+            font-size: 20px;
             letter-spacing: 0px;
-            line-height: 25px;
-            color: #ffffff;
+            line-height: 29px;
+            color: white;
             font-weight: 300;
             font-family: "Inter";
-            padding-top: 8px;
+            padding-top: 18px;
         }
 
         .mobile-content-service {
@@ -715,16 +713,16 @@
         }
 
         .the-card-2 {
-            width: 490px;
-            height: auto;
+            width: 100%;
+            height: 100%;
             margin: auto;
             border: #e8e8e8 2px solid;
 
 
         }
 
-        .mobile-card {
 
+        .mobile-card {
             padding: 25px 15px 45px 25px;
             margin: 5px;
         }
@@ -1020,7 +1018,7 @@
         </div>
         <div class="container-fluid" style="background-color: #ffffff;">
             <h2 class="mobile-service">Services</h2>
-            <div class="cards-div-mobile container">
+            <div class="cards-div-mobile">
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-apple"></i></div>
@@ -1052,7 +1050,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cards-div-mobile container">
+            <div class="cards-div-mobile">
                 <div class="the-card-2">
                     <div class="mobile-card">
                         <div class="mobile-card-icon"><i class="fa-brands fa-react"></i></div>
@@ -1088,7 +1086,7 @@
         </div>
     </div>
 
-    <div class="seconde-section">
+    <!-- <div class="seconde-section">
         <div class="row-our-service">
             <div class=" seconde-sec-content-1">
                 <div class="content-div-p">
@@ -1114,7 +1112,7 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
     <section class="main-magic-sec">
         <div class="magic-main-content">
             <div class="content-main">
@@ -1187,7 +1185,7 @@
             <h2>Why Macwiq<span>Is Your Best Choice<br>
                     For</span> Mobile Development?</h2>
         </div>
-        <div class="cards-div-mobile-2 container">
+        <div class="cards-div-mobile">
 
             <div class="mobile-dev-border">
                 <div class="mobile-card-2 dark-cards">
@@ -1221,7 +1219,7 @@
                 </div>
             </div>
         </div>
-        <div class="cards-div-mobile-2 container">
+        <div class="cards-div-mobile">
             <div class="mobile-dev-border">
                 <div class="mobile-card-2 dark-cards">
                     <div class="mobile-card-icon"><i class="fa-solid fa-id-badge"></i></div>
