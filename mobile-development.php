@@ -125,7 +125,7 @@
         }
 
         .mobile-card-h2 {
-            font-size: 30px;
+            font-size: 1.83em;
             letter-spacing: 0px;
             line-height: 36px;
             color: black;

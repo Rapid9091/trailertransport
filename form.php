@@ -7,6 +7,10 @@
     width: 100%;
     margin: auto;
 }
+.container-form{
+    width:1440px;
+    margin: auto;
+}
 
 .form-div {
     background-color: white;
@@ -40,26 +44,26 @@
 }
 
 .content-form-div {
-    width: calc(100%-400px);
+    width: calc(100%-500px);
     padding-bottom: 100px;
     margin-top: 40px;
 }
 
 .content-form-div h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bolder;
 }
-
 .side-image-footer {
-
     background: url(./images/Consulting.webp) center center no-repeat;
-    width: 450px;
+    width: 500px;
     margin-left: 75px;
     background-size: cover;
     margin-top: 40px;
     height: auto;
 }
-
+.side-conetent p{
+    font-size: 20px;
+}
 .main-form {
     width: 100%;
     height: 100%;
@@ -79,7 +83,7 @@
 }
 
 .form-input input {
-    width: 300px;
+    width: 345px;
     height: 60px;
     border: #000 0px solid;
     border-bottom: #0000002f 1.5px solid;
@@ -103,7 +107,7 @@
 }
 
 .third-input-box .form-About {
-    width: 488px;
+    width: 97%
 }
 
 @media (max-width: 600px) {
@@ -137,7 +141,7 @@
 
 <!---form-->
 <section class=" pb-0" style="margin-bottom:-8.5%; background-color:white;">
-        <div class="container">
+        <div class="container-form">
             <div class="form-div ">
                 <div class="content-form-div">
                     <h2 class="mb-3 mb-xl-4 mb-xxl-5">Do you have a project in mind ?<br>

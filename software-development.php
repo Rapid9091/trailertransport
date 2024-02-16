@@ -218,13 +218,11 @@
             margin-top: 1%;
             margin-bottom: 1%;
         }
-
         .rect-images-sec-1 {
             display: flex;
             margin-top: -5%;
             z-index: 2;
         }
-
         .rect-img-1 img {
             width: 625px;
             height: 500px;
@@ -721,6 +719,14 @@
             width: 70px;
             height: 70px;
         }
+        .container-tools{
+            width: 100%;
+            height: auto;
+            margin: auto;
+            display: grid;
+            place-items: center;
+            padding: 0 180px;
+        }
 
         .tools {
             background: url(./images/web\ Ui.png) center center no-repeat;
@@ -731,11 +737,17 @@
         }
 
 
-        .tools .container h2 {
-            color: white;
-            font-weight: bold;
+        .tools .container-tools h2 {
+            font-size: 50px;
+letter-spacing: 1px;
+line-height: 65px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Inter";
+text-align: center;
             text-align: center;
             padding: 2% 0;
+            
         }
 
         .first-sec {
@@ -746,49 +758,50 @@
         }
 
         .main-div-tool {
-            width: 200px;
+            width: fit-content;
             height: auto;
             background-color: #102C2d;
             align-items: center;
             display: flex;
-
             margin-right: 2%;
+
+
         }
 
         .main-div-tool p {
             margin-top: 8%;
             text-align: center;
-            font-size: 20px;
+            font-size: 25px;
             color: white;
-            margin-left: 18px;
+            margin: 21px 74px 23px 28px;
 
         }
 
         .tools-sec {
-            max-width: fit-content;
+            width: 100%;
             height: auto;
         }
 
         .tool-parts {
-            width: 180px;
-            height: 50px;
+            width:fit-content;
+            height:70px;
             gap: 10px;
             margin: auto;
             background-color: #1f2525;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 2px 15px;
+            padding: 8px 32px;
             margin: 0;
         }
 
         .tool-parts img {
-            width: 25px;
-            height: 25px;
+            width: 30px;
+            height: 30px;
         }
 
         .tool-parts p {
-            font-size: 15px;
+            font-size: 18px;
             margin-top: 10%;
             color: white;
 
@@ -1105,7 +1118,7 @@
 
     </div>
     <section class="tools">
-        <div class="container container-tools">
+        <div class="container-tools">
             <h2>Tools & Technologies We Prefer</h2>
             <div class="tools-sec">
                 <div class="first-sec">
@@ -1141,7 +1154,8 @@
                 <div class="tools-border"></div>
                 <div class="first-sec">
                     <div class="main-div-tool">
-                        <p>front-end</p>
+                        <p>Front-end
+                        </p>
                     </div>
                     <div class="tool-parts">
                         <img src="./images/logo/html-5.webp">
@@ -1171,10 +1185,7 @@
                         <img src="./images/logo/e-icon.webp">
                         <p>Ember js</p>
                     </div>
-                    <div class="tool-parts">
-                        <img src="./images/logo/meteor-js-icon.webp">
-                        <p>Meteor</p>
-                    </div>
+                  
                 </div>
                 <div class="tools-border"></div>
                 <div class="first-sec">
