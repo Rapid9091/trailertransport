@@ -10,13 +10,11 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 1000px;
-    height: 500px;
+    width: 800px;
+    height: 480px;
     transform: translate3d(0) !important;
 
   }
-
-
   .swip-content {
     width: 100%;
     height: 100%;
@@ -61,21 +59,21 @@
   }
 
   .our-recent-paragraph {
-    font-size: 21px;
+    font-size: 25px;
     letter-spacing: 0px;
     line-height: 29px;
     color: #00103d;
-    font-weight: 300;
+    font-weight: 400;
     font-family: "Inter";
     text-align: center;
-    width: 740px;
+    width: 1100px;
     margin: auto;
     margin-bottom: 100px;
-    margin-top: 15px;
+    margin-top: 18px;
   }
 
   .swipper-border {
-    border: 2.5px solid;
+    border: 2.8px solid;
     border-image: linear-gradient(to right, #21d0b3, #1ecff5) 1;
     width: 10%;
     margin: auto;

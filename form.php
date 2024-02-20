@@ -11,7 +11,6 @@
     width:1440px;
     margin: auto;
 }
-
 .form-div {
     background-color: white;
     position: relative;
@@ -23,9 +22,6 @@
     width: 100%;
     display: flex;
     height: 100%;
-    
-
-
 }
 
 .form-div::before {
@@ -36,34 +32,29 @@
     width: 100%;
     background: linear-gradient(147deg, rgba(33, 208, 179, 1) 29%, rgba(30, 207, 245, 1) 73%);
 }
-
 .form-border {
     border-top: solid 5px;
     border-image: linear-gradient(to right, hsl(170, 73%, 47%), #1ecff5) 1;
     padding-bottom: 5%;
 }
-
 .content-form-div {
-    width: calc(100%-500px);
+    width: 60%;
     padding-bottom: 100px;
     margin-top: 40px;
 }
-
 .content-form-div h2 {
-    font-size: 50px;
+    font-size:3.125rem;
     font-weight: bolder;
 }
 .side-image-footer {
     background: url(./images/Consulting.webp) center center no-repeat;
-    width: 500px;
+    width:40%;
     margin-left: 75px;
     background-size: cover;
     margin-top: 40px;
     height: auto;
 }
-.side-conetent p{
-    font-size: 20px;
-}
+
 .main-form {
     width: 100%;
     height: 100%;
@@ -82,8 +73,94 @@
     gap: 10px;
 }
 
+.side-conetent {
+    margin-top: 10%;
+    margin-left: 8%;
+
+}
+
+.side-conetent h4 {
+    font-size: 35px;
+    letter-spacing: 0px;
+    line-height: 39px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Inter";
+  
+}
+.icone-side-content span {
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: white;
+}
+.icone-side-content p {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Inter";
+    margin-bottom: -1px;
+}
+.side-conetent p{
+font-size: 1.375rem;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Inter";
+}
+
+.icon-image-div {
+    display: flex;
+    margin-top: 6%;
+    gap: 3%;
+}
+
+.icon-image {
+    background-color: #526988;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+
+
+
+}
+
+.icon-image i {
+    font-size: 25px;
+    color: white;
+    top: 3%;
+    margin: auto;
+}
+
+.second-icon-div {
+    display: flex;
+    gap:2%;
+
+
+}
+
+.seconde-image {
+    display: flex;
+    margin: auto;
+    margin: auto 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #526482;
+}
+
+.seconde-image i {
+    color: white;
+
+}
+
+
 .form-input input {
-    width: 345px;
+    width: 100%;
     height: 60px;
     border: #000 0px solid;
     border-bottom: #0000002f 1.5px solid;
@@ -91,7 +168,6 @@
     padding-bottom: 5%;
     outline: none;
 }
-
 .form-submit {
     background-color: #21D0B3;
     padding: .5% 5%;
@@ -100,16 +176,69 @@
     border: #21D0B3 1px solid;
     margin-top: 5%;
 }
-
 .form-name {
     width: 100%;
     padding-right: 10%;
 }
-
 .third-input-box .form-About {
     width: 97%
 }
 
+@media (max-width: 1540px) {
+ 
+    .content-form-div h2{
+        font-size: 2.5rem;
+    }
+
+    .container-form{
+        width: 80%;
+    }
+    .icon-image{
+        width: 65px;
+        height: 65px;
+    }
+    
+    .seconde-image {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 1440px){
+    .content-form-div h2{
+        font-size: 2.438rem;
+    }
+    .icone-side-content span {
+        font-size: 1.075rem;
+    }
+    .side-conetent p{
+        font-size: 1.075rem;
+    }
+    .seconde-image{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 1300px){
+    .content-form-div h2{
+        font-size: 2rem;
+    }
+    .side-conetent p{
+        font-size: 1.125rem;
+        line-height: 29px;
+    }
+    .seconde-image {
+        width: 38px;
+        height: 38px;
+    }
+
+    .icon-image{
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
 @media (max-width: 600px) {
     .form-div {
         display: inline;

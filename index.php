@@ -1,4 +1,5 @@
-<?php include "./routes.php" ?>
+<?php $arrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>';?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,1433 +7,600 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="csss/main.css" rel="stylesheet" defer>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./csss/main.css">
+    <meta name="googlebot" content="noindex">
+    <meta name="robots" content="noindex">
 </head>
 
-<body style="background-color: white!important;">
-    <?php include "./navbar.php"?>
-    <div class="container-fluid header-bg">
-        <div class="header-content">
-            <p class="word-c">WORLD CLASS DIGITAL PRODUCTS</p>
-            <div class="main-content">
-                <h2>THINK BIG FOR HUGE RETURNS.<br>
-                    LET’S INNOVATE DIGITALLY!</h2>
-                <div class="talk-expert-div">
-                    <button type="button" class="talk-expert-button">Talk to Our Experts</button>
+<body>
+    <header>
+        <?php include "./navbar.php"?>
+        <div class="header-image">
+
+            <div class="header-image-col center-the-header-text">
+                <div class="header-text">
+                    <h1><span>Custom software</span> <br>
+                        Development Services</h1>
+                    <p>Drive profitable growth with our innovation-led mobile app development <br>
+                        services that meets business objectives with simplified user experience.with simplified user experience.</p>
                 </div>
             </div>
-        </div>
-    </div>
-    <!---ivons blogs-->
-    <div class="container1">
-        <div class="icons-div ">
-            <div class="product">
-                <div class="product-bg"></div>
-                <div class="hover-react">
-                    <div class="imgbox"><img src="./images/fahim-muntashir-v-FOvoL3onk-unsplash (1).webp"> </div>
-                    <div class="specifies">
-                        <h2>
-                            Mobile App Development</h2>
-                        <p>Premium Banner gives you
-                            a wide range of styles. Lorem ipsum dolor sit amet, cectetur
-                            adipiscing
-                            elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product">
-                <div class="product-bg"></div>
-                <div class="imgbox"> <img src="./images/lee-campbell-DtDlVpy-vvQ-unsplash (1).webp"> </div>
-                <div class="specifies">
-                    <h2>
-                        Web<br>
-                        Development
-                    </h2>
-
-                    <p>Premium Banner gives you
-                        a wide range of styles. Lorem ipsum dolor sit amet, cectetur
-                        adipiscing
-                        elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
-                </div>
-
-
-            </div>
-            <div class="product">
-                <div class="product-bg"></div>
-                <div class="imgbox"> <img src="./images/pexels-antoni-shkraba-4348401 (2).webp"> </div>
-                <div class="specifies">
-                    <h2>
-                        Digital<br>
-                        Marketing
-                    </h2>
-
-                    <p>Premium Banner gives you
-                        a wide range of styles. Lorem ipsum dolor sit amet, cectetur
-                        adipiscing
-                        elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
-
-                </div>
-
-
-            </div>
-            <div class="product">
-                <div class="product-bg"></div>
-                <div class="imgbox"> <img src="./images/Layer 6 (4).webp"> </div>
-                <div class="specifies">
-                    <h2>
-                        Cloud<br>
-                        Management
-                    </h2>
-
-                    <p>Premium Banner gives you
-                        a wide range of styles. Lorem ipsum dolor sit amet, cectetur
-                        adipiscing
-                        elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
-
-
-                </div>
-
-
-            </div>
-
-            <div class="product">
-                <div class="product-bg"></div>
-                <div class="imgbox "> <img src="./images/Layer 30 (1).webp"></div>
-                <div class="specifies">
-                    <h2>
-                        Artificial<br>
-                        Intelligence
-
-                    </h2>
-
-                    <p>Premium Banner gives you
-                        a wide range of styles. Lorem ipsum dolor sit amet, cectetur
-                        adipiscing
-                        elit.Lorem ipsum dolor sit amet, cectetur adipiscing elit. </p>
-
-
-
-
-                </div>
-
+            <div class="header-image-col">
 
             </div>
         </div>
-    </div>
-    <?php include "./a.php" ?>
-    <!--Get to know us--->
-    <div class="get-know-main">
-        <div class="get-image">
-            <div class="counting">
-                <p class="num" data-val="860">800</p>
-                <span>worldwide clients</span>
-            </div>
-            <img src="./images/Layer 13 (1).webp">
-        </div>
-        <div class="get-know-content">
-            <span class="get-know">Get to know us</span>
-            <h2 class="easy">
-                Easy solutions for your IT<br> problems</h2>
-            <p class="lorem">
-                Lorem ipsum dolor sit amet, consectetur nod adipisicing <br>
-                elit sed do eiusmod tempor incididunt ut
-                labore et dolore<br> magna aliqua lonm andhn. </p>
-            <span class="lorem1 d-flex ">
-                <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
-            </span><br>
-            <span class="lorem1 d-flex">
-                <img src="./images/Layer 11.webp"> Donec scelerisque egestas purus eget fringilla
-            </span>
+    </header>
+    <section class="service">
+        <p>Home / Services / <b>Custom Software Development</b></p>
+        <h2>Services</h2>
+        <div class="services-box-grid">
+            <div class="service-list">
+                <div class="service-list-inner-box">
 
-            <div class="get-button">
-                <div class="stop d-flex ">
-                    <img src="./images/icon-14.webp">
-
-                    <p> <span class="main-color"> Stop worrying</span>,
-                        we take care <br>of your technology problems.</p>
-
+                    <div class="service-icon-box">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <strong>Legacy System<br>Modernization</strong>
+                    <p>We offer tailored software solutions, automating processes, scaling products, providing real-time
+                        analytics, and agile innovation for your business.with simplified user experience.</p>
                 </div>
-                <button type="button" class="get-know-button">View More</button>
-
-
             </div>
-
-
-        </div>
-    </div>
-
-
-
-    <!--INDUSTRIES WE SERVE--->
-    <section class="serving">
-        <div class="container-fluid main-serve p-0  ">
-            <div class="mb-4 comtent-serve">
-                <h2 class="text-center">
-                    INDUSTRIES WE SERVE
-                </h2>
-                <div class="Industries-border"></div>
-            </div>
-            <div class=" main-gallery" style="padding-left: 0!important; padding-right: 0!important;">
-                <div class="gallery-wrap">
-
-                    <div class="item item-1">
-
-                        <div class="product1">
-                            <div class="specifies1">
-                                <h3>Hospital Management <br> <button type="button"
-                                        class="btn text-center ind-button">Know
-                                        more</button> </h3>
-
-
-                            </div>
-                        </div>
+            <div class="service-list">
+                <div class="service-list-inner-box ">
+                    <div class="service-icon-box">
+                        <i class="fa-brands fa-apple"></i>
                     </div>
-
-                    <div class="item item-2">
-                        <div class="product1">
-                            <div class="specifies1">
-                                <h3>E-Commerce <br> <button type="button" class="btn text-center ind-button">Know
-                                        more</button> </h3>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item item-3">
-                        <div class="product1">
-                            <div class="specifies1">
-                                <h3>Tour & Travel <br> <button type="button" class="btn text-center ind-button">Know
-                                        more</button> </h3>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item item-4">
-                        <div class="product1">
-                            <div class="specifies1">
-                                <h3>OTT<br> <button type="button" class="btn text-center ind-button">Know more</button>
-                                </h3>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item item-5">
-                        <div class="product1">
-                            <div class="specifies1">
-                                <h3>E-Learning<br> <button type="button" class="btn text-center ind-button">Know
-                                        more</button> </h3>
-
-
-                            </div>
-                        </div>
-                    </div>
-
+                    <strong>Custom<br>Software</strong>
+                    <p>We offer tailored software solutions, automating processes, scaling products, providing real-time
+                        analytics, and agile innovation for your business.with simplified user experience.</p>
                 </div>
-
             </div>
+            <div class="service-list">
+                <div class="service-list-inner-box">
+                    <div class="service-icon-box">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <strong>Enterprise Software</strong>
+                    <p>We offer tailored software solutions, automating processes, scaling products, providing real-time
+                        analytics, and agile innovation for your business.with simplified user experience.</p>
+                </div>
+            </div>
+            <div class="service-list">
+                <div class="service-list-inner-box">
+                    <div class="service-icon-box">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <strong>Custom CRM Development</strong>
+                    <p>We offer tailored software solutions, automating processes, scaling products, providing real-time
+                        analytics, and agile innovation for your business.with simplified user experience.</p>
+                </div>
+            </div>
+            <div class="service-list">
+                <div class="service-list-inner-box">
+                    <div class="service-icon-box">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <strong>Software Product<br>Development</strong>
+                    <p>We offer tailored software solutions, automating processes, scaling products, providing real-time
+                        analytics, and agile innovation for your business.with simplified user experience.</p>
+                </div>
+            </div>
+            <div class="service-list">
+                <div class="service-list-inner-box">
+                    <div class="service-icon-box">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <strong>Data Analytics &<br>Information</strong>
+                    <p>We offer tailored software solutions, automating processes, scaling products, providing real-time
+                        analytics, and agile innovation for your business.with simplified user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="position: fixed;top:5%;height:5%" id="width"></div>
 
+    <section class="section3">
+        <img src="./images/section3.svg" class="section3-back" width="100%" height="100%" alt="">
+        <div class="section3-w">
+            <div class="section3-img"><img src="./images/section3_.svg" width="100%" height="100%" alt=""></div>
+
+            <div class="section3-txt">
+                <h2>Our <br>
+                    Custom Software <br>
+                    Development Process</h2>
+                <div class="our-custom-border"></div>
+                <p>Building intuitive user interface for custom solutions by combining
+                    your ideas and our end-to-end front-end development expertise</p>
+            </div>
         </div>
     </section>
 
-    <section>
-        <div class="wrapper bg-white rounded shadow next-gen-mobile">
-            <div class="content-next-m">
-                <h2 class="text-center">
-                    NEXT GENERATION TECHNOLOGIES
-                </h2>
-                <div class="next-border-m"></div>
-
+    <div class="section4">
+        <h2>Macwiq: Your Custom <br>
+            Software Development Partner </h2>
+        <div class="section4-flex">
+            <div class="section4-cards">
+                <div class="section4-icon"><img src="./images/Layer 106.webp" alt=""></div>
+                <strong>Engineering <br>Excellence</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
+                    Neque, odio.</p>
             </div>
+            <div class="section4-cards">
+                <div class="section4-icon"><img src="./images/Layer 106 (1).webp" alt=""></div>
+                <strong>Futur-ready <br>Solutions</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
+                    Neque, odio.</p>
+            </div>
+            <div class="section4-cards">
+                <div class="section4-icon"><img src="./images/Layer 106 (2).webp" alt=""></div>
+                <strong>Timely Marketing</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
+                    Neque, odio.</p>
+            </div>
+            <div class="section4-cards">
+                <div class="section4-icon"><img src="./images/Layer 106 (3).webp" alt=""></div>
+                <strong>Smart Solutions</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
+                    Neque, odio.</p>
+            </div>
+        </div>
+    </div>
 
-            <div class="accordion accordion-flush border-top border-start border-end" id="myAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne"> <button
-                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
-                            style="color: #21D0B3!important; cursor:pointer!important;">Mobile App Development </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
-                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                        <div class="accordion-body p-0">
-                            <h3 class="text-center pt-2">Mobile App Development</h3>
-                            <p class="text-center px-4">
-                                Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                sint
-                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                laborum.
-                            </p>
 
-                            <ul class="list-unstyled m-0">
-                                <li><a href="#">iOS App Development</a></li>
-                                <li><a href="#">Android App Development</a></li>
-                                <li><a href="#">Flutter App Development</a></li>
-                                <li><a href="#">React Native App Development</a></li>
-                                <li><a href="#">Cross-Platform App Development</a></li>
-                            </ul>
+    <div class="our-industry-faq">
+        <div class="faq-section">
+            <h2>Our Industry Specific Software Capabilities</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero, dignissimos quos consequatur
+                laboriosam sapiente laudantium dolore beatae, </p>
+            <p></p>
+            <div class="faq-question">
+                Effective Customer Connect
+                <div class="arrow-btn"><span>&#8250;</span></div>
+            </div>
+            <div class="faq-answer">Mobile apps eliminate website loading time which directly influences the
+                bounce rate and work as the most suitable point of contact with end-users.</div>
 
-                            <ul class="list-unstyled m-0">
-                                <li><a href="#">iOS App Development</a></li>
-                                <li><a href="#">Android App Development</a></li>
-                                <li><a href="#">Flutter App Development</a></li>
-                                <li><a href="#">React Native App Development</a></li>
-                                <li><a href="#">Cross-Platform App Development</a></li>
-                            </ul>
+            <div class="faq-question">
+                Raise Conversion Rates
+                <div class="arrow-btn"><span>&#8250;</span></div>
+            </div>
+            <div class="faq-answer">Mobile Apps are the most convenient and effective way to grab users’
+                attention. It can yield up to 2x conversion rate as compared to other marketing platforms.
+            </div>
+            <div class="faq-question">
+                Brilliant Marketing Channel
+                <div class="arrow-btn"><span>&#8250;</span></div>
+            </div>
+            <div class="faq-answer">Mobile apps are equipped with personalized features, custom engagement
+                activities, and content, which promote brand recognition.</div>
+            <div class="faq-question ">
+                Round-the-Clock Accessibility
+                <div class="arrow-btn"><span>&#8250;</span></div>
+            </div>
+            <div class="faq-answer">Apps are easier to access for the user on their respective device over a
+                website and provide personalized messages and notifications. Moreover, the PWA apps can even
+                be used offline.</div>
+            <div class="faq-question ">
+                Maximum User Engagement
+                <div class="arrow-btn"><span>&#8250;</span></div>
+            </div>
+            <div class="faq-answer">Mobile apps are highly effective in brand building, user engagement, and
+                offer multiple benefits because of its easy accessibility for users on varied devices and
+                browsers.</div>
+
+            <div class="faq-question">
+                Effective Customer Connect
+                <div class="arrow-btn"><span>&#8250;</span></div>
+            </div>
+            <div class="faq-answer">Mobile apps eliminate website loading time which directly influences the
+                bounce rate and work as the most suitable point of contact with end-users.</div>
+        </div>
+    </div>
+
+    <?php include "./swipper-mob.php" ?>
+    <section class="section5">
+        <div class="section5-txt">
+            <!-- <div class="section-5-background">
+                <img src="./images/mobiledevelope.webp" width="100%" height="100%" alt="">
+            </div> -->
+            <h2>Our Custom Software <br>
+                Development Process</h2>
+            <div class="section-5-color-line"></div>
+            <p>A website solution is highly efficient and holds a lot
+                to offer to your businesses, whether you are a small
+                business or a huge organization</p>
+        </div>
+        <div class="section5-faq">
+            <div class="section5-faq-body">
+                <div class="section-5-container">
+                    <div class="section-5-faq-box">
+                        <div class="section-5-faq-question">
+                            <p>Effective Customer Connect</p>
+                            <div class="icon">
+                                <?= $arrow ?>
+                            </div>
+                        </div>
+                        <div class="section-5-faq-answer" id="section-5-faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident ea amet blanditiis
+                                praesentium. Ipsa aut accusamus nemo consequuntur obcaecati.</p>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne"> <button
-                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
-                            style="color: #21D0B3!important; "> Know
-                            About Pro </button> </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse border-0"
-                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                        <div class="accordion-body p-0">
-                            <ul class="list-unstyled m-0">
-                                <li><a href="#">How to upgrade to pro</a></li>
-                                <li><a href="#">Benifits of Pro</a></li>
-                                <li><a href="#">Payment methods to get Pro</a></li>
-                            </ul>
+                    <div class="section-5-faq-box">
+                        <div class="section-5-faq-question">
+                            <p>Effective Customer Connect</p>
+                            <div class="icon">
+                                <?= $arrow ?>
+                            </div>
+                        </div>
+                        <div class="section-5-faq-answer" id="section-5-faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident ea amet blanditiis
+                                praesentium. Ipsa aut accusamus nemo consequuntur obcaecati.</p>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item ">
-                    <h2 class="accordion-header" id="flush-headingOne"> <button
-                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree" style="color: #21D0B3!important; ">
-                            BBBootstrap Tools </button> </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse border-0"
-                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                        <div class="accordion-body p-0">
-                            <ul class="list-unstyled m-0">
-                                <li><a href="#">How to use Pro Online Editor</a></li>
-                                <li><a href="#">Know Gradient generator</a></li>
-                                <li><a href="#">Using Beautifier</a></li>
-                            </ul>
+                    <div class="section-5-faq-box">
+                        <div class="section-5-faq-question">
+                            <p>Effective Customer Connect</p>
+                            <div class="icon">
+                                <?= $arrow ?>
+                            </div>
+                        </div>
+                        <div class="section-5-faq-answer" id="section-5-faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident ea amet blanditiis
+                                praesentium. Ipsa aut accusamus nemo consequuntur obcaecati.</p>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne"> <button
-                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFour" aria-expanded="false"
-                            aria-controls="flush-collapseFour" style="color: #21D0B3!important; ">
-                            Download Snippets </button> </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse border-0"
-                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                        <div class="accordion-body p-0">
-                            <ul class="list-unstyled m-0">
-                                <li><a href="#">How to download snippets</a></li>
-                                <li><a href="#">Donate to Author</a></li>
-                                <li><a href="#">Donation methods</a></li>
-                            </ul>
+                    <div class="section-5-faq-box">
+                        <div class="section-5-faq-question">
+                            <p>Effective Customer Connect</p>
+                            <div class="icon">
+                                <?= $arrow ?>
+                            </div>
+                        </div>
+                        <div class="section-5-faq-answer" id="section-5-faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident ea amet blanditiis
+                                praesentium. Ipsa aut accusamus nemo consequuntur obcaecati.</p>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne"> <button
-                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFive" aria-expanded="false"
-                            aria-controls="flush-collapseFive" style="color: #21D0B3!important; ">
-                            BBBootstrap Icons </button> </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse border-0"
-                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                        <div class="accordion-body p-0">
-                            <ul class="list-unstyled m-0">
-                                <li><a href="#">Adding icons to snippets</a></li>
-                                <li><a href="#">Fontawesome Icons</a></li>
-                                <li><a href="#">Material Design</a></li>
-                            </ul>
+                    <div class="section-5-faq-box">
+                        <div class="section-5-faq-question">
+                            <p>Effective Customer Connect</p>
+                            <div class="icon">
+                                <?= $arrow ?>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne"> <button
-                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix"
-                            style="color: #21D0B3!important; ">
-                            Policy & copyrights </button> </h2>
-                    <div id="flush-collapseSix" class="accordion-collapse collapse border-0"
-                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                        <div class="accordion-body p-0">
-                            <ul class="list-unstyled m-0">
-                                <li><a href="#">BBBootstrap Guidelines</a></li>
-                                <li><a href="#">BBBootstrap Policies</a></li>
-                                <li><a href="#">Copyright and right management</a></li>
-                            </ul>
+                        <div class="section-5-faq-answer" id="section-5-faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident ea amet blanditiis
+                                praesentium. Ipsa aut accusamus nemo consequuntur obcaecati.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <div class="container-fluid next-desktop">
-        <div class="content-next">
-            <h2 class="text-center">
-                NEXT GENERATION TECHNOLOGIES
-            </h2><br>
-            <div class="next-border"></div>
-        </div>
-        <div class="accordion main-app" id="accordionExample">
-            <div class="transformSec_inner">
-                <div class=" pt-3 transformSec_lft">
-                    <ul class="testimonial-list ">
-                        <li>
-                            <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne" style="outline: none!important;">
-                                <div class="d-flex flex-row">
-                                    <div class="next-gentration">
-                                        <button class="button-next"><span style="cursor: pointer;"> Mobile App
-                                                Development</span></button>
-                                    </div>
+    <section class="tools">
+        <div class="container-tools ">
+            <h2>Tools & Technologies We Prefer</h2>
+            <div class="tools-sec">
 
-                                </div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Mobile</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/swift.webp">
+                        <p>Swift</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/c-sharp (1).webp">
+                        <p>C#</p>
+                    </div>
 
-                            </div>
-                        </li>
+                    <div class="tool-parts">
+                        <img src="./images/logo/apple_objectivec-icon-svg.webp">
+                        <p>Objective c</p>
+                    </div>
 
-                        <li>
-                            <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Android</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/java (1).png">
+                        <p>.Net</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/java (1).png">
+                        <p>Java</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/python.webp">
+                        <p>Python</p>
+                    </div>
 
-                                <div class="d-flex flex-row side-image">
+                    <div class="tool-parts">
+                        <img src="./images/logo/nodejs-icon-svg.webp">
+                        <p>Node JS</p>
+                    </div>
 
-
-                                    <!-- <div class="next-side-border"></div> -->
-                                    <div class="next-gentration">
-
-                                        <!-- <span style="cursor: pointer;"> Apllication Development</span> -->
-                                        <button class="button-next"> <span style="cursor: pointer;"> Apllication
-                                                Development</span></button>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li>
-
-                            <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
-
-                                <div class="d-flex flex-row side-image">
-
-
-
-
-                                    <div class="next-gentration">
-
-                                        <!-- <span style="cursor: pointer;"> AI & Automation</span> -->
-                                        <button class="button-next"> <span style="cursor: pointer;"> AI &
-                                                Automation</span></button>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </li>
-                        <li>
-
-                            <div data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
-                                aria-controls="collapseFour">
-
-                                <div class="d-flex flex-row side-image">
-
-
-                                    <!-- <div class="next-side-border"></div> -->
-
-                                    <div class="next-gentration">
-
-                                        <!-- <span style="cursor: pointer;"> Data Analytics</span> -->
-                                        <button class="button-next"> <span style="cursor: pointer;"> Data
-                                                Analytics</span></button>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </li>
-                        <li>
-
-                            <div data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
-                                aria-controls="collapseFive">
-
-                                <div class="d-flex flex-row side-image">
-
-                                    <!-- 
-                                    <div class="next-side-border"></div> -->
-
-                                    <div class="next-gentration">
-
-                                        <!-- <span style="cursor: pointer;"> Cloud App Development</span> -->
-                                        <button class="button-next"> <span style="cursor: pointer;">Cloud App
-                                                Development</span></button>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </li>
-                        <li>
-
-                            <div data-toggle="collapse" data-target="#collapseSix" aria-expanded="true"
-                                aria-controls="collapseSix">
-
-                                <div class="d-flex flex-row side-image">
-
-
-                                    <!-- <div class="next-side-border"></div> -->
-
-                                    <div class="next-gentration">
-
-                                        <!-- <span style="cursor: pointer;"> UI/UX Services</span> -->
-                                        <button class="button-next"> <span style="cursor: pointer;">UI/UX
-                                                Services</span></button>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </li>
-                        <li>
-
-                            <div data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
-                                aria-controls="collapseSeven">
-
-                                <div class="d-flex flex-row ">
-
-
-                                    <!-- <div class="next-side-border"></div> -->
-                                    <div class="next-gentration">
-
-                                        <!-- <span style="cursor: pointer;"> Quality Assurance & Testing</span> -->
-                                        <button class="button-next"> <span style="cursor: pointer;">Quality Assurance &
-                                                testing</span></button>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </li>
-                    </ul>
                 </div>
 
-
-
-                <div class="testimonials-margin right-side-card  ">
-
-                    <div id="collapseOne" class="collapse show pb-1 " aria-labelledby="headingOne"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="shape-place-mob">
-                                <div class="shape-next-1"></div>
-                            </div>
-                            <h4>Mobile App Development</h4>
-                            <p>We’re your end-to-end Mobile app development service provider excelling in
-                                crafting
-                                Native Android, iOS and Cross Platform Apps. Our team of experts delivers
-                                seamless
-                                functionality with stunning UI designs and top-notch performance- empowering
-                                your
-                                brand to thrive in the digital landscape.</p>
-                            <div class="next-gen-main">
-
-                                <div class="point-img">
-                                    <ul style="list-style-type: none; padding-left: 20px!important;">
-                                        <li style="list-style-type: none; display: flex;">
-                                            <div class="bullets-point">
-                                                <div class="circles"></div>
-                                                <div class="lines"></div>
-                                            </div>
-                                            <!-- <img
-                                                src="./images/Layer 49.webp"> -->
-                                            iOS App
-                                            Development
-                                        </li>
-                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
-                                            <div class="circles"></div>
-                                            <div class="lines"></div>
-                                        </div>
-                                            Android App Development
-
-                                        </li>
-                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
-                                            <div class="circles"></div>
-                                            <div class="lines" style="height: 2.3PX;"></div>
-                                        </div>
-                                            Flutter App Development
-
-                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
-                                            <div class="circles"></div>
-                                            <div class="lines" style="height: 2.3PX;"></div>
-                                        </div> React
-                                            Native App Development
-                                        </li>
-
-
-                                    </ul>
-
-                                </div>
-                                <div class="point-img1">
-                                    <ul style="list-style-type: none;">
-                                        <li style="list-style-type: none; display: flex;"><div class="bullets-point">
-                                            <div class="circles"></div>
-                                            <div class="lines"></div>
-                                        </div> Hybrid
-                                            App Development
-                                        </li>
-                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
-                                            <div class="circles"></div>
-                                            <div class="lines"></div>
-                                        </div> MVP
-                                            Development
-
-
-                                        </li>
-                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
-                                            <div class="circles"></div>
-                                            <div class="lines" style="height: 2.3PX;"></div>
-                                        </div>
-                                            Wearable App Development
-
-                                        </li>
-                                        <li style="list-style-type: none; display: flex;"> <div class="bullets-point">
-                                            <div class="circles"></div>
-                                            <div class="lines" style="height: 2.3PX;"></div>
-                                        </div>
-                                            Xamarin Development
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="button" class=" explore-button"
-                            style="background-color: #21D0B3; color: white;">Explore More
-                        </button>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Database</p>
                     </div>
-
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="shape-place-app">
-                                <div class="shape-next-1"></div>
-                            </div>
-                            <h4>Thanks for this great service</h4>
-                            <div class="ratings">
-
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-
-                            </div>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia
-                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.
-                                Ut enim ad minim veniam.</p>
-                        </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/mysql.webp">
+                        <p>My Sql</p>
                     </div>
-
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="shape-place-ai">
-                                <div class="shape-next-1"></div>
-                            </div>
-                            <h4>You all are awesome thanks alot</h4>
-                            <div class="ratings">
-
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-
-                            </div>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia
-                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.
-                                Ut enim ad minim veniam.</p>
-                        </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/5968342.webp">
+                        <p>Postgre Sql</p>
                     </div>
-
-
-
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="shape-place-da">
-                                <div class="shape-next-1"></div>
-                            </div>
-                            <h4>You all are awesome thanks alot</h4>
-                            <div class="ratings">
-
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-
-                            </div>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia
-                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.
-                                Ut enim ad minim veniam.</p>
-                        </div>
-
-
+                    <div class="tool-parts">
+                        <img src="./images/logo/oracle-svg.webp">
+                        <p>Oracle</p>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="shape-place-cl">
-                                <div class="shape-next-1"></div>
-                            </div>
-                            <h4>You all are awesome thanks alot</h4>
-                            <div class="ratings">
-
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-
-                            </div>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia
-                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.
-                                Ut enim ad minim veniam.</p>
-                        </div>
-
-
+                    <div class="tool-parts">
+                        <img src="./images/logo/Apache_Feather_Logo.svg.webp">
+                        <p>Apache</p>
                     </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="shape-place-ui">
-                                <div class="shape-next-1"></div>
-                            </div>
-                            <h4>You all are awesome thanks alot</h4>
-                            <div class="ratings">
-
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-
-                            </div>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia
-                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.
-                                Ut enim ad minim veniam.</p>
-                        </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/eyes.webp">
+                        <p>Cassandra</p>
                     </div>
-                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="shape-place-qu">
-                                <div class="shape-next-1"></div>
-                            </div>
-                            <h4>You all are awesome thanks alot</h4>
-                            <div class="ratings">
-
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-
-                            </div>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia
-                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.
-                                Ut enim ad minim veniam.</p>
-                        </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/mongodb-icon-1-svg (1).webp">
+                        <p>Mongo DB</p>
                     </div>
                 </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+
+                    <div class="main-div-tool" style="width: 260px;">
+                        <p>Quality Assurance</p>
+                    </div>
 
 
+                    <div class="tool-parts">
+                        <img src="./images/logo/selenium-icon-2048x1986-3fr2ikf8.webp">
+                        <p>Selenium</p>
+                    </div>
+                    <div class="tool-parts">
+                        <p>JMeter</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/HPE_LoadRunner_logo.webp">
+                        <p>LoadRunner</p>
+                    </div>
 
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool">
+                        <p>Devops</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/docker.webp">
+                        <p>Docker</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/kubernetes-icon.webp">
+                        <p>Kubernetes </p>
+                    </div>
+                    <div class="tool-parts">
+
+                        <img src="./images/logo/icon-svg.webp">
+                        <p>Ansible</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/1200px-Chef_logo.svg.webp">
+                        <p>Chef</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/puppet (1).webp" style="width: 50px; height: auto; margin: 0;">
+                        <p>Puppet</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
+                    </div>
+
+                </div>
+                <div class="tools-border"></div>
+                <div class="first-sec">
+                    <div class="main-div-tool" style="width: 260px;">
+                        <p>Cloud Services</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/png-transparent-aws-vector-brand-logos-icon (1).webp">
+                        <p>AWS</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/azure.webp">
+                        <p> Microsoft Azure</p>
+                    </div>
+                    <div class="tool-parts">
+                        <img src="./images/logo/google-cloud-icon-2048x1646-7admxejz.webp">
+                        <p>Google cloud</p>
+                    </div>
+
+                </div>
             </div>
         </div>
 
-
-    </div>
-
-    <!--WHY WORK WITH US-->
-    <div class="container-fluid  why-bg">
-        <h3 class="why-h3">WHY WORK WITH US</h3>
-        <diV class="why-border">
-        </diV>
-        <div class="container">
-            <div class="row px-0 pr-0 ">
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                    <div class="box1 d-flex pt-1">
-                        <img src="./images/creative-thinking.webp">
-
-                        <div class="why-img-border"></div>
-                        <div class="seconde-box">
-                            <h3> Skilled Techies</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development
-                                journey..</p>
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                    <div class="box2  d-flex pt-1">
-
-
-                        <img src="./images/transparency.webp">
-
-                        <div class="why-img-border"></div>
-                        <div class="seconde-box">
-                            <h3>Full Transparency</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development
-                                journey..</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row ">
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                    <div class="box1  d-flex pt-1">
-
-                        <img src="./images/human.webp">
-
-                        <div class="why-img-border"></div>
-                        <div class="seconde-box">
-                            <h3> On-demand Resources</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development
-                                journey.</p>
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                    <div class="box2   d-flex pt-1">
-
-
-                        <img src="./images/globe(1).webp">
-
-                        <div class="why-img-border"></div>
-                        <div class="seconde-box">
-                            <h3> Domain Expertise</h3>
-                            <p> Expect open communication and total visibility in every stage of your product
-                                development journey.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row ">
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                    <div class="box1  d-flex pt-1">
-
-                        <img src="./images/trophy.webp">
-
-                        <div class="why-img-border"></div>
-                        <div class="seconde-box">
-                            <h3> Award-Winning</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development
-                                journey.</p>
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
-
-                    <div class="box2   d-flex pt-1">
-
-
-                        <img src="./images/agile.webp">
-
-                        <div class="why-img-border"></div>
-                        <div class="seconde-box">
-
-                            <h3>Agile Development</h3>
-                            <p>Expect open communication and total visibility in every stage of your product development
-                                journey.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-    <!--number section-->
-    <section class="num-sec">
-        <div class="num-div">
-            <div class="container-num">
-                <div class="icon-rotate-ball">
-                    <div class="color-ball"></div>
-                    <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
-                </div>
-                <span class="num" data-val="30">00</span>
-                <h3>Years of experience</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, </p>
-
-            </div>
-
-            <div class="border-side"></div>
-
-
-            <div class="container-num margin-div">
-                <div class="icon-rotate-ball">
-                    <div class="color-ball"></div>
-                    <span class="icon"><i class="fa-solid fa-code"></i></span>
-                </div>
-                <span class="num" data-val="2800">00</span>
-                <h3>It problem solved</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, </p>
-            </div>
-            <div class="border-side"></div>
-
-            <div class="container-num margin-div2">
-                <div class="icon-rotate-ball">
-                    <div class="color-ball"></div>
-                    <span class="icon"><i class="fa-solid fa-thumbs-up"></i></span>
-                </div>
-                <span class="num" data-val="6960">00</span>
-                <h3>Satisfied clients</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, </p>
-            </div>
-
-            <div class="border-side"></div>
-            <div class="container-num">
-                <div class="icon-rotate-ball">
-                    <div class="color-ball"></div>
-                    <span class="icon"><i class="fa-solid fa-user-plus"></i></span>
-                </div>
-                <span class="num" data-val="30">00</span>
-                <h3>Pro team members</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, </p>
-            </div>
-
-
-        </div>
     </section>
-
-    <!---card div-->
-    <div class="card-div">
-
-        <span class="main-color">
-            Meet the team
-        </span>
-        <h3>Team Members</h3>
-        <div class="main-card">
-            <div class="card-main">
-                <img src="./images/Macwiq Webiste (2).webp" class="card-img-top" alt="...">
-                <div class="card-body-team">
-                    <p class="card-text">Kevin Martin</p>
-                    <p class="card-text2">Acountant</p>
+    <section class="section6 faq-2">
+        <h3>Frequently Asked Questions</h3>
+        <div class="row-faq">
+            <div class="colm-faq">
+                <div class="faq">
+                    <div class="question" id="plus_">What's the average delivery time for car shipments across state
+                        lines?
+                        <span><b><span>&#8593;</span></b></span>
+                    </div>
+                    <div class="answer" id="answer3">
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
+                            can
+                            impact delivery times. Contact us for a more precise estimate.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="question" id="plus_">What's the average delivery time for car shipments across state
+                        lines?
+                        <span><b><span>&#8593;</span></b></span>
+                    </div>
+                    <div class="answer" id="answer3">
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
+                            can
+                            impact delivery times. Contact us for a more precise estimate.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="question" id="plus_">What's the average delivery time for car shipments across state
+                        lines?
+                        <span><b><span>&#8593;</span></b></span>
+                    </div>
+                    <div class="answer" id="answer3">
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
+                            can
+                            impact delivery times. Contact us for a more precise estimate.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card-main">
-                <img src="./images/Macwiq Webiste (1).webp" class="card-img-top" alt="...">
-                <div class="card-body-team">
-                    <p class="card-text">Jessica Brown</p>
-                    <p class="card-text2">CO Founder & CEO</p>
+            <div class="colm-faq">
+                <div class="faq">
+                    <div class="question" id="plus_">What's the average delivery time for car shipments across state
+                        lines?
+                        <span><b><span>&#8593;</span></b></span>
+                    </div>
+                    <div class="answer" id="answer3">
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
+                            can
+                            impact delivery times. Contact us for a more precise estimate.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card-main">
-                <img src="./images/Macwiq Webiste (3).webp" class="card-img-top" alt="...">
-                <div class="card-body-team">
-                    <p class="card-text">David cooper</p>
-                    <p class="card-text2">Senior Assistant</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--testimoniole--->
-
-    <div class="main-testimonial">
-        <h3>Testimonials</h3>
-        <div class="testimonial-container">
-            <div class="testimonial-wrapper">
-                <div class="testimonial-card">
-                    <img src="./images/testimonial-1-quote.png">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                        ullamcorper
-                        dapibus leo.
-                        This is the first testimonial. It's amazing!</p>
-                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
-                    <h4>Kevin Martin</h4>
-                    <span class="fourth-line"> Customer</span>
-                </div>
-                <div class="testimonial-card">
-                    <img src="./images/testimonial-1-quote.png">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                        ullamcorper
-                        dapibus leo.
-                        This is the first testimonial. It's amazing!</p>
-                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
-                    <h4>Kevin Martin</h4>
-                    <span class="fourth-line"> Customer</span>
-                </div>
-                <div class="testimonial-card">
-                    <img src="./images/testimonial-1-quote.png">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                        ullamcorper
-                        dapibus leo.
-                        This is the first testimonial. It's amazing!</p>
-                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
-                    <h4>Kevin Martin</h4>
-                    <span class="fourth-line"> Customer</span>
-                </div>
-
-                <div class="testimonial-card">
-                    <img src="./images/testimonial-1-quote.png">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                        ullamcorper
-                        dapibus leo.
-                        This is the first testimonial. It's amazing!</p>
-                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
-                    <h4>Kevin Martin</h4>
-                    <span class="fourth-line"> Customer</span>
-                </div>
-                <div class="testimonial-card">
-                    <img src="./images/testimonial-1-quote.png">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                        ullamcorper
-                        dapibus leo.
-                        This is the first testimonial. It's amazing!</p>
-                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
-                    <h4>Kevin Martin</h4>
-                    <span class="fourth-line"> Customer</span>
-                </div>
-                <div class="testimonial-card ">
-                    <img src="./images/testimonial-1-quote.png">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                        ullamcorper
-                        dapibus leo.
-                        This is the first testimonial. It's amazing!</p>
-                    <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
-                    <h4>Kevin Martin</h4>
-                    <span class="fourth-line"> Customer</span>
-                </div>
-            </div>
-            <div class="dots-container">
-                <div class="dot" onclick="goToCard(0)"></div>
-                <div class="dot" onclick="goToCard(1)"></div>
-                <div class="dot" onclick="goToCard(2)"></div>
-            </div>
-        </div>
-
-    </div>
-
-    </div>
-
-
-    <!---form-->
-    <section class=" pb-0" style="margin-bottom:-8.5%;">
-        <div class="container">
-            <div class="form-div">
-                <div class="content-form-div">
-                    <h2 class="mb-3 mb-xl-4 mb-xxl-5">Do you have a project in mind ?<br>
-                        Talk to the experts.</h2>
-                    <form class="form-input">
-                        <div class="first-input-box">
-                            <input type="text" class="form-name" id="yourname" placeholder="Your Name">
-                            <input type="email" class="form-Mobile" id="exampleInputEmail1" placeholder="Mobile Number">
-
-                        </div>
-                        <div class="first-input-box">
-                            <input type="text" class="form-Email" id="yourname" placeholder="Email">
-                            <input type="email" class="form-Budget" id="exampleInputEmail1" placeholder="Budget">
-
-                        </div>
-                        <div class="third-input-box">
-                            <input type="text" class="form-About" id="yourname" placeholder="About Project">
-
-                        </div>
-                        <!-- <button class="g-recaptcha" data-sitekey="6LdnIUcpAAAAAORbE04jT3zJKlLRPbVZCq4_bJXS" data-callback='onSubmit' data-action='submit'>Submit</button> -->
-                        <button type="button" class=" form-submit">Submit</button>
-                    </form>
-
-                </div>
-                <div class="side-image-footer">
-                    <div class="side-conetent">
-                        <h4>Get in Touch</h4>
-                        <p>
-                            We’d love to resolve your queries with
-                            personalized assistance.
-                        </p>
-                        <div class="icon-image-div">
-                            <div class="icon-image"><i class="fa-solid fa-envelope"></i>
-                            </div>
-                            <div>
-                                <div class="icone-side-content">
-                                    <p>Chat with us</p>
-                                    <span>contact@macwiq.com</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="icon-image-div">
-                            <div class="icon-image"><i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div>
-                                <div class="icone-side-content">
-                                    <p>Lets discuss via call</p>
-                                    <span>+1-234-567-8910</span>
-                                </div>
-
-                            </div>
-
-
-                        </div>
-                        <div class="icon-image-div ">
-
-                            <div class="icon-image"><i class="fa-brands fa-skype"></i>
-                            </div>
-                            <div>
-                                <div class="icone-side-content">
-                                    <p>Say Hello! on Skype</p>
-                                    <span>vikassharma</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="icon-down">
-                            <div class="second-icon-div">
-                                <div class="seconde-image">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </div>
-                                <div class="seconde-image">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </div>
-                                <div class="seconde-image">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>
-                                <div class="seconde-image">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </div>
-                                <div class="seconde-image">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </div>
-                                <div class="seconde-image">
-                                    <i class="fa-brands fa-telegram"></i>
-                                </div>
-                                <div class="seconde-image">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </div>
-                            </div>
-                        </div>
-
+                <div class="faq">
+                    <div class="question" id="plus_">What's the average delivery time for car shipments across state
+                        lines?
+                        <span><b><span>&#8593;</span></b></span>
+                    </div>
+                    <div class="answer" id="answer3">
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
+                            can
+                            impact delivery times. Contact us for a more precise estimate.</p>
                     </div>
 
+
+                </div>
+                <div class="faq">
+                    <div class="question" id="plus_">What's the average delivery time for car shipments across state
+                        lines?
+                        <span><b><span>&#8593;</span></b></span>
+                    </div>
+                    <div class="answer" id="answer3">
+                        <p>Delivery times vary, but typically range from 5 to 10 days. Factors like distance and route
+                            can
+                            impact delivery times. Contact us for a more precise estimate.</p>
+                    </div>
+
+
                 </div>
 
-            </div>
-            <div class="main-form">
-                <img src="./images/3-2 (1).webp">
+
             </div>
         </div>
     </section>
 
-    <div class="container-fluid main-footer">
-
-        <div class=" text-center text-white location">
-            <h3>
-                Our Locations
-            </h3>
-        </div>
-        <div class="main-img-sec ">
-            <div class="imagebox">
-                <div class="first-img-box text-center">
-                    <div class="mian-image-div">
-
-
-                        <div class="country-images ">
-                            <img src="./images/hq-india-svg.webp">
-                        </div>
-                    </div>
-                    <div class="heading-main">
-                        HQ INDIA
-
-                    </div>
-                    <div class="paragraph-main">
-
-                        H-106, Sector-63, Noida-201301
-                    </div>
-
-                </div>
-                <div class="first-img-box text-center">
-                    <div class="mian-image-div">
-
-
-                        <div class="country-images">
-                            <img src="./images/hq-usa-svg.webp">
-
-
-                        </div>
-                    </div>
-                    <div class="heading-main">
-                        US
-
-                    </div>
-                    <div class="paragraph-main">
-                        123, 345, Lorim Ipsum,
-                        Lorim Ipsum
-                    </div>
-
-                </div>
-                <div class="first-img-box text-center">
-                    <div class="mian-image-div">
-
-
-                        <div class="country-images">
-                            <img src="./images/hq-canada copy.webp">
-
-
-                        </div>
-                    </div>
-                    <div class="heading-main">
-                        CANADA
-                    </div>
-                    <div class="paragraph-main">
-                        123, 345, Lorim Ipsum,
-                        Lorim Ipsum
-                    </div>
-
-                </div>
-
-
-            </div>
-
-            <div class="lower-box ">
-
-                <div class="lower-icon">
-                    <h3>
-                        Helping you overcome your technology challenges</h3>
-                </div>
-                <div class="footer-btn">
-                    <button type="button" class="btn ">Discover More</button>
-
-                </div>
-
-
-            </div>
-        </div>
-        <div class="footer-row-div">
-            <div class="first-footer-box">
-                <img src="./images/Vector Smart Object copy 5.webp" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                    mattis, pulvinar dapibus leo.</p>
-                <ul class="footer-icons">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-
-            </div>
-            <div class="seconde-footer-box">
-                <h6>Quick Links</h6>
-                <ul class="footer-icons-2">
-                    <li>About Us</li>
-                    <li>Meet our team</li>
-                    <li>Blogs</li>
-                    <li>Our projects</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-            <div class="third-footer-box">
-                <h6>Contact</h6>
-                <ul class="footer-icons-2">
-                    <li>+1 (800) 220-0275</li>
-                    <li>contact@macwiq.com</li>
-                    <li>30 N Gould ST STE R Sherridan,
-                        WY 82801</li>
-
-                </ul>
-            </div>
-            <div class="fourth-footer-box">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79384.58173465701!2d-0.15654167745757946!3d51.55414974348658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1704214149017!5m2!1sen!2sin"
-                 style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-        </div>
-    </div>
-
-
-    </div>
-    <div class="last-footer ">
-        <p>Copyright &copy; 2021 MacWiQ All rights</p>
-        <p>Desgined by PK Solution.com</p>
-
-    </div>
-
-
-
-
-
+    <?php include "./form.php"?>
+    <?php include "./footer.php"?>
     <script>
-        let valueDisplays = document.querySelectorAll(".num");
-        let interval = 5000;
+        var windowWidth = window.innerWidth;
+        var windowHeight = window.innerHeight;
 
-        valueDisplays.forEach((valueDisplay) => {
-            let startValue = 0;
-            let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-            let duration = Math.floor(interval / endValue);
-            let counter = setInterval(function () {
-                startValue += 10;
-                valueDisplay.textContent = startValue;
-                if (startValue == endValue) {
-                    clearInterval(counter);
-                }
-            }, duration);
+        document.getElementById('width').innerText = windowWidth + ',' + windowHeight;
+
+        // Output the window size
+
+
+
+        // JavaScript code to handle the FAQ interactions
+        document.addEventListener("DOMContentLoaded", function () {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    // Close all other answers before opening the clicked one
+                    faqQuestions.forEach(q => {
+                        if (q !== question) {
+                            q.classList.remove('opened');
+                            q.nextElementSibling.style.display = 'none';
+                        }
+                    });
+
+                    // Toggle the display of the clicked question's answer
+                    const answer = question.nextElementSibling;
+                    answer.style.display = (answer.style.display === 'none' || answer.style.display === '') ? 'block' : 'none';
+
+                    // Toggle the opened class for arrow rotation
+                    question.classList.toggle('opened');
+                });
+            });
         });
 
-        const testimonialWrapper = document.querySelector('.testimonial-wrapper');
-        const dots = document.querySelectorAll('.dot');
-
-        let isDragging = false;
-        let startPosition = 0;
-        let offset = 0;
-
-        // Set initial grab cursor
-        testimonialWrapper.style.cursor = 'grab';
-
-        testimonialWrapper.addEventListener('mousedown', startDragging);
-        testimonialWrapper.addEventListener('touchstart', startDragging);
-
-        function startDragging(e) {
-            isDragging = true;
-            startPosition = e.type === 'touchstart' ? e.touches[0].clientX - offset : e.clientX - offset;
-            testimonialWrapper.style.cursor = 'grabbing';
-
-            // Add event listeners for move and end events
-            window.addEventListener('mousemove', handleDragging);
-            window.addEventListener('touchmove', handleDragging, { passive: false });
-            window.addEventListener('mouseup', stopDragging);
-            window.addEventListener('touchend', stopDragging);
+        a = document.querySelectorAll('#plus_')
+        for (i = 0; i < a.length; i++) {
+            a[i].addEventListener("click", function (e) {
+                e.preventDefault();
+                this.parentElement.children[0].children[0].classList.toggle('rotate_');
+                this.parentElement.children[1].classList.toggle("plus_");
+            })
         }
 
-        function handleDragging(e) {
-            if (isDragging) {
-                const currentPosition = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
-                offset = currentPosition - startPosition;
-                testimonialWrapper.style.transform = `translateX(${offset}px)`;
-            }
-        }
+        const faq_box = document.querySelectorAll('.section-5-faq-box')
+        faq_box.forEach(faq => {
+            const question = faq.querySelector('.icon');
+            const anwser = faq.querySelector('.section-5-faq-answer');
 
-        function stopDragging() {
-            if (isDragging) {
-                isDragging = false;
-                testimonialWrapper.style.cursor = 'grab';
+            faq.addEventListener('click', () => {
 
-                // Remove event listeners for move and end events
-                window.removeEventListener('mousemove', handleDragging);
-                window.removeEventListener('touchmove', handleDragging);
-                window.removeEventListener('mouseup', stopDragging);
-                window.removeEventListener('touchend', stopDragging);
+                faq_box.forEach(item => {
+                    if (item !== faq) {
+                        item.classList.remove('sec-5');
+                        item.querySelector('.icon').classList.remove('rotate-icon');
+                        item.querySelector('.section-5-faq-answer').style.maxHeight = null;
+                    }
+                });
+                if (question.classList.contains('rotate-icon')) {
+                    question.classList.remove('rotate-icon');
+                    faq.classList.remove('sec-5');
+                    anwser.style.maxHeight = null;
+                } else {
+                    question.classList.add('rotate-icon');
+                    faq.classList.add('sec-5');
+                    anwser.style.maxHeight = anwser.scrollHeight + 'px';
+                }
+            })
 
-                // Reset transform after the sliding is complete
-
-            }
-        }
-
-        // Optional: If you want to slide to a specific card
-
-
-
-
-
-
+        })
 
     </script>
-
-
 </body>
 
 </html>

@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
 <style>
     .main-color {
         color: #21D0B3;
@@ -11,17 +10,12 @@
         float: left;
         position: relative;
     }
-    .navbar-nav a {
-        /* transition: all .5s linear; */
-    }
-
     .navbar-nav li:hover a {
         color: #21D0B3;
         border-bottom: #21D0B3 2px solid;
         padding: 0%;
         margin: 0;
     }
-
     .hover-nav #submenu {
         margin: auto;
         justify-content: center;
@@ -53,9 +47,6 @@
         height: auto;
         top: 50px;
         padding-top: 2%;
-
-
-
     }
 
     #submenu div {
@@ -65,22 +56,18 @@
     .hover-card-section:hover .content-hover h4 {
         color: #21D0B3;
     }
-
     .hover-card-section:hover .icon-hover .color-ball {
         background-color: #21D0B3;
         animation: pop .4s forwards;
     }
-
     .hover-card-section:hover .icon-hover .icon-navbar {
         color: white;
         transform: rotateY(180deg);
     }
-
     .hover-card-section:hover {
         translate: 20px;
         transition: all 0.5s ease-in-out;
     }
-
     #submenu a:hover {
         background: #21D0B3;
     }
@@ -387,12 +374,11 @@
     .navbar-brand img {
         width: 200px;
         height: 38px;
-        margin-left: 40px;
+      
 
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
-
         padding: 0 30px 0 0;
         font-size: 20px;
         letter-spacing: 3px;
@@ -429,7 +415,7 @@
         height: 100%;
         display: flex;
         align-items: center;
-        margin-right: 35px;
+     
 
 
     }
@@ -466,6 +452,11 @@
         padding: 0;
 
     }
+    @media (max-width: 1666px) {
+        .navbar-expand-lg .navbar-nav .nav-link{
+            font-size: 16px;
+        }
+    }
     @media (max-width: 1440px) {
         .navbar-expand-lg .navbar-nav .nav-link {
             padding: 0 14px 0 0;
@@ -476,11 +467,14 @@
         .searchbar-div{
             margin-right:20px;
         } 
-    .navbar-brand img {
-        margin-left: 30px;
-    }
+   
     }
 
+    @media (max-width: 1280px) {
+        .navbar-expand-lg .navbar-nav .nav-link{
+            font-size: 14px;
+        }
+    }
     @media (max-width: 600px) {
         .search-icon {
             margin-left: 0%;
@@ -501,7 +495,7 @@
         .navbar-brand img {
             width: 120px;
             height: 30px;
-            margin-left: 5px;
+      
 
         }
     }
@@ -526,7 +520,7 @@
 <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-nav">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./images/Vector Smart Object copy 5.webp" alt="logo"></a>
+        <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="logo"></a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
@@ -982,7 +976,7 @@
         </div>
         <div>
             <div class="searchbar-div">
-                <span class="service-card-image"><img class="search-icon" src="./images/search-icon.webp"></span>
+                <span class="service-card-image"><img class="search-icon" src="./images/search.svg"></span>
                 <button type="button" class="side-buttonimp"><span>Contact Us</span></button>
             </div>
 
