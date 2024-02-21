@@ -10,7 +10,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 800px;
+    width: 650px;
     height: 480px;
     transform: translate3d(0) !important;
 
@@ -56,6 +56,7 @@
     font-weight: 700;
     font-family: "Inter";
     text-align: center;
+    margin-bottom: 1%;
   }
 
   .our-recent-paragraph {
@@ -69,7 +70,7 @@
     width: 1100px;
     margin: auto;
     margin-bottom: 100px;
-    margin-top: 18px;
+    margin-top: 1.5%;
   }
 
   .swipper-border {
@@ -82,7 +83,6 @@
   .swipper-button1 .our-button {
     margin: auto;
     justify-content: center;
-
     display: flex;
     background-color: #21D0B3;
     color: white;

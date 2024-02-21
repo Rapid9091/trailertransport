@@ -38,5 +38,27 @@
             </div>
         </div>
     </header>
+
+    <section class="section6">
+        <div class="section6-container">
+            <div class="section6-border"></div>
+            <div class="section6-img">
+                <img src="./images/section5.svg" width="100%" height="100%" alt="">
+            </div>
+            <div class="section6-txt">
+                <strong>Lorem ipsum dolor sit.</strong>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam enim, quibusdam reprehenderit quidem aliquid quo quis hic! Minima temporibus cum magnam tenetur facere nam deserunt fuga sed incidunt eligendi! Inventore.</p>
+            </div>
+        </div>
+        <div class="section6-container">
+            <div class="section6-border"></div>
+            <div class="section6-img">
+                <img src="./images/section5.svg" width="100%" height="100%" alt=""></div>
+            <div class="section6-txt">
+                <strong>Lorem ipsum dolor sit.</strong>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam enim, quibusdam reprehenderit quidem aliquid quo quis hic! Minima temporibus cum magnam tenetur facere nam deserunt fuga sed incidunt eligendi! Inventore.</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
