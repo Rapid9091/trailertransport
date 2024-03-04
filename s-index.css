@@ -323,7 +323,11 @@ nav{
     /* height: ; */
     margin-bottom: 5%;
     border-radius: 50%;
-    background-color: #012442;
+}
+.section4-icon img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: contain;
 }
 .section4-cards{
     width: 18.23vw;
@@ -332,6 +336,13 @@ nav{
     border-radius: 3px;
     padding: 2.5% 2%;
 }
+.section4-cards:first-child .section4-icon{background-color: #e6fbff;}
+.section4-cards:nth-child(2) .section4-icon{background-color: #fdebec;}
+.section4-cards:nth-child(3) .section4-icon{background-color: #ecf8f2;}
+.section4-cards:last-child .section4-icon{background-color: #f1edf7;}
+
+
+
 .section4-cards strong{
     font-size: 1.7vw;
 }
@@ -620,10 +631,16 @@ nav{
 }
 .tech-icon{
     display: block;
-    width: 1.82vw;
-    height: 1.82vw ;
-    background-color: #3838b5;
-    border-radius: 50%;
+    width: 1.2vw;
+    height: 1.2vw ;
+    margin: 0;
+    padding: 0;
+}
+.tech-icon img{
+    width: 100%;
+    object-fit: contain;
+    margin: 0 0 .7vw 0;
+    padding: 0;
 }
 .second-faq{
     width: 87.5%;
@@ -742,7 +759,7 @@ nav{
 .form-contact-icon{
     width: 3.54vw;
     height: 3.54vw;
-    background-color: #773ed3;
+    background-color: #495475;
     border-radius: 50%;
     display: grid;
     place-items: center;
@@ -758,7 +775,7 @@ nav{
     width: 2.6vw;
     height: 2.6vw;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.533);
+    background-color: #4f88b7;
     align-self: flex-end;
     margin-top: 10%;
     display: grid;
@@ -810,7 +827,11 @@ footer{
     width: 100%;
     height:58vw;
     padding: 5%;
-    background-color: #1B1525;
+    /* background-color: #1B1525; */
+    background-image: url('./image/footer-back.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     z-index: -1;
     position: relative;
 }
@@ -833,4 +854,5 @@ footer .container h2{
     position: absolute;
     bottom: 0;
     left: 0;
+    z-index: -1;
 }
