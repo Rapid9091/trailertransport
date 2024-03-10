@@ -227,6 +227,7 @@ nav{
 
 /* SECTION 3 HOME SWIPER */
 .home-page-section3{
+    margin-top: 2vw;
     padding: 2vw 0;
     text-align: center;
     /* overflow: hidden; */
